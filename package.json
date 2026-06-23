@@ -8,7 +8,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "setup:cloud": "sh scripts/setup-cloud.sh",
+    "maintain:cloud": "sh scripts/setup-cloud.sh",
+    "validate": "sh scripts/validate-cloud.sh",
+    "validate:cloud": "npm run validate"
   },
   "dependencies": {
     "lucide-react": "^1.21.0",
