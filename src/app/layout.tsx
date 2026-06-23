@@ -1,0 +1,43 @@
+import type { Metadata } from "next";
+import { SiteFooter } from "@/components/layout/site-footer";
+import { SiteHeader } from "@/components/layout/site-header";
+import { ThemeProvider } from "@/components/theme/theme-provider";
+import { site } from "@/content/site";
+import "@/styles/globals.css";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
+  title: {
+    default: site.title,
+    template: `%s | ${site.name}`
+  },
+  description: site.description,
+  icons: {
+    icon: "/favicon.svg"
+  },
+  openGraph: {
+    title: site.name,
+    description: site.description,
+    url: site.url,
+    siteName: site.name,
+    type: "website"
+  }
+};
+
+export default function RootLayout({
+  children
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className="theme-transition min-h-screen bg-zinc-50 text-zinc-950 antialiased dark:bg-graphite-950 dark:text-track-white">
+        <ThemeProvider>
+          <SiteHeader />
+          <main>{children}</main>
+          <SiteFooter />
+        </ThemeProvider>
+      </body>
+    </html>
+  );
+}
