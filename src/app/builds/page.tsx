@@ -16,7 +16,7 @@ export default function BuildsPage() {
       <PageHeader
         eyebrow="Builds"
         title="Case-study structure ready for real results."
-        copy="Placeholder build cards show how future dyno charts, calibration notes, and media will land without changing the site architecture."
+        copy="Build cards show how future dyno charts, calibration notes, and media will land without changing the site architecture."
       />
       <Section>
         <BuildFeatureCard build={featuredBuild} />

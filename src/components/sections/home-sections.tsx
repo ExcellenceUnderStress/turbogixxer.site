@@ -42,7 +42,7 @@ export function HeroSection() {
             <PlaceholderMedia
               src={heroMedia.image}
               title={heroMedia.title}
-              kicker="Hero media placeholder"
+              kicker="Featured media"
               priority
               className="aspect-[4/3] lg:aspect-[5/4]"
             />
@@ -132,7 +132,7 @@ export function FeaturedBuildSection() {
       <SectionIntro
         eyebrow="Featured build"
         title="A result layout ready for real data."
-        copy="Before/after numbers, calibration notes, and media can be replaced without changing the page structure."
+        copy="Before/after numbers and calibration notes can be added without changing the media structure."
       />
       <div className="mt-10">
         <BuildFeatureCard build={featuredBuild} />
@@ -147,7 +147,7 @@ export function GallerySection() {
       <SectionIntro
         eyebrow="Media"
         title="Shop, dyno, wiring, and validation texture."
-        copy="Placeholder media keeps the future asset migration obvious while still giving the first version a real visual rhythm."
+        copy="Real CDN-hosted media gives the first version a visual rhythm while keeping future asset swaps centralized."
       />
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {galleryItems.map((item) => (

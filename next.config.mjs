@@ -4,7 +4,8 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "media.turbogixxertuning.com"
+        hostname: "media.turbogixxertuning.com",
+        pathname: "/**"
       }
     ]
   }

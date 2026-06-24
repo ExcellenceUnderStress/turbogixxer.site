@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 export function PlaceholderMedia({
   src,
   title,
-  kicker = "Placeholder media",
+  kicker = "Media",
   className,
   priority = false
 }: {

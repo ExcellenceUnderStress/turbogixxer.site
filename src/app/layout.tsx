@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { ThemeProvider } from "@/components/theme/theme-provider";
+import { brandMedia } from "@/content/media";
 import { site } from "@/content/site";
 import "@/styles/globals.css";
 
@@ -13,7 +14,8 @@ export const metadata: Metadata = {
   },
   description: site.description,
   icons: {
-    icon: "/favicon.svg"
+    icon: brandMedia.favicon,
+    apple: brandMedia.appleTouchIcon
   },
   openGraph: {
     title: site.name,

@@ -20,10 +20,10 @@ This repo targets Node 22 and npm. In Codex cloud environment settings, pin Node
 - Maintenance script: `npm run maintain:cloud`
 - Validation command for agents/CI: `npm run validate`
 
-No required secrets are needed for the current frontend foundation. To preview production media later, add `NEXT_PUBLIC_MEDIA_BASE_URL=https://media.turbogixxertuning.com`; otherwise the app uses local placeholder media from `public/media/`.
+No required secrets are needed for the current frontend foundation. Public media is served through `NEXT_PUBLIC_MEDIA_BASE_URL=https://media.turbogixxertuning.com`.
 
 ## Content
 
 Navigation, service paths, platform lists, build placeholders, shop products, media references, and site metadata live in `src/content/`.
 
-Media paths are routed through `src/lib/media.ts` so local placeholders can later move to `https://media.turbogixxertuning.com` by setting `NEXT_PUBLIC_MEDIA_BASE_URL`.
+Media paths are routed through `src/lib/media.ts` so components consume centralized CDN paths instead of raw S3 or scattered hardcoded URLs.

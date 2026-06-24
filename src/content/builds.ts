@@ -1,12 +1,12 @@
-import { mediaUrl } from "@/lib/media";
+import { serviceMedia } from "@/content/media";
 
 export const featuredBuild = {
-  title: "R32 Skyline GT-R Calibration Placeholder",
-  chassis: "BNR32 / RB26DETT",
-  platform: "Standalone ECU / flex fuel",
-  image: mediaUrl("/builds/r32-featured.png"),
+  title: "Featured Calibration Case Study",
+  chassis: "Street / performance platform",
+  platform: "EFI tuning / validation",
+  image: serviceMedia.featuredBuildSecondary,
   summary:
-    "A future case study area for before/after numbers, dyno notes, calibration strategy, and replacement media.",
+    "A case study area for before/after numbers, dyno notes, calibration strategy, and production media.",
   stats: [
     { label: "Before", value: "TBD" },
     { label: "After", value: "TBD" },
