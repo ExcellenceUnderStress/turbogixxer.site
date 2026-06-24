@@ -5,6 +5,8 @@ import { shopProducts } from "@/content/shop-products";
 type ShopProduct = (typeof shopProducts)[number];
 
 export function ShopItemCard({ item }: { item: ShopProduct }) {
+  const intakeHref = `/contact?intent=${item.slug}&service=${item.serviceSlug}`;
+
   return (
     <Card className="flex min-h-[300px] flex-col p-5">
       <div className="flex items-center justify-between gap-4">
@@ -15,7 +17,7 @@ export function ShopItemCard({ item }: { item: ShopProduct }) {
       <p className="mt-4 text-sm font-bold uppercase leading-5 text-zinc-700 dark:text-zinc-300">{item.for}</p>
       <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-track-muted">{item.summary}</p>
       <div className="mt-auto pt-8">
-        <ButtonLink href="/contact" variant="secondary" className="w-full">
+        <ButtonLink href={intakeHref} variant="secondary" className="w-full">
           {item.cta}
         </ButtonLink>
       </div>

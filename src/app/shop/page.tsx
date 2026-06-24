@@ -14,7 +14,7 @@ export default function ShopPage() {
       <PageHeader
         eyebrow="Shop"
         title="Service-commerce without the catalog noise."
-        copy="Deposits and consult placeholders guide customers into a technical intake path while backend payment and scheduling integrations wait for a later pass."
+        copy="Deposits and consult starters route customers into the right technical intake before payment, scheduling, or final scope."
       />
       <Section>
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">

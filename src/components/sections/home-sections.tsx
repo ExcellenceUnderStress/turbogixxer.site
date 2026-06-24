@@ -31,7 +31,7 @@ export function HeroSection() {
               and power that makes sense outside the dyno cell.
             </p>
             <div className="mt-8 grid gap-3 sm:flex sm:items-center">
-              <ButtonLink href="/contact">Start a Build Consult</ButtonLink>
+              <ButtonLink href="/contact?intent=build-consultation">Start a Build Consult</ButtonLink>
               <ButtonLink href="/services" variant="secondary">
                 View Services
               </ButtonLink>
@@ -170,7 +170,7 @@ export function CommerceCtaSection() {
           <SectionIntro
             eyebrow="Deposit / service-commerce"
             title="A light commerce layer for intake quality."
-            copy="Deposits and reviews are placeholders for future Stripe and calendar flows, not a full catalog."
+            copy="Deposits and reviews now route into a structured intake so scope, readiness, and policy are clear before payment."
           />
           <ButtonLink href="/shop" variant="secondary" className="w-full sm:w-fit">
             View Shop
@@ -183,7 +183,7 @@ export function CommerceCtaSection() {
         </div>
         <div className="mt-8 flex items-center gap-3 text-sm font-bold uppercase text-zinc-600 dark:text-track-muted">
           <ArrowRight className="h-4 w-4 text-cyan-600 dark:text-cyan-300" />
-          Contact / intake remains the primary path until backend checkout is connected.
+          Intake remains the first step before payment, deposit handling, or scheduling.
         </div>
       </Section>
       <CTASection />

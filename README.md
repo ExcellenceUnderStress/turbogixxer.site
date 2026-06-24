@@ -4,6 +4,14 @@ Official website for TURBOGIXXER TUNING.
 
 This is the greenfield frontend foundation for the TurboGixxer site: a Next.js 16 App Router project with TypeScript, Tailwind CSS, npm, and light/dark theme support.
 
+## Environment
+
+Use Node 22.x with npm 10.x. The repo includes `.nvmrc`, a pinned `packageManager`, and npm engine checks so installs fail early under the wrong local toolchain.
+
+## Package Manager
+
+This repo is npm-based. Use `npm install` and keep `package-lock.json` committed. Do not add pnpm or Yarn lockfiles unless the project intentionally changes package managers.
+
 ## Scripts
 
 - `npm run dev` starts the local development server.

@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
       <body className="theme-transition min-h-screen bg-zinc-50 text-zinc-950 antialiased dark:bg-graphite-950 dark:text-track-white">
         <ThemeProvider>
           <SiteHeader />

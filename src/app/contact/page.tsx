@@ -1,4 +1,4 @@
-import { ContactFormPlaceholder } from "@/components/forms/contact-form-placeholder";
+import { ContactIntakeForm } from "@/components/forms/contact-intake-form";
 import { CTASection } from "@/components/sections/cta-section";
 import { PageHeader } from "@/components/ui/page-header";
 import { Section } from "@/components/ui/section";
@@ -7,20 +7,32 @@ export const metadata = {
   title: "Contact"
 };
 
-export default function ContactPage() {
+type ContactPageProps = {
+  searchParams?: Promise<Record<string, string | Array<string> | undefined>>;
+};
+
+function firstParam(value: string | Array<string> | undefined) {
+  return Array.isArray(value) ? value[0] : value;
+}
+
+export default async function ContactPage({ searchParams }: ContactPageProps) {
+  const params = searchParams ? await searchParams : {};
+  const initialIntent = firstParam(params.intent);
+  const initialService = firstParam(params.service);
+
   return (
     <>
       <PageHeader
         eyebrow="Contact"
         title="Start with the build details."
-        copy="This frontend form is shaped for future intake automation. For now, it establishes the technical questions TurboGixxer needs before scheduling or quoting."
+        copy="Choose the service path, document the build, confirm the deposit policy, and prepare a complete intake email before scheduling or payment."
       />
       <Section>
-        <ContactFormPlaceholder />
+        <ContactIntakeForm initialIntent={initialIntent} initialService={initialService} />
       </Section>
       <CTASection
-        title="Backend wiring comes later."
-        copy="DynamoDB, SES, Stripe, and calendar integrations can connect to this intake shape without changing the customer journey."
+        title="Payment follows approval."
+        copy="The frontend prepares the intake details first. TurboGixxer reviews the build, confirms scope, and then handles deposit and scheduling."
       />
     </>
   );
