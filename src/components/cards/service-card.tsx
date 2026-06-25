@@ -1,7 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 import { ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { depositNote, servicePaths } from "@/content/services";
+import { servicePaths } from "@/content/services";
 
 type Service = (typeof servicePaths)[number];
 
@@ -23,9 +23,19 @@ export function ServiceCard({ service }: { service: Service }) {
           </div>
         ))}
       </div>
+      {"supportedEcuPaths" in service ? (
+        <div className="mt-6 rounded-md border border-zinc-200 bg-zinc-50 p-4 dark:border-white/10 dark:bg-graphite-925">
+          <p className="technical-label text-cyan-700 dark:text-cyan-300">Supported ECU paths</p>
+          <div className="mt-3 grid gap-2 text-sm font-bold uppercase text-zinc-700 dark:text-zinc-300">
+            {service.supportedEcuPaths.map((path) => (
+              <span key={path}>{path}</span>
+            ))}
+          </div>
+        </div>
+      ) : null}
       <div className="mt-auto pt-8">
         <p className="text-2xl font-black uppercase text-zinc-950 dark:text-track-white">{service.price}</p>
-        <p className="mt-2 text-xs font-bold uppercase leading-5 text-cyan-700 dark:text-cyan-300">{depositNote}</p>
+        <p className="mt-2 text-xs font-bold uppercase leading-5 text-cyan-700 dark:text-cyan-300">{service.note}</p>
         <ButtonLink href={service.href} variant="ghost" className="mt-5 w-full">
           View Path
         </ButtonLink>

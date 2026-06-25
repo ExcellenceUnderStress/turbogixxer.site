@@ -7,6 +7,7 @@ import { Button, ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { depositNote, servicePaths } from "@/content/services";
 import { shopProducts } from "@/content/shop-products";
+import type { ShopProduct } from "@/content/shop-products";
 import { site } from "@/content/site";
 
 type IntakeFormState = {
@@ -29,6 +30,16 @@ type IntakeFormState = {
 
 type FieldErrors = Partial<Record<keyof IntakeFormState, string>>;
 
+type IntentOption = {
+  slug: string;
+  title: string;
+  category: string;
+  price: string;
+  for: string;
+  summary: string;
+  serviceSlug?: string;
+};
+
 const defaultForm: IntakeFormState = {
   name: "",
   email: "",
@@ -47,7 +58,27 @@ const defaultForm: IntakeFormState = {
   depositAcknowledged: false
 };
 
-const intentOptions = [
+function productContext(product: ShopProduct) {
+  switch (product.productType) {
+    case "service_deposit":
+      return product.requiresCalendar
+        ? "Service deposit that requires intake and calendar scheduling."
+        : "Service deposit that requires intake and manual follow-up.";
+    case "paid_consultation":
+      return "Paid consultation that requires intake and calendar scheduling.";
+    case "paid_review":
+      return "Paid review that requires intake before async follow-up.";
+    case "hardware_product":
+      return product.requiresIntake ? "Hardware request routed through intake." : "Hardware quote path in Shop.";
+    case "wiring_add_on":
+    case "in_house_product":
+    case "merch":
+    default:
+      return "Shop path prepared for future checkout behavior.";
+  }
+}
+
+const intentOptions: IntentOption[] = [
   {
     slug: "general-intake",
     title: "General Intake",
@@ -57,7 +88,17 @@ const intentOptions = [
     summary: "Start with build details, readiness, goals, and the intended use before scheduling."
   },
   ...shopProducts
-] as const;
+    .filter((product) => product.status !== "hidden")
+    .map((product) => ({
+      slug: product.slug,
+      title: product.title,
+      category: product.category,
+      price: product.priceLabel,
+      for: productContext(product),
+      summary: product.shortDescription,
+      serviceSlug: product.serviceSlug
+    }))
+];
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -161,8 +202,7 @@ function getServiceBySlug(slug?: string) {
 function createInitialForm(initialIntent?: string, initialService?: string): IntakeFormState {
   const matchedIntent = intentOptions.find((option) => option.slug === initialIntent);
   const matchedService = getServiceBySlug(initialService);
-  const intentService =
-    matchedIntent && "serviceSlug" in matchedIntent ? getServiceBySlug(matchedIntent.serviceSlug) : undefined;
+  const intentService = matchedIntent?.serviceSlug ? getServiceBySlug(matchedIntent.serviceSlug) : undefined;
 
   return {
     ...defaultForm,

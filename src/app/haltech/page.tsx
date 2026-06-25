@@ -1,10 +1,9 @@
-import { ServiceFocusPage } from "@/components/sections/service-focus-page";
-import { servicePages } from "@/content/services";
+import { redirect } from "next/navigation";
 
 export const metadata = {
   title: "Haltech"
 };
 
 export default function HaltechPage() {
-  return <ServiceFocusPage page={servicePages.haltech} />;
+  redirect("/shop/haltech");
 }

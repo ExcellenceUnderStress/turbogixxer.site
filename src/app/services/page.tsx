@@ -13,8 +13,8 @@ export default function ServicesPage() {
     <>
       <PageHeader
         eyebrow="Services"
-        title="Choose the tuning path before chasing power."
-        copy="Dyno, remote, factory ECU, standalone, wiring, and Haltech support are scoped around mechanical readiness and useful data."
+        title="Choose the service lane before chasing power."
+        copy="Dyno tuning, remote tuning, wiring work, and Haltech support are scoped around mechanical readiness and useful data. Factory and standalone ECU paths live inside tuning."
       />
       <Section>
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">

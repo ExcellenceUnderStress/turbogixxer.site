@@ -1,5 +1,6 @@
 import { ServiceCard } from "@/components/cards/service-card";
 import { CTASection } from "@/components/sections/cta-section";
+import { Card } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 import { Section } from "@/components/ui/section";
 import { StatCard } from "@/components/ui/stat-card";
@@ -10,6 +11,7 @@ type ServicePage = (typeof servicePages)[keyof typeof servicePages];
 export function ServiceFocusPage({ page }: { page: ServicePage }) {
   const pageSlugs = page.serviceSlugs as readonly string[];
   const services = servicePaths.filter((service) => pageSlugs.includes(service.slug));
+  const ecuPaths = "ecuPaths" in page ? page.ecuPaths : undefined;
 
   return (
     <>
@@ -34,6 +36,39 @@ export function ServiceFocusPage({ page }: { page: ServicePage }) {
           </div>
         </div>
       </Section>
+      {ecuPaths ? (
+        <Section>
+          <div className="max-w-3xl">
+            <p className="technical-label text-cyan-700 dark:text-cyan-300">Supported ECU paths</p>
+            <h2 className="display-heading mt-4 text-4xl text-zinc-950 dark:text-track-white sm:text-5xl">
+              Factory and standalone live inside tuning.
+            </h2>
+            <p className="mt-5 text-base leading-7 text-zinc-600 dark:text-track-muted">
+              Dyno and remote are delivery methods. Factory ECU and standalone ECU are the controller paths that
+              determine setup, logging, validation, and support scope.
+            </p>
+          </div>
+          <div className="mt-10 grid gap-4 md:grid-cols-2">
+            {ecuPaths.map((path) => (
+              <Card key={path.title} className="p-5">
+                <p className="technical-label text-cyan-700 dark:text-cyan-300">{path.label}</p>
+                <h3 className="mt-5 text-2xl font-black uppercase text-zinc-950 dark:text-track-white">
+                  {path.title}
+                </h3>
+                <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-track-muted">{path.summary}</p>
+                <div className="mt-6 grid gap-2">
+                  {path.delivery.map((delivery) => (
+                    <div key={delivery} className="flex gap-3 text-sm text-zinc-600 dark:text-track-muted">
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 bg-cyan-500" />
+                      <span>{delivery}</span>
+                    </div>
+                  ))}
+                </div>
+              </Card>
+            ))}
+          </div>
+        </Section>
+      ) : null}
       <Section tone="muted">
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service) => (

@@ -47,7 +47,9 @@ export const servicePaths = [
     price: "From $750",
     href: "/tuning",
     summary: "Mainline hub dyno calibration for sorted builds that need repeatable power and clean drivability.",
-    points: ["Controlled load", "Power and response", "Street validation"]
+    points: ["Controlled load", "Power and response", "Street validation"],
+    supportedEcuPaths: ["Factory ECU", "Standalone ECU"],
+    note: "$200 booking deposits are applied toward approved service and are not the full dyno tuning price."
   },
   {
     slug: "remote-tuning",
@@ -55,39 +57,44 @@ export const servicePaths = [
     price: "From $500",
     href: "/tuning",
     summary: "Structured log review and calibration revisions for mechanically ready cars outside the shop.",
-    points: ["Readiness checklist", "Log review", "Revision path"]
-  },
-  {
-    slug: "standalone-ecu",
-    title: "Standalone ECU Setup",
-    price: "From $750",
-    href: "/tuning",
-    summary: "ECU setup, base configuration, trigger checks, startup support, and calibration planning.",
-    points: ["Base map", "Sensor strategy", "Protection logic"]
-  },
-  {
-    slug: "factory-ecu",
-    title: "Factory ECU Tuning",
-    price: "From $550",
-    href: "/tuning",
-    summary: "Factory controller tuning for drivability, boost, fueling, and repeatable street behavior.",
-    points: ["OEM controller", "Boost and fuel", "Road manners"]
+    points: ["Readiness checklist", "Log review", "Revision path"],
+    supportedEcuPaths: ["Factory ECU", "Standalone ECU where supported"],
+    note: "$200 remote tune deposits are applied toward approved remote tuning scope."
   },
   {
     slug: "wiring-harness",
-    title: "Wiring / Harness Support",
+    title: "Wiring / Harness Work",
     price: "From $2,550",
     href: "/wiring",
     summary: "Harness support, sensor integration, CAN planning, and signal cleanup before calibration.",
-    points: ["Sensor health", "CAN and IO", "Diagnostics"]
+    points: ["Harness planning", "Standalone ECU wiring", "Sensor/device integration"],
+    note: "Wiring scope is reviewed before scheduling or deposit handling."
   },
   {
     slug: "haltech-fitment",
-    title: "Haltech Sales & Fitment Help",
-    price: "Scoped by build",
-    href: "/haltech",
-    summary: "Dealer-backed Haltech planning for ECU selection, NSP setup, sensors, CAN, and protection strategy.",
-    points: ["ECU selection", "NSP setup", "Fitment review"]
+    title: "Haltech Sales & Support",
+    price: "Quote/review first",
+    href: "/shop/haltech",
+    summary: "Dealer-backed Haltech product support, fitment review, wiring context, and calibration planning.",
+    points: ["Product fitment", "NSP setup path", "Support before checkout"],
+    note: "Hardware, paid reviews, and quote paths live in Shop."
+  }
+] as const;
+
+export const tuningEcuPaths = [
+  {
+    title: "Factory ECU calibration",
+    label: "Factory ECU",
+    summary:
+      "Factory ECU work stays inside tuning, with calibration decisions based on the controller, fuel system, power adder, and available logging support.",
+    delivery: ["Dyno tuning", "Remote tuning where supported"]
+  },
+  {
+    title: "Standalone ECU calibration",
+    label: "Standalone ECU",
+    summary:
+      "Standalone ECU work is a tuning platform path, not a separate service lane. Setup, IO, sensors, and protections are scoped through dyno or remote tuning when the build supports it.",
+    delivery: ["Dyno tuning", "Remote tuning where supported"]
   }
 ] as const;
 
@@ -99,8 +106,9 @@ export const servicePages = {
     eyebrow: "Tuning",
     title: "Calibration work built around usable data.",
     copy:
-      "TurboGixxer tuning starts with the combination, the logs, and the way the car will actually be driven. Dyno, remote, standalone, and factory ECU work share the same discipline.",
-    serviceSlugs: ["dyno-tuning", "remote-tuning", "standalone-ecu", "factory-ecu"],
+      "TurboGixxer tuning starts with the combination, the logs, and the way the car will actually be driven. Dyno tuning and remote tuning are the service paths; factory and standalone ECU work are platform paths inside tuning.",
+    serviceSlugs: ["dyno-tuning", "remote-tuning"],
+    ecuPaths: tuningEcuPaths,
     bullets: [
       "Mechanical and sensor readiness review",
       "Fuel, ignition, boost, idle, and transient calibration",
@@ -109,7 +117,7 @@ export const servicePages = {
     stats: [
       { label: "Dyno Tuning", value: "From $750" },
       { label: "Remote Tuning", value: "From $500" },
-      { label: "Factory ECU", value: "From $550" }
+      { label: "ECU paths", value: "Factory + standalone" }
     ]
   },
   wiring: {
@@ -133,8 +141,8 @@ export const servicePages = {
     eyebrow: "Haltech",
     title: "Dealer-backed fitment and setup support.",
     copy:
-      "Haltech work can include ECU selection, NSP setup, sensors, CAN devices, startup maps, wiring strategy, and protection logic.",
-    serviceSlugs: ["haltech-fitment", "standalone-ecu", "wiring-harness"],
+      "Haltech support now lives with the Shop product system. Product choice, fitment review, NSP setup, wiring strategy, and calibration planning should match the build before checkout.",
+    serviceSlugs: ["haltech-fitment", "wiring-harness"],
     bullets: [
       "ECU, IO, sensor, and CAN planning",
       "Startup configuration and readiness review",
@@ -142,7 +150,7 @@ export const servicePages = {
     ],
     stats: [
       { label: "Dealer", value: "Haltech" },
-      { label: "Standalone Setup", value: "From $750" },
+      { label: "Shop route", value: "/shop/haltech" },
       { label: "Deposit", value: "$200 applied" }
     ]
   }
