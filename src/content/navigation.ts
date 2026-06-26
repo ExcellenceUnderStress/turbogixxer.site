@@ -11,9 +11,7 @@ export const navItems = [
 export const footerServiceLinks = [
   { label: "Dyno Tuning", href: "/tuning" },
   { label: "Remote Tuning", href: "/tuning" },
-  { label: "Wiring Support", href: "/wiring" },
-  { label: "Haltech Products", href: "/shop/haltech" },
-  { label: "Booking Deposit", href: "/shop/deposits" }
+  { label: "Tuning Deposit", href: "/shop/deposits" }
 ] as const;
 
 export const policyLinks = [

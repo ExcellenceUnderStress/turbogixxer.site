@@ -49,7 +49,7 @@ export const servicePaths = [
     summary: "Mainline hub dyno calibration for sorted builds that need repeatable power and clean drivability.",
     points: ["Controlled load", "Power and response", "Street validation"],
     supportedEcuPaths: ["Factory ECU", "Standalone ECU"],
-    note: "$200 booking deposits are applied toward approved service and are not the full dyno tuning price."
+    note: "$200 tuning deposits are applied toward approved dyno tuning and are not the full tuning price."
   },
   {
     slug: "remote-tuning",
@@ -59,7 +59,7 @@ export const servicePaths = [
     summary: "Structured log review and calibration revisions for mechanically ready cars outside the shop.",
     points: ["Readiness checklist", "Log review", "Revision path"],
     supportedEcuPaths: ["Factory ECU", "Standalone ECU where supported"],
-    note: "$200 remote tune deposits are applied toward approved remote tuning scope."
+    note: "$200 tuning deposits are applied toward approved remote tuning and are not the full tuning price."
   },
   {
     slug: "wiring-harness",
@@ -81,9 +81,13 @@ export const servicePaths = [
   }
 ] as const;
 
-const homepageServiceSlugs = new Set(["dyno-tuning", "remote-tuning", "wiring-harness"]);
+export const bookableServiceSlugs = ["dyno-tuning", "remote-tuning"] as const;
 
-export const homepageServicePaths = servicePaths.filter((service) => homepageServiceSlugs.has(service.slug));
+export const bookableServicePaths = servicePaths.filter((service) =>
+  bookableServiceSlugs.includes(service.slug as (typeof bookableServiceSlugs)[number])
+);
+
+export const homepageServicePaths = bookableServicePaths;
 
 export const tuningEcuPaths = [
   {
@@ -103,7 +107,7 @@ export const tuningEcuPaths = [
 ] as const;
 
 export const depositNote =
-  "$200 booking deposits are applied toward approved service and are not the full dyno tuning price.";
+  "$200 tuning deposits are applied toward approved dyno or remote tuning and are not the full tuning price.";
 
 export const servicePages = {
   tuning: {

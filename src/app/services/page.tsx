@@ -2,7 +2,7 @@ import { ServiceCard } from "@/components/cards/service-card";
 import { CTASection } from "@/components/sections/cta-section";
 import { PageHeader } from "@/components/ui/page-header";
 import { Section } from "@/components/ui/section";
-import { servicePaths } from "@/content/services";
+import { bookableServicePaths } from "@/content/services";
 
 export const metadata = {
   title: "Services"
@@ -14,11 +14,11 @@ export default function ServicesPage() {
       <PageHeader
         eyebrow="Services"
         title="Choose the service lane before chasing power."
-        copy="Dyno tuning, remote tuning, wiring work, and Haltech support are scoped around mechanical readiness and useful data. Factory and standalone ECU paths live inside tuning."
+        copy="Dyno tuning and remote tuning are the service lanes. Factory and standalone ECU work are platform paths inside tuning, and the deposit applies toward the approved tune."
       />
       <Section>
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {servicePaths.map((service) => (
+          {bookableServicePaths.map((service) => (
             <ServiceCard key={service.slug} service={service} />
           ))}
         </div>

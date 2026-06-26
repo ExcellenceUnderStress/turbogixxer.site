@@ -22,7 +22,7 @@ export function CTASection({
             </p>
           </div>
           <ButtonLink href="/contact" className="w-full sm:w-fit">
-            Start a Build Consult
+            Start Intake
           </ButtonLink>
         </div>
       </Container>

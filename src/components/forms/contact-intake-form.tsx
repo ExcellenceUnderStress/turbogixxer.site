@@ -5,7 +5,7 @@ import type { ChangeEvent, FormEvent } from "react";
 import { useMemo, useState } from "react";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { depositNote, servicePaths } from "@/content/services";
+import { bookableServicePaths, depositNote } from "@/content/services";
 import { shopProducts } from "@/content/shop-products";
 import type { ShopProduct } from "@/content/shop-products";
 import { site } from "@/content/site";
@@ -40,6 +40,8 @@ type IntentOption = {
   serviceSlug?: string;
 };
 
+const tuningDepositIntent = "tuning-deposit";
+
 const defaultForm: IntakeFormState = {
   name: "",
   email: "",
@@ -49,7 +51,7 @@ const defaultForm: IntakeFormState = {
   ecu: "",
   fuel: "",
   powerAdder: "",
-  intent: "general-intake",
+  intent: tuningDepositIntent,
   service: "",
   timeline: "",
   budget: "Not sure yet",
@@ -61,9 +63,7 @@ const defaultForm: IntakeFormState = {
 function productContext(product: ShopProduct) {
   switch (product.productType) {
     case "service_deposit":
-      return product.requiresCalendar
-        ? "Service deposit that requires intake and calendar scheduling."
-        : "Service deposit that requires intake and manual follow-up.";
+      return "Tuning deposit applied toward approved dyno or remote tuning.";
     case "paid_consultation":
       return "Paid consultation that requires intake and calendar scheduling.";
     case "paid_review":
@@ -78,27 +78,23 @@ function productContext(product: ShopProduct) {
   }
 }
 
-const intentOptions: IntentOption[] = [
-  {
-    slug: "general-intake",
-    title: "General Intake",
-    category: "Intake",
-    price: "Scope after review",
-    for: "Customers who need the right service path selected first.",
-    summary: "Start with build details, readiness, goals, and the intended use before scheduling."
-  },
-  ...shopProducts
-    .filter((product) => product.status !== "hidden")
-    .map((product) => ({
-      slug: product.slug,
-      title: product.title,
-      category: product.category,
-      price: product.priceLabel,
-      for: productContext(product),
-      summary: product.shortDescription,
-      serviceSlug: product.serviceSlug
-    }))
-];
+const intentOptions: IntentOption[] = shopProducts
+  .filter((product) => product.slug === tuningDepositIntent && product.status !== "hidden")
+  .map((product) => ({
+    slug: product.slug,
+    title: product.title,
+    category: product.category,
+    price: product.priceLabel,
+    for: productContext(product),
+    summary: product.shortDescription,
+    serviceSlug: product.serviceSlug
+  }));
+
+const legacyIntentServices: Record<string, string> = {
+  "booking-deposit": "dyno-tuning",
+  "dyno-session-deposit": "dyno-tuning",
+  "remote-tune-deposit": "remote-tuning"
+};
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -196,13 +192,15 @@ function buildEmailBody(form: IntakeFormState, intentTitle: string) {
 }
 
 function getServiceBySlug(slug?: string) {
-  return servicePaths.find((service) => service.slug === slug);
+  return bookableServicePaths.find((service) => service.slug === slug);
 }
 
 function createInitialForm(initialIntent?: string, initialService?: string): IntakeFormState {
-  const matchedIntent = intentOptions.find((option) => option.slug === initialIntent);
+  const aliasedServiceSlug = initialIntent ? legacyIntentServices[initialIntent] : undefined;
+  const normalizedIntent = initialIntent === tuningDepositIntent || aliasedServiceSlug ? tuningDepositIntent : initialIntent;
+  const matchedIntent = intentOptions.find((option) => option.slug === normalizedIntent);
   const matchedService = getServiceBySlug(initialService);
-  const intentService = matchedIntent?.serviceSlug ? getServiceBySlug(matchedIntent.serviceSlug) : undefined;
+  const intentService = getServiceBySlug(aliasedServiceSlug ?? matchedIntent?.serviceSlug);
 
   return {
     ...defaultForm,
@@ -328,7 +326,7 @@ export function ContactIntakeForm({
               required
             >
               <option value="">Select service</option>
-              {servicePaths.map((service) => (
+              {bookableServicePaths.map((service) => (
                 <option key={service.slug} value={service.title}>
                   {service.title}
                 </option>

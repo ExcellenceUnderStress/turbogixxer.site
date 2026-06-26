@@ -11,11 +11,11 @@ export function SiteFooter() {
         <div>
           <Logo />
           <p className="mt-4 max-w-sm text-sm leading-6 text-zinc-600 dark:text-track-muted">
-            EFI tuning, dyno calibration, wiring, Haltech support, and intake-ready service paths.
+            EFI tuning, dyno calibration, remote tuning, and intake-ready service paths.
           </p>
           <div className="mt-6">
             <ButtonLink href="/contact" variant="secondary">
-              Start a Build Consult
+              Start Intake
             </ButtonLink>
           </div>
         </div>

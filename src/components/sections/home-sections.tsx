@@ -14,7 +14,7 @@ import { Eyebrow } from "@/components/ui/eyebrow";
 import { Section } from "@/components/ui/section";
 import { featuredBuild } from "@/content/builds";
 import { galleryItems, heroMedia } from "@/content/media";
-import { homepageServicePaths, processSteps, trustItems } from "@/content/services";
+import { bookableServicePaths, processSteps, trustItems } from "@/content/services";
 import { shopProducts } from "@/content/shop-products";
 
 export function HeroSection() {
@@ -31,7 +31,7 @@ export function HeroSection() {
               and power that makes sense outside the dyno cell.
             </p>
             <div className="mt-8 grid gap-3 sm:flex sm:items-center">
-              <ButtonLink href="/contact?intent=build-consultation">Start a Build Consult</ButtonLink>
+              <ButtonLink href="/contact?intent=tuning-deposit">Start Intake</ButtonLink>
               <ButtonLink href="/services" variant="secondary">
                 View Services
               </ButtonLink>
@@ -83,10 +83,10 @@ export function ServicePathsSection() {
       <SectionIntro
         eyebrow="Service paths"
         title="The right path before the right pull."
-        copy="The first frontend pass keeps service choices clear without turning the site into a dense parts catalog."
+        copy="Dyno tuning and remote tuning are the service paths. The same deposit starts intake and applies toward the approved tune."
       />
       <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {homepageServicePaths.map((service) => (
+        {bookableServicePaths.map((service) => (
           <ServiceCard key={service.slug} service={service} />
         ))}
       </div>
@@ -160,7 +160,7 @@ export function GallerySection() {
 
 export function CommerceCtaSection() {
   const featuredItems = shopProducts.filter((item) =>
-    ["booking-deposit", "haltech-fitment-review", "build-consultation"].includes(item.slug)
+    ["tuning-deposit"].includes(item.slug)
   );
 
   return (
@@ -169,8 +169,8 @@ export function CommerceCtaSection() {
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <SectionIntro
             eyebrow="Deposit / service-commerce"
-            title="A light commerce layer for intake quality."
-            copy="Deposits and reviews now route into a structured intake so scope, readiness, and policy are clear before scheduling."
+            title="One deposit path for tuning intake."
+            copy="The $200 deposit applies toward the approved dyno or remote tune. Intake confirms the service path before scheduling."
           />
           <ButtonLink href="/shop" variant="secondary" className="w-full sm:w-fit">
             View Shop

@@ -9,7 +9,7 @@ export default function DepositsPage() {
     <ShopCollectionPage
       collection="deposits"
       title="Deposits"
-      copy="Service deposits start approved dyno or remote tuning workflows. They are applied toward approved service and are not full tuning prices."
+      copy="The same $200 tuning deposit starts approved dyno or remote tuning intake. It is applied toward the approved tune and is not the full tuning price."
     />
   );
 }
