@@ -208,6 +208,7 @@ export const shopProducts: ShopProduct[] = [
     requiresIntake: true,
     status: "active",
     priceLabel: "$200",
+    amountCents: 20000,
     shortDescription: "Dealer-backed planning review for ECU, IO, sensors, CAN devices, harness needs, and install planning.",
     longDescription:
       "This review helps identify the right Haltech hardware before parts are ordered. The current CTA routes to intake while future checkout is prepared.",
@@ -231,6 +232,7 @@ export const shopProducts: ShopProduct[] = [
     requiresIntake: true,
     status: "active",
     priceLabel: "$200",
+    amountCents: 20000,
     shortDescription: "One deposit for approved dyno tuning or remote tuning intake.",
     longDescription:
       "The $200 deposit and selected day are submitted before TurboGixxer reviews the build, confirms scope, and approves the service.",
@@ -254,6 +256,7 @@ export const shopProducts: ShopProduct[] = [
     requiresIntake: true,
     status: "active",
     priceLabel: "$200",
+    amountCents: 20000,
     shortDescription: "Focused technical consult for larger tuning, wiring, or staged build plans.",
     longDescription:
       "A paid consult for scope, priorities, mechanical readiness, electrical readiness, and next steps.",

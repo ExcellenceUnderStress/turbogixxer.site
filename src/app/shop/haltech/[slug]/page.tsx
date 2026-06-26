@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { PlaceholderMedia } from "@/components/media/placeholder-media";
 import { CTASection } from "@/components/sections/cta-section";
+import { AddToCartButton } from "@/components/shop/add-to-cart-button";
 import { ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
@@ -31,7 +32,8 @@ export default async function HaltechProductPage({ params }: { params: Promise<{
             <p className="mt-6 text-sm leading-6 text-zinc-600 dark:text-track-muted">{product.longDescription}</p>
             <p className="mt-6 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">{product.notes}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <ButtonLink href={product.ctaHref}>{product.ctaLabel}</ButtonLink>
+              <AddToCartButton product={product} />
+              <ButtonLink href={product.ctaHref} variant="secondary">{product.ctaLabel}</ButtonLink>
               <ButtonLink href="/shop/haltech" variant="secondary">Shop Haltech</ButtonLink>
             </div>
           </Card>

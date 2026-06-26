@@ -12,7 +12,7 @@ const variants = {
 } as const;
 
 const baseClass =
-  "theme-transition inline-flex min-h-11 items-center justify-center rounded-md border px-5 py-3 text-center text-xs font-black uppercase leading-none";
+  "theme-transition inline-flex min-h-11 items-center justify-center rounded-md border px-5 py-3 text-center text-xs font-black uppercase leading-none disabled:pointer-events-none disabled:opacity-60";
 
 export function ButtonLink({
   href,

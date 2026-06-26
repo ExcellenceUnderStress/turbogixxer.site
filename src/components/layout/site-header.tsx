@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { ButtonLink } from "@/components/ui/button";
+import { CartNavButton } from "@/components/shop/cart-nav-button";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
 import { navItems, serviceMenuItems } from "@/content/navigation";
 import { cn } from "@/lib/utils";
@@ -82,6 +83,7 @@ export function SiteHeader() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <ThemeToggle />
+          <CartNavButton showLabel />
           <ButtonLink href="/contact" className="min-h-10 px-4">
             Request Tuning
           </ButtonLink>
@@ -89,6 +91,7 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2 lg:hidden">
           <ThemeToggle />
+          <CartNavButton />
           <button
             type="button"
             className="theme-transition inline-flex h-10 w-10 items-center justify-center rounded-md border border-zinc-300 bg-white text-zinc-900 dark:border-white/15 dark:bg-white/[0.04] dark:text-track-white"
@@ -118,6 +121,16 @@ export function SiteHeader() {
                 {item.label}
               </Link>
             ))}
+            <Link
+              href="/cart"
+              className={cn(
+                "theme-transition rounded-md border border-zinc-200 px-4 py-3 text-sm font-black uppercase text-zinc-600 dark:border-white/10 dark:text-track-muted",
+                pathname === "/cart" && "border-cyan-500/50 text-cyan-700 dark:text-cyan-300"
+              )}
+              onClick={closeMenus}
+            >
+              Cart
+            </Link>
             <div className="grid gap-2 rounded-md border border-zinc-200 bg-zinc-50 p-2 dark:border-white/10 dark:bg-white/[0.04]">
               {serviceMenuItems.map((service) => (
                 <Link

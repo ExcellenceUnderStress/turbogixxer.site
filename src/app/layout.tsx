@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
+import { CartProvider } from "@/components/shop/cart-provider";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { brandMedia } from "@/content/media";
 import { site } from "@/content/site";
@@ -35,9 +36,11 @@ export default function RootLayout({
     <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
       <body className="theme-transition min-h-screen bg-zinc-50 text-zinc-950 antialiased dark:bg-graphite-950 dark:text-track-white">
         <ThemeProvider>
-          <SiteHeader />
-          <main>{children}</main>
-          <SiteFooter />
+          <CartProvider>
+            <SiteHeader />
+            <main>{children}</main>
+            <SiteFooter />
+          </CartProvider>
         </ThemeProvider>
       </body>
     </html>

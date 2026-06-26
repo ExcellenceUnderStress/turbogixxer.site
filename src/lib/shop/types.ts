@@ -34,6 +34,7 @@ export type ShopProduct = BookingRequirements & {
   fulfillmentType: FulfillmentType;
   status: ProductStatus;
   priceLabel: string;
+  amountCents?: number;
   shortDescription: string;
   longDescription: string;
   image: string;
