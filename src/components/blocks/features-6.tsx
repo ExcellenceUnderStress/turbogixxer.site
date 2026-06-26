@@ -1,56 +1,107 @@
 "use client";
 
-import { useState } from "react";
+import Link from "next/link";
 import { motion } from "motion/react";
-import { Box, Orbit, Workflow, Circle, ArrowRight } from "lucide-react";
+import { ArrowRight, Cable, Cpu, Gauge, RadioTower, type LucideIcon } from "lucide-react";
+import { servicePaths } from "@/content/services";
+import { cn } from "@/lib/utils";
 
-const vehicles = [
-  {
-    title: "Client Retainers",
-    desc: "Lock in recurring revenue, streamline onboarding, and let us handle invoicing while you focus on the work.",
-    blob: "rgba(168,139,250,0.85)",
-    arrow: "group-hover:bg-violet-400",
-  },
-  {
-    title: "Project Sprints",
-    desc: "Scope tight, ship fast. Run fixed-fee engagements with milestones, approvals, and timelines all in one place.",
-    blob: "rgba(56,189,248,0.85)",
-    arrow: "group-hover:bg-sky-400",
-  },
-  {
-    title: "Collaborator Pods",
-    desc: "Assemble freelance crews in days, pay them on time, and keep every contract, NDA, and deliverable organized.",
-    blob: "rgba(251,191,36,0.85)",
-    arrow: "group-hover:bg-amber-400",
-  },
-  {
-    title: "One-Off Gigs",
-    desc: "Say yes to the walk-in job without the paperwork. Send a quote, collect payment, and close the loop in minutes.",
-    blob: "rgba(52,211,153,0.85)",
-    arrow: "group-hover:bg-emerald-400",
-  },
-];
+type ServicePath = (typeof servicePaths)[number];
 
-const icons = [Box, Orbit, Workflow, Circle];
+type Features6Props = {
+  eyebrow?: string;
+  title?: string;
+  copy?: string;
+  services?: readonly ServicePath[];
+};
 
-export default function Features6() {
+const pathVisuals = {
+  "dyno-tuning": {
+    label: "Controlled load",
+    icon: Gauge,
+    accent: "from-cyan-500 to-sky-500",
+    border: "group-hover:border-cyan-400/70",
+    iconTone: "bg-cyan-500/10 text-cyan-700 dark:bg-cyan-400/10 dark:text-cyan-200"
+  },
+  "remote-tuning": {
+    label: "Log driven",
+    icon: RadioTower,
+    accent: "from-blue-500 to-indigo-500",
+    border: "group-hover:border-blue-400/70",
+    iconTone: "bg-blue-500/10 text-blue-700 dark:bg-blue-400/10 dark:text-blue-200"
+  },
+  "wiring-harness": {
+    label: "Signal quality",
+    icon: Cable,
+    accent: "from-amber-400 to-orange-500",
+    border: "group-hover:border-amber-400/70",
+    iconTone: "bg-amber-500/10 text-amber-800 dark:bg-amber-300/10 dark:text-amber-200"
+  },
+  "haltech-fitment": {
+    label: "Fitment first",
+    icon: Cpu,
+    accent: "from-emerald-500 to-teal-500",
+    border: "group-hover:border-emerald-400/70",
+    iconTone: "bg-emerald-500/10 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-200"
+  }
+} satisfies Record<
+  ServicePath["slug"],
+  {
+    label: string;
+    icon: LucideIcon;
+    accent: string;
+    border: string;
+    iconTone: string;
+  }
+>;
+
+export default function Features6({
+  eyebrow = "Service paths",
+  title = "Choose the lane before chasing power.",
+  copy = "TurboGixxer scopes each job around the work being approved: calibration, remote revision support, wiring foundation, or Haltech fitment.",
+  services = servicePaths
+}: Features6Props) {
   return (
-    <section className="w-full min-h-screen flex items-start py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-neutral-950">
-      <div className="max-w-[1400px] mx-auto w-full">
-        <motion.h2
-          initial={{ opacity: 0, y: 14 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.3 }}
-          className="text-3xl sm:text-4xl md:text-5xl font-medium text-neutral-900 dark:text-white tracking-tight leading-[1.15] max-w-3xl"
-        >
-          Back-office built for every
-          <br className="hidden sm:block" /> way your studio takes on work
-        </motion.h2>
+    <section className="theme-transition w-full bg-white px-4 py-16 dark:bg-graphite-950 sm:px-6 sm:py-20 lg:px-8">
+      <div className="mx-auto w-full max-w-[1400px]">
+        <div className="max-w-4xl">
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.3 }}
+            className="technical-label text-cyan-700 dark:text-cyan-300"
+          >
+            {eyebrow}
+          </motion.p>
+          <motion.h2
+            initial={{ opacity: 0, y: 14 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.3, delay: 0.04 }}
+            className="display-heading mt-4 break-words text-2xl text-zinc-950 dark:text-track-white sm:text-5xl lg:text-6xl"
+          >
+            {title}
+          </motion.h2>
+          <motion.p
+            initial={{ opacity: 0, y: 14 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.3, delay: 0.08 }}
+            className="mt-5 max-w-3xl text-base leading-7 text-zinc-600 dark:text-track-muted"
+          >
+            {copy}
+          </motion.p>
+        </div>
 
-        <div className="mt-10 sm:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {vehicles.map((v, i) => (
-            <Card key={i} vehicle={v} index={i} Icon={icons[i]} />
+        <div
+          className={cn(
+            "mt-10 grid min-w-0 grid-cols-1 gap-5 sm:mt-14 sm:grid-cols-2",
+            services.length > 2 ? "xl:grid-cols-4" : "max-w-4xl"
+          )}
+        >
+          {services.map((service, index) => (
+            <ServicePathCard key={service.slug} service={service} index={index} />
           ))}
         </div>
       </div>
@@ -58,86 +109,72 @@ export default function Features6() {
   );
 }
 
-type Vehicle = (typeof vehicles)[number];
-
-function Card({
-  vehicle,
-  index,
-  Icon,
-}: {
-  vehicle: Vehicle;
-  index: number;
-  Icon: (typeof icons)[number];
-}) {
-  const [hovered, setHovered] = useState(false);
-  const words = vehicle.desc.split(" ");
+function ServicePathCard({ service, index }: { service: ServicePath; index: number }) {
+  const visual = pathVisuals[service.slug];
+  const Icon = visual.icon;
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
+      viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.3, delay: 0.05 * index }}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      className="relative rounded-2xl bg-neutral-100 dark:bg-neutral-900 p-6 min-h-[360px] flex flex-col overflow-hidden"
+      whileHover={{ y: -4 }}
+      className={cn(
+        "group relative flex min-h-[390px] min-w-0 flex-col overflow-hidden rounded-lg border border-zinc-200 bg-zinc-50 p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.04]",
+        visual.border
+      )}
     >
-      <motion.div
-        initial={false}
-        animate={{ opacity: hovered ? 0.7 : 0, scale: hovered ? 1 : 0.75 }}
-        transition={{ duration: 0.3, ease: "easeOut" }}
-        className="absolute left-1/2 -bottom-24 w-64 h-64 rounded-full pointer-events-none blur-md"
-        style={{
-          background: `radial-gradient(circle, ${vehicle.blob} 0%, rgba(255,255,255,0) 70%)`,
-          x: "-50%",
-        }}
-      />
+      <div className={cn("absolute inset-x-0 top-0 h-1 bg-gradient-to-r", visual.accent)} />
+      <div className="relative flex items-center justify-between gap-4">
+        <div className={cn("flex h-11 w-11 items-center justify-center rounded-lg", visual.iconTone)}>
+          <Icon className="h-5 w-5" />
+        </div>
+        <p className="technical-label hidden min-w-0 text-right leading-4 text-zinc-500 dark:text-zinc-400 sm:block">
+          {visual.label}
+        </p>
+      </div>
 
-      <Icon className="relative w-5 h-5 text-neutral-900 dark:text-neutral-200" />
-
-      <p className="relative mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-[220px]">
-        {words.map((w, wi) => (
-          <motion.span
-            key={wi}
-            initial={false}
-            animate={{
-              opacity: hovered ? 1 : 0,
-              y: hovered ? 0 : 4,
-              filter: hovered ? "blur(0px)" : "blur(3px)",
-            }}
-            transition={{
-              duration: 0.3,
-              delay: hovered ? wi * 0.03 : 0,
-              ease: [0.22, 1, 0.36, 1],
-            }}
-            className="inline-block mr-[0.25em]"
-          >
-            {w}
-          </motion.span>
-        ))}
+      <h3 className="relative mt-8 min-w-0 break-words text-xl font-black uppercase leading-7 text-zinc-950 dark:text-track-white sm:text-2xl">
+        {service.title}
+      </h3>
+      <p className="relative mt-5 min-w-0 break-words text-sm leading-6 text-zinc-600 dark:text-track-muted">
+        {service.summary}
       </p>
-
-      <div className="relative mt-auto flex items-center justify-between pt-8">
-        <span className="text-base sm:text-lg text-neutral-900 dark:text-white">
-          {vehicle.title}
-        </span>
-        <motion.span
-          initial={false}
-          animate={{
-            backgroundColor: hovered ? vehicle.blob : "rgb(229 229 229)",
-            color: hovered ? "#ffffff" : "rgb(64 64 64)",
-          }}
-          transition={{ duration: 0.3 }}
-          className="w-10 h-10 rounded-full flex items-center justify-center dark:bg-neutral-800 dark:text-neutral-300"
-        >
-          <motion.span
-            animate={{ x: hovered ? 2 : 0 }}
-            transition={{ duration: 0.3 }}
-            className="inline-flex"
+      <div className="relative mt-6 grid gap-2">
+        {service.points.map((point, pointIndex) => (
+          <motion.div
+            key={point}
+            initial={{ opacity: 0, x: -6 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.25, delay: 0.08 * pointIndex }}
+            className="flex gap-3 text-sm text-zinc-600 dark:text-track-muted"
           >
-            <ArrowRight className="w-4 h-4" />
+            <span className="mt-2 h-1.5 w-1.5 shrink-0 bg-cyan-500" />
+            <span>{point}</span>
+          </motion.div>
+        ))}
+      </div>
+
+      <div className="relative mt-auto flex items-center justify-between gap-5 pt-8">
+        <div>
+          <p className="min-w-0 break-words text-xl font-black uppercase text-zinc-950 dark:text-track-white sm:text-2xl">
+            {service.price}
+          </p>
+          <p className="mt-2 max-w-[17rem] break-words text-xs font-bold uppercase leading-5 text-cyan-700 dark:text-cyan-300">
+            {service.note}
+          </p>
+        </div>
+        <Link
+          href={service.href}
+          aria-label={`View ${service.title}`}
+          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-zinc-200 text-zinc-800 transition-colors group-hover:bg-cyan-500 group-hover:text-white dark:bg-white/10 dark:text-zinc-200"
+        >
+          <motion.span whileHover={{ x: 2 }} transition={{ duration: 0.2 }} className="inline-flex">
+            <ArrowRight className="h-4 w-4" />
           </motion.span>
-        </motion.span>
+        </Link>
       </div>
     </motion.div>
   );

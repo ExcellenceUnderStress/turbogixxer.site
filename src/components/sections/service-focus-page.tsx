@@ -1,4 +1,4 @@
-import { ServiceCard } from "@/components/cards/service-card";
+import ServicePathFeatures from "@/components/blocks/features-6";
 import { CTASection } from "@/components/sections/cta-section";
 import { Card } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
@@ -69,13 +69,12 @@ export function ServiceFocusPage({ page }: { page: ServicePage }) {
           </div>
         </Section>
       ) : null}
-      <Section tone="muted">
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {services.map((service) => (
-            <ServiceCard key={service.slug} service={service} />
-          ))}
-        </div>
-      </Section>
+      <ServicePathFeatures
+        eyebrow={`${page.eyebrow} paths`}
+        title="Approved service paths for this lane."
+        copy="Use the path that matches the actual work being approved. Each route carries its own readiness checks, review points, and deposit language."
+        services={services}
+      />
       <CTASection />
     </>
   );
