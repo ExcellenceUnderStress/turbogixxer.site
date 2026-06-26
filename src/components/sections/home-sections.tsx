@@ -14,7 +14,7 @@ import { Eyebrow } from "@/components/ui/eyebrow";
 import { Section } from "@/components/ui/section";
 import { featuredBuild } from "@/content/builds";
 import { galleryItems, heroMedia } from "@/content/media";
-import { processSteps, servicePaths, trustItems } from "@/content/services";
+import { homepageServicePaths, processSteps, trustItems } from "@/content/services";
 import { shopProducts } from "@/content/shop-products";
 
 export function HeroSection() {
@@ -86,7 +86,7 @@ export function ServicePathsSection() {
         copy="The first frontend pass keeps service choices clear without turning the site into a dense parts catalog."
       />
       <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {servicePaths.map((service) => (
+        {homepageServicePaths.map((service) => (
           <ServiceCard key={service.slug} service={service} />
         ))}
       </div>

@@ -81,6 +81,10 @@ export const servicePaths = [
   }
 ] as const;
 
+const homepageServiceSlugs = new Set(["dyno-tuning", "remote-tuning", "wiring-harness"]);
+
+export const homepageServicePaths = servicePaths.filter((service) => homepageServiceSlugs.has(service.slug));
+
 export const tuningEcuPaths = [
   {
     title: "Factory ECU calibration",
