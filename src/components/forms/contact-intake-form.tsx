@@ -401,8 +401,8 @@ export function ContactIntakeForm({
             onChange={handlePolicyChange}
           />
           <span>
-            I understand that {depositNote} Scheduling is handled after TurboGixxer reviews the intake and
-            confirms the requested service path.
+            I understand that {depositNote} The deposit payment and selected day are handled before
+            TurboGixxer reviews the intake and confirms the requested service path.
             {errors.depositAcknowledged ? <span className={`mt-2 block ${errorClass}`}>{errors.depositAcknowledged}</span> : null}
           </span>
         </label>

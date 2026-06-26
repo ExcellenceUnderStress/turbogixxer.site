@@ -25,14 +25,14 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
       <PageHeader
         eyebrow="Contact"
         title="Start with the build details."
-        copy="Choose the service path, document the build, confirm the deposit policy, and prepare a complete intake email before scheduling."
+        copy="Choose the service path, document the build, confirm the deposit policy, and prepare the intake for deposit checkout, day selection, and review."
       />
       <Section>
         <ContactIntakeForm initialIntent={initialIntent} initialService={initialService} />
       </Section>
       <CTASection
-        title="Intake comes before scheduling."
-        copy="This form prepares the build details and deposit-policy acknowledgement first. TurboGixxer reviews readiness and scope before confirming the next scheduling step."
+        title="Deposit and day selection come before review."
+        copy="This form prepares the build details and deposit-policy acknowledgement first. The $200 deposit and selected day are handled before TurboGixxer reviews readiness, scope, and service-path fit."
       />
     </>
   );

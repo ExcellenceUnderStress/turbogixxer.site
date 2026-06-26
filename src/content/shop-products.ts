@@ -261,7 +261,7 @@ export const shopProducts: ShopProduct[] = [
     priceLabel: "$200",
     shortDescription: "One deposit path for approved dyno tuning or remote tuning intake.",
     longDescription:
-      "Applied toward the approved dyno or remote tune after TurboGixxer reviews the build, confirms scope, and approves the service path.",
+      "The $200 deposit and selected day are submitted before TurboGixxer reviews the build, confirms scope, and approves the service path.",
     image: productImage("tuning-deposit"),
     ctaLabel: "Start Intake",
     ctaHref: contactHref("tuning-deposit"),

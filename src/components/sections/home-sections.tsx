@@ -170,7 +170,7 @@ export function CommerceCtaSection() {
           <SectionIntro
             eyebrow="Deposit / service-commerce"
             title="One deposit path for tuning intake."
-            copy="The $200 deposit applies toward the approved dyno or remote tune. Intake confirms the service path before scheduling."
+            copy="The $200 deposit applies toward the approved dyno or remote tune. Deposit checkout includes day selection before TurboGixxer reviews the intake."
           />
           <ButtonLink href="/shop" variant="secondary" className="w-full sm:w-fit">
             View Shop
