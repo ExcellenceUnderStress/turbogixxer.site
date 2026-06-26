@@ -18,34 +18,6 @@ export const shopCollections = [
     status: "active"
   },
   {
-    slug: "consults",
-    title: "Consults",
-    href: "/shop/consults",
-    summary: "Paid technical consults for scope, readiness, priorities, and next steps.",
-    status: "active"
-  },
-  {
-    slug: "reviews",
-    title: "Reviews",
-    href: "/shop/reviews",
-    summary: "Paid fitment and build reviews before parts or scheduling decisions.",
-    status: "active"
-  },
-  {
-    slug: "wiring-add-ons",
-    title: "Wiring Add-ons",
-    href: "/shop/wiring-add-ons",
-    summary: "Harness, sensor, relay, and CAN planning add-ons for wiring and ECU builds.",
-    status: "draft"
-  },
-  {
-    slug: "in-house-products",
-    title: "In-House Products",
-    href: "/shop/in-house-products",
-    summary: "TurboGixxer-built parts and service starters prepared for future direct checkout.",
-    status: "draft"
-  },
-  {
     slug: "fuel-injector-clinic",
     title: "Fuel Injector Clinic",
     href: "/shop/fuel-injector-clinic",
