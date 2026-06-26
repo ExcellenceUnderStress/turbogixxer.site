@@ -287,7 +287,7 @@ export const shopProducts: ShopProduct[] = [
     priceLabel: "$200",
     shortDescription: "Mechanically ready builds that can provide complete logs.",
     longDescription:
-      "Routes remote-ready builds into log review before payment, revision scope, or scheduling. Remote tuning starts at $500 before final scope.",
+      "Routes remote-ready builds into log review before revision scope or scheduling. Remote tuning starts at $500 before final scope.",
     image: productImage("remote-tune-deposit"),
     ctaLabel: "Request Review",
     ctaHref: contactHref("remote-tune-deposit"),

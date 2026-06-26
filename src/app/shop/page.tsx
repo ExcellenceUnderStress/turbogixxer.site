@@ -17,7 +17,7 @@ export default function ShopPage() {
       <PageHeader
         eyebrow="Shop"
         title="Service-commerce without the catalog noise."
-        copy="Products, deposits, and consults stay intake-first so hardware, scheduling, and payment follow build review."
+        copy="Products, deposits, and consults stay intake-first so hardware, service scope, and scheduling stay tied to build review."
       />
       <Section>
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">

@@ -403,8 +403,8 @@ export function ContactIntakeForm({
             onChange={handlePolicyChange}
           />
           <span>
-            I understand that {depositNote} Payment and scheduling are handled after TurboGixxer reviews and
-            approves the intake.
+            I understand that {depositNote} Scheduling is handled after TurboGixxer reviews the intake and
+            confirms the requested service path.
             {errors.depositAcknowledged ? <span className={`mt-2 block ${errorClass}`}>{errors.depositAcknowledged}</span> : null}
           </span>
         </label>

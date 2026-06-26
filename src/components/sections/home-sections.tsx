@@ -170,7 +170,7 @@ export function CommerceCtaSection() {
           <SectionIntro
             eyebrow="Deposit / service-commerce"
             title="A light commerce layer for intake quality."
-            copy="Deposits and reviews now route into a structured intake so scope, readiness, and policy are clear before payment."
+            copy="Deposits and reviews now route into a structured intake so scope, readiness, and policy are clear before scheduling."
           />
           <ButtonLink href="/shop" variant="secondary" className="w-full sm:w-fit">
             View Shop
@@ -183,7 +183,7 @@ export function CommerceCtaSection() {
         </div>
         <div className="mt-8 flex items-center gap-3 text-sm font-bold uppercase text-zinc-600 dark:text-track-muted">
           <ArrowRight className="h-4 w-4 text-cyan-600 dark:text-cyan-300" />
-          Intake remains the first step before payment, deposit handling, or scheduling.
+          Intake keeps the service path, readiness details, and scheduling next steps organized.
         </div>
       </Section>
       <CTASection />
