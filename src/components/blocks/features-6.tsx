@@ -56,9 +56,9 @@ const pathVisuals = {
 >;
 
 export default function Features6({
-  eyebrow = "Service paths",
-  title = "Choose the lane before chasing power.",
-  copy = "TurboGixxer scopes each job around the work being approved: calibration, remote revision support, wiring foundation, or Haltech fitment.",
+  eyebrow = "Services",
+  title = "Choose the service before chasing power.",
+  copy = "TurboGixxer scopes each build around the work being approved: dyno tuning, remote tuning, wiring foundation, or Haltech fitment.",
   services = servicePaths
 }: Features6Props) {
   return (
@@ -112,6 +112,12 @@ export default function Features6({
 function ServicePathCard({ service, index }: { service: ServicePath; index: number }) {
   const visual = pathVisuals[service.slug];
   const Icon = visual.icon;
+  const ariaLabel =
+    service.slug === "dyno-tuning"
+      ? "View Dyno Tuning"
+      : service.slug === "remote-tuning"
+        ? "View Remote Tuning"
+        : "View Services";
 
   return (
     <motion.div
@@ -168,7 +174,7 @@ function ServicePathCard({ service, index }: { service: ServicePath; index: numb
         </div>
         <Link
           href={service.href}
-          aria-label={`View ${service.title}`}
+          aria-label={ariaLabel}
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-zinc-200 text-zinc-800 transition-colors group-hover:bg-cyan-500 group-hover:text-white dark:bg-white/10 dark:text-zinc-200"
         >
           <motion.span whileHover={{ x: 2 }} transition={{ duration: 0.2 }} className="inline-flex">

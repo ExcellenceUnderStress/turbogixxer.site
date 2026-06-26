@@ -32,7 +32,7 @@ export default async function HaltechProductPage({ params }: { params: Promise<{
             <p className="mt-6 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">{product.notes}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <ButtonLink href={product.ctaHref}>{product.ctaLabel}</ButtonLink>
-              <ButtonLink href="/shop/haltech" variant="secondary">Back to Haltech</ButtonLink>
+              <ButtonLink href="/shop/haltech" variant="secondary">Shop Haltech</ButtonLink>
             </div>
           </Card>
         </div>

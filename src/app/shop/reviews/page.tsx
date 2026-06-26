@@ -9,7 +9,7 @@ export default function ReviewsPage() {
     <ShopCollectionPage
       collection="reviews"
       title="Reviews"
-      copy="Paid review products cover fitment, build details, and support paths before parts, scheduling, or calibration decisions are made."
+      copy="Paid reviews cover fitment, build details, and support needs before parts, scheduling, or calibration decisions are made."
     />
   );
 }

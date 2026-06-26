@@ -24,15 +24,15 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
     <>
       <PageHeader
         eyebrow="Contact"
-        title="Start with the build details."
-        copy="Choose the service path, document the build, confirm the deposit policy, and prepare the intake for deposit checkout, day selection, and review."
+        title="Request Tuning"
+        copy="Tell us about the vehicle, current setup, and what you want to accomplish. The more complete the information, the more useful our first response will be."
       />
       <Section>
         <ContactIntakeForm initialIntent={initialIntent} initialService={initialService} />
       </Section>
       <CTASection
-        title="Deposit and day selection come before review."
-        copy="This form prepares the build details and deposit-policy acknowledgement first. The $200 deposit and selected day are handled before TurboGixxer reviews readiness, scope, and service-path fit."
+        title="Build review first."
+        copy="TurboGixxer reviews the vehicle setup, current issues, goals, and requested service before recommending the next step."
       />
     </>
   );

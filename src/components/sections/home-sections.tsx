@@ -31,7 +31,7 @@ export function HeroSection() {
               and power that makes sense outside the dyno cell.
             </p>
             <div className="mt-8 grid gap-3 sm:flex sm:items-center">
-              <ButtonLink href="/contact?intent=tuning-deposit">Start Intake</ButtonLink>
+              <ButtonLink href="/contact">Request Tuning</ButtonLink>
               <ButtonLink href="/services" variant="secondary">
                 View Services
               </ButtonLink>
@@ -81,9 +81,9 @@ export function ServicePathsSection() {
   return (
     <Section>
       <SectionIntro
-        eyebrow="Service paths"
-        title="The right path before the right pull."
-        copy="Dyno tuning and remote tuning are the service paths. The same deposit starts intake and applies toward the approved tune."
+        eyebrow="Services"
+        title="Dyno or remote tuning."
+        copy="Dyno tuning and remote tuning are the primary services. The same deposit starts the request and applies toward the approved tune."
       />
       <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {bookableServicePaths.map((service) => (
@@ -100,7 +100,7 @@ export function PlatformCapabilitySection() {
       <SectionIntro
         eyebrow="Platform capability"
         title="Common ECUs and tuning systems."
-        copy="A clean placeholder strip for platform support that can become real partner marks or capability cards later."
+        copy="TurboGixxer supports common factory and standalone ECU platforms used on street, strip, and track builds."
       />
       <div className="mt-10">
         <PlatformLogoGrid />
@@ -115,7 +115,7 @@ export function ProcessSection() {
       <SectionIntro
         eyebrow="Process"
         title="Data discipline before power claims."
-        copy="The process is intentionally plain: define the combination, validate the data, calibrate deliberately, and finish with confidence."
+        copy="Work starts with the combination, then the data, then deliberate calibration around how the car will be used."
       />
       <div className="mt-10 grid gap-4 lg:grid-cols-4">
         {processSteps.map((step, index) => (
@@ -131,8 +131,8 @@ export function FeaturedBuildSection() {
     <Section tone="muted">
       <SectionIntro
         eyebrow="Featured build"
-        title="A result layout ready for real data."
-        copy="Before/after numbers and calibration notes can be added without changing the media structure."
+        title="Build review structure."
+        copy="Future case studies can show dyno numbers, calibration notes, and production media without changing the page structure."
       />
       <div className="mt-10">
         <BuildFeatureCard build={featuredBuild} />
@@ -147,7 +147,7 @@ export function GallerySection() {
       <SectionIntro
         eyebrow="Media"
         title="Shop, dyno, wiring, and validation texture."
-        copy="Real CDN-hosted media gives the first version a visual rhythm while keeping future asset swaps centralized."
+        copy="CDN-hosted media shows the shop, dyno, wiring, and validation context while keeping future asset swaps centralized."
       />
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {galleryItems.map((item) => (
@@ -169,11 +169,11 @@ export function CommerceCtaSection() {
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <SectionIntro
             eyebrow="Deposit / service-commerce"
-            title="One deposit path for tuning intake."
-            copy="The $200 deposit applies toward the approved dyno or remote tune. Deposit checkout includes day selection before TurboGixxer reviews the intake."
+            title="Tuning deposit."
+            copy="The $200 deposit applies toward the approved dyno or remote tune. Deposit checkout includes day selection before TurboGixxer reviews the request."
           />
-          <ButtonLink href="/shop" variant="secondary" className="w-full sm:w-fit">
-            View Shop
+          <ButtonLink href="/contact?intent=tuning-deposit" variant="secondary" className="w-full sm:w-fit">
+            Request Tuning
           </ButtonLink>
         </div>
         <div className="mt-10 grid gap-4 md:grid-cols-3">
@@ -183,7 +183,7 @@ export function CommerceCtaSection() {
         </div>
         <div className="mt-8 flex items-center gap-3 text-sm font-bold uppercase text-zinc-600 dark:text-track-muted">
           <ArrowRight className="h-4 w-4 text-cyan-600 dark:text-cyan-300" />
-          Intake keeps the service path, readiness details, and scheduling next steps organized.
+          Vehicle details, readiness notes, and scheduling next steps stay organized before the tune.
         </div>
       </Section>
       <CTASection />

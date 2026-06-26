@@ -16,8 +16,8 @@ export default function HaltechCollectionPage() {
     <>
       <PageHeader
         eyebrow="Shop / Haltech"
-        title="Haltech products with support-first fitment."
-        copy="Haltech hardware belongs in Shop. TurboGixxer supports product selection with wiring context, tuning delivery context, and fitment review before checkout behavior is expanded."
+        title="Haltech with fitment support."
+        copy="Haltech hardware belongs in Shop. TurboGixxer supports product selection with wiring context, tuning context, and fitment review before checkout expands."
       />
       <Section tone="panel">
         <Card className="grid gap-6 p-6 lg:grid-cols-[1fr_0.8fr] lg:p-8">
@@ -27,7 +27,7 @@ export default function HaltechCollectionPage() {
               Hardware decisions should match the build plan.
             </h2>
             <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-track-muted">
-              Hardware quote paths are separate from service deposits. Future checkout can attach to active products after quote rules, inventory behavior, and fulfillment paths are confirmed.
+              Hardware quote requests are separate from service deposits. Future checkout can attach to active products after quote rules, inventory behavior, and fulfillment are confirmed.
             </p>
           </div>
           <ul className="grid gap-3 text-sm font-bold uppercase text-zinc-700 dark:text-zinc-300">
@@ -44,7 +44,7 @@ export default function HaltechCollectionPage() {
               key={item.slug}
               item={item}
               href={`/shop/haltech/${item.slug}`}
-              ctaLabel="View Product"
+              ctaLabel="Shop Haltech"
               priority={index === 0}
             />
           ))}

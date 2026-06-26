@@ -28,8 +28,8 @@ export function BuildFeatureCard({ build }: { build: Build }) {
             </div>
           ))}
         </div>
-        <ButtonLink href="/builds" variant="secondary" className="mt-8 w-full sm:w-fit">
-          View Builds
+        <ButtonLink href="/contact?intent=build-consultation" variant="secondary" className="mt-8 w-full sm:w-fit">
+          Request a Build Review
         </ButtonLink>
       </div>
 

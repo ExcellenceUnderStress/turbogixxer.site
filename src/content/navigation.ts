@@ -1,18 +1,18 @@
+import { requestServiceOptions } from "@/content/services";
+
 export const navItems = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
-  { label: "Tuning", href: "/tuning" },
-  { label: "Wiring", href: "/wiring" },
   { label: "Builds", href: "/builds" },
-  { label: "Shop", href: "/shop" },
-  { label: "Contact", href: "/contact" }
+  { label: "Shop", href: "/shop" }
 ] as const;
 
-export const footerServiceLinks = [
-  { label: "Dyno Tuning", href: "/tuning" },
-  { label: "Remote Tuning", href: "/tuning" },
-  { label: "Tuning Deposit", href: "/shop/deposits" }
-] as const;
+export const serviceMenuItems = requestServiceOptions.map((service) => ({
+  label: service.title,
+  href: service.href
+}));
+
+export const footerServiceLinks = serviceMenuItems;
 
 export const policyLinks = [
   { label: "Terms", href: "/shop" },

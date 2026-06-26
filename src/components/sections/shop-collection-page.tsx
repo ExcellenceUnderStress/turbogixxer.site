@@ -34,7 +34,7 @@ export function ShopCollectionPage({
               Products are being staged.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-6 text-zinc-600 dark:text-track-muted">
-              This collection exists in the Shop route structure so products can be added centrally when product type,
+              This collection exists in the Shop structure so products can be added centrally when product type,
               payment mode, fulfillment, and checkout behavior are ready.
             </p>
           </Card>

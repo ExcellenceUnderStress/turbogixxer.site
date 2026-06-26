@@ -57,7 +57,7 @@ export const servicePaths = [
     price: "From $500",
     href: "/tuning",
     summary: "Structured log review and calibration revisions for mechanically ready cars outside the shop.",
-    points: ["Readiness checklist", "Log review", "Revision path"],
+    points: ["Readiness checklist", "Log review", "Calibration revisions"],
     supportedEcuPaths: ["Factory ECU", "Standalone ECU where supported"],
     note: "$200 tuning deposits are applied toward approved remote tuning and are not the full tuning price."
   },
@@ -76,8 +76,8 @@ export const servicePaths = [
     price: "Quote/review first",
     href: "/shop/haltech",
     summary: "Dealer-backed Haltech product support, fitment review, wiring context, and calibration planning.",
-    points: ["Product fitment", "NSP setup path", "Support before checkout"],
-    note: "Hardware, paid reviews, and quote paths live in Shop."
+    points: ["Product fitment", "NSP setup", "Support before checkout"],
+    note: "Hardware, paid reviews, and quote requests live in Shop."
   }
 ] as const;
 
@@ -88,6 +88,14 @@ export const bookableServicePaths = servicePaths.filter((service) =>
 );
 
 export const homepageServicePaths = bookableServicePaths;
+
+export const requestServiceOptions = [
+  { slug: "dyno-tuning", title: "Dyno Tuning", href: "/tuning?service=dyno-tuning" },
+  { slug: "remote-tuning", title: "Remote Tuning", href: "/tuning?service=remote-tuning" },
+  { slug: "wiring-harness", title: "Wire Harnesses", href: "/wiring" },
+  { slug: "track-support", title: "Track Support", href: "/contact?service=track-support" },
+  { slug: "not-sure", title: "Not Sure?", href: "/contact" }
+] as const;
 
 export const tuningEcuPaths = [
   {
@@ -101,7 +109,7 @@ export const tuningEcuPaths = [
     title: "Standalone ECU calibration",
     label: "Standalone ECU",
     summary:
-      "Standalone ECU work is a tuning platform path, not a separate service lane. Setup, IO, sensors, and protections are scoped through dyno or remote tuning when the build supports it.",
+      "Standalone ECU work is a controller type inside tuning. Setup, IO, sensors, and protections are scoped through dyno or remote tuning when the build supports it.",
     delivery: ["Dyno tuning", "Remote tuning where supported"]
   }
 ] as const;
@@ -114,7 +122,7 @@ export const servicePages = {
     eyebrow: "Tuning",
     title: "Calibration work built around usable data.",
     copy:
-      "TurboGixxer tuning starts with the combination, the logs, and the way the car will actually be driven. Dyno tuning and remote tuning are the service paths; factory and standalone ECU work are platform paths inside tuning.",
+      "TurboGixxer tuning starts with the combination, the logs, and the way the car will actually be driven. Dyno tuning and remote tuning are the core services; factory and standalone ECU work sit inside tuning.",
     serviceSlugs: ["dyno-tuning", "remote-tuning"],
     ecuPaths: tuningEcuPaths,
     bullets: [
@@ -125,7 +133,7 @@ export const servicePages = {
     stats: [
       { label: "Dyno Tuning", value: "From $750" },
       { label: "Remote Tuning", value: "From $500" },
-      { label: "ECU paths", value: "Factory + standalone" }
+      { label: "ECU support", value: "Factory + standalone" }
     ]
   },
   wiring: {
@@ -154,11 +162,11 @@ export const servicePages = {
     bullets: [
       "ECU, IO, sensor, and CAN planning",
       "Startup configuration and readiness review",
-      "Calibration path for dyno, road, or remote support"
+      "Calibration planning for dyno, road, or remote support"
     ],
     stats: [
       { label: "Dealer", value: "Haltech" },
-      { label: "Shop route", value: "/shop/haltech" },
+      { label: "Shop", value: "Haltech" },
       { label: "Deposit", value: "$200 applied" }
     ]
   }

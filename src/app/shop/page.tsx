@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 import { Section } from "@/components/ui/section";
 import { getVisibleShopCollections } from "@/content/shop-products";
+import type { ProductCollection } from "@/content/shop-products";
 
 export const metadata = {
   title: "Shop"
@@ -16,8 +17,8 @@ export default function ShopPage() {
     <>
       <PageHeader
         eyebrow="Shop"
-        title="Service-commerce without the catalog noise."
-        copy="Products, deposits, and consults stay intake-first so hardware, service scope, and scheduling stay tied to build review."
+        title="Shop Haltech and services."
+        copy="Products, deposits, and consults stay tied to vehicle details, service scope, and build review."
       />
       <Section>
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -33,7 +34,7 @@ export default function ShopPage() {
                 </h2>
                 <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-track-muted">{collection.summary}</p>
                 <p className="mt-auto pt-8 text-xs font-black uppercase text-cyan-700 dark:text-cyan-300">
-                  View collection →
+                  {collectionCtaLabel(collection.slug)}
                 </p>
               </Card>
             </Link>
@@ -43,4 +44,24 @@ export default function ShopPage() {
       <CTASection />
     </>
   );
+}
+
+function collectionCtaLabel(collection: ProductCollection) {
+  if (collection === "haltech") {
+    return "Shop Haltech";
+  }
+
+  if (collection === "deposits") {
+    return "Request Tuning";
+  }
+
+  if (collection === "consults" || collection === "reviews") {
+    return "Request a Build Review";
+  }
+
+  if (collection === "merch") {
+    return "Shop Merchandise";
+  }
+
+  return "View Services";
 }

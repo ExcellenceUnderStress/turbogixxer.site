@@ -24,7 +24,7 @@ export function ServiceFocusPage({ page }: { page: ServicePage }) {
             ))}
           </div>
           <div className="rounded-lg border border-zinc-200 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-white/[0.04] sm:p-6">
-            <p className="technical-label text-cyan-700 dark:text-cyan-300">Workflow</p>
+            <p className="technical-label text-cyan-700 dark:text-cyan-300">Work scope</p>
             <div className="mt-6 grid gap-4">
               {page.bullets.map((item) => (
                 <div key={item} className="flex gap-3 text-sm leading-6 text-zinc-600 dark:text-track-muted">
@@ -39,13 +39,13 @@ export function ServiceFocusPage({ page }: { page: ServicePage }) {
       {ecuPaths ? (
         <Section>
           <div className="max-w-3xl">
-            <p className="technical-label text-cyan-700 dark:text-cyan-300">Supported ECU paths</p>
+            <p className="technical-label text-cyan-700 dark:text-cyan-300">Supported ECU platforms</p>
             <h2 className="display-heading mt-4 text-4xl text-zinc-950 dark:text-track-white sm:text-5xl">
               Factory and standalone live inside tuning.
             </h2>
             <p className="mt-5 text-base leading-7 text-zinc-600 dark:text-track-muted">
-              Dyno and remote are delivery methods. Factory ECU and standalone ECU are the controller paths that
-              determine setup, logging, validation, and support scope.
+              Dyno and remote are delivery methods. Factory ECU and standalone ECU determine setup, logging,
+              validation, and support scope.
             </p>
           </div>
           <div className="mt-10 grid gap-4 md:grid-cols-2">
@@ -70,9 +70,9 @@ export function ServiceFocusPage({ page }: { page: ServicePage }) {
         </Section>
       ) : null}
       <ServicePathFeatures
-        eyebrow={`${page.eyebrow} paths`}
-        title="Approved service paths for this lane."
-        copy="Use the path that matches the actual work being approved. Each route carries its own readiness checks, review points, and deposit language."
+        eyebrow={`${page.eyebrow} services`}
+        title="Approved services for this build."
+        copy="Use the service that matches the actual work being approved. Each option carries its own readiness checks, review points, and deposit language."
         services={services}
       />
       <CTASection />

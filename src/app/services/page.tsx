@@ -12,8 +12,8 @@ export default function ServicesPage() {
     <>
       <PageHeader
         eyebrow="Services"
-        title="Choose the service lane before chasing power."
-        copy="Dyno tuning and remote tuning are the service lanes. Factory and standalone ECU work are platform paths inside tuning, and the deposit applies toward the approved tune."
+        title="Choose the right service."
+        copy="Dyno tuning and remote tuning are the core tuning services. Factory and standalone ECU work sit inside tuning, and the deposit applies toward the approved tune."
       />
       <ServicePathFeatures services={bookableServicePaths} />
       <CTASection />

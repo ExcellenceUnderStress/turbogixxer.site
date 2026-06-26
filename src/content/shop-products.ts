@@ -7,7 +7,7 @@ export const shopCollections = [
     slug: "haltech",
     title: "Haltech",
     href: "/shop/haltech",
-    summary: "Haltech ECUs, displays, CAN controls, widebands, and fitment-first support paths.",
+    summary: "Haltech ECUs, displays, CAN controls, widebands, and fitment-first support.",
     status: "active"
   },
   {
@@ -28,14 +28,14 @@ export const shopCollections = [
     slug: "reviews",
     title: "Reviews",
     href: "/shop/reviews",
-    summary: "Paid fitment and build-review paths that happen before parts or scheduling decisions.",
+    summary: "Paid fitment and build reviews before parts or scheduling decisions.",
     status: "active"
   },
   {
     slug: "wiring-add-ons",
     title: "Wiring Add-ons",
     href: "/shop/wiring-add-ons",
-    summary: "Harness, sensor, relay, and CAN planning add-ons for wiring and ECU projects.",
+    summary: "Harness, sensor, relay, and CAN planning add-ons for wiring and ECU builds.",
     status: "draft"
   },
   {
@@ -54,7 +54,7 @@ export const shopCollections = [
   },
   {
     slug: "merch",
-    title: "Merch later",
+    title: "Merchandise",
     href: "/shop",
     summary: "Brand goods are planned after the service-commerce foundation is complete.",
     status: "hidden"
@@ -92,13 +92,13 @@ export const shopProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Fitment first",
-    shortDescription: "Compact Nexus hardware path for builds that need ECU control, power distribution, and CAN expansion.",
+    shortDescription: "Compact Nexus hardware for builds that need ECU control, power distribution, and CAN expansion.",
     longDescription:
       "Haltech hardware belongs in Shop, but selection still follows fitment, IO, sensors, wiring scope, and calibration readiness.",
     image: productImage("haltech-nexus-r3"),
-    ctaLabel: "Request Fitment",
+    ctaLabel: "Shop Haltech",
     ctaHref: contactHref("haltech-nexus-r3"),
-    notes: "Hardware quote path. Not a tuning service category.",
+    notes: "Hardware quote request. Not a tuning service category.",
     serviceSlug: "haltech-fitment"
   },
   {
@@ -118,9 +118,9 @@ export const shopProducts: ShopProduct[] = [
     priceLabel: "Fitment first",
     shortDescription: "Higher-capability Nexus placeholder for advanced IO, power management, CAN, and motorsport wiring plans.",
     longDescription:
-      "Built for larger projects where product selection should follow engine package, wiring architecture, expansion devices, and validation plan.",
+      "Built for larger builds where product selection should follow engine package, wiring architecture, expansion devices, and validation plan.",
     image: productImage("haltech-nexus-r5"),
-    ctaLabel: "Request Fitment",
+    ctaLabel: "Shop Haltech",
     ctaHref: contactHref("haltech-nexus-r5"),
     notes: "Final product price and checkout behavior will be added later.",
     serviceSlug: "haltech-fitment"
@@ -140,11 +140,11 @@ export const shopProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Quote after review",
-    shortDescription: "Standalone ECU hardware path for calibrated street, strip, and motorsport applications.",
+    shortDescription: "Standalone ECU hardware for calibrated street, strip, and motorsport applications.",
     longDescription:
       "Standalone ECU is a platform type inside tuning. This Shop item represents hardware selection and support, not a separate top-level service.",
     image: productImage("haltech-elite-2500"),
-    ctaLabel: "Plan ECU",
+    ctaLabel: "Shop Haltech",
     ctaHref: contactHref("haltech-elite-2500"),
     notes: "Use quote-first sales mode until direct product ordering is enabled.",
     serviceSlug: "haltech-fitment"
@@ -168,7 +168,7 @@ export const shopProducts: ShopProduct[] = [
     longDescription:
       "Display selection and setup should match ECU platform, CAN layout, sensor channels, warning strategy, and mounting constraints.",
     image: productImage("haltech-ic-7-display"),
-    ctaLabel: "Ask About Display",
+    ctaLabel: "Shop Haltech",
     ctaHref: contactHref("haltech-ic-7-display"),
     notes: "Future detail page can include mounting and CAN setup options.",
     serviceSlug: "haltech-fitment"
@@ -192,7 +192,7 @@ export const shopProducts: ShopProduct[] = [
     longDescription:
       "TurboGixxer can map keypad needs into the wiring and ECU strategy so controls support real vehicle use instead of adding clutter.",
     image: productImage("haltech-can-keypad"),
-    ctaLabel: "Discuss Controls",
+    ctaLabel: "Shop Haltech",
     ctaHref: contactHref("haltech-can-keypad"),
     notes: "Requires wiring and configuration review.",
     serviceSlug: "haltech-fitment"
@@ -214,9 +214,9 @@ export const shopProducts: ShopProduct[] = [
     priceLabel: "Contact for quote",
     shortDescription: "Wideband controller placeholder for calibration feedback and monitored safety data.",
     longDescription:
-      "Wideband planning should account for exhaust layout, CAN integration, ECU support, sensor placement, and calibration workflow.",
+      "Wideband planning should account for exhaust layout, CAN integration, ECU support, sensor placement, and calibration data.",
     image: productImage("haltech-wb1-wideband"),
-    ctaLabel: "Review Setup",
+    ctaLabel: "Shop Haltech",
     ctaHref: contactHref("haltech-wb1-wideband"),
     notes: "Future checkout can separate sensor kits from installation and setup labor.",
     serviceSlug: "haltech-fitment"
@@ -236,11 +236,11 @@ export const shopProducts: ShopProduct[] = [
     requiresIntake: true,
     status: "active",
     priceLabel: "$200",
-    shortDescription: "Dealer-backed planning review for ECU, IO, sensors, CAN devices, harness needs, and install path.",
+    shortDescription: "Dealer-backed planning review for ECU, IO, sensors, CAN devices, harness needs, and install planning.",
     longDescription:
-      "This review helps identify the right Haltech hardware path before parts are ordered. The current CTA routes to intake while future checkout is prepared.",
+      "This review helps identify the right Haltech hardware before parts are ordered. The current CTA routes to intake while future checkout is prepared.",
     image: productImage("haltech-fitment-review"),
-    ctaLabel: "Start Review",
+    ctaLabel: "Request a Build Review",
     ctaHref: contactHref("haltech-fitment-review"),
     notes: "The $200 review is not the full price of dyno tuning or hardware.",
     serviceSlug: "haltech-fitment"
@@ -259,11 +259,11 @@ export const shopProducts: ShopProduct[] = [
     requiresIntake: true,
     status: "active",
     priceLabel: "$200",
-    shortDescription: "One deposit path for approved dyno tuning or remote tuning intake.",
+    shortDescription: "One deposit for approved dyno tuning or remote tuning intake.",
     longDescription:
-      "The $200 deposit and selected day are submitted before TurboGixxer reviews the build, confirms scope, and approves the service path.",
+      "The $200 deposit and selected day are submitted before TurboGixxer reviews the build, confirms scope, and approves the service.",
     image: productImage("tuning-deposit"),
-    ctaLabel: "Start Intake",
+    ctaLabel: "Request Tuning",
     ctaHref: contactHref("tuning-deposit"),
     notes: "The $200 deposit applies toward the approved tune; it is not the full dyno or remote tuning price."
   },
@@ -284,9 +284,9 @@ export const shopProducts: ShopProduct[] = [
     priceLabel: "$200",
     shortDescription: "Focused technical consult for larger tuning, wiring, or staged build plans.",
     longDescription:
-      "A paid consult path for scope, priorities, mechanical readiness, electrical readiness, and next steps.",
+      "A paid consult for scope, priorities, mechanical readiness, electrical readiness, and next steps.",
     image: productImage("build-consultation"),
-    ctaLabel: "Book Consult",
+    ctaLabel: "Request a Build Review",
     ctaHref: contactHref("build-consultation"),
     notes: "Prepared for future checkout and calendar scheduling.",
     serviceSlug: "wiring-harness"

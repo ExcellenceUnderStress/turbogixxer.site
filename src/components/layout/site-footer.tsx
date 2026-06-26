@@ -11,11 +11,11 @@ export function SiteFooter() {
         <div>
           <Logo />
           <p className="mt-4 max-w-sm text-sm leading-6 text-zinc-600 dark:text-track-muted">
-            EFI tuning, dyno calibration, remote tuning, and intake-ready service paths.
+            EFI tuning, dyno calibration, remote tuning, and build review for sorted vehicles.
           </p>
           <div className="mt-6">
             <ButtonLink href="/contact" variant="secondary">
-              Start Intake
+              Request Tuning
             </ButtonLink>
           </div>
         </div>
@@ -38,9 +38,6 @@ export function SiteFooter() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="border-t border-zinc-200 px-4 py-4 text-center text-xs font-bold uppercase text-zinc-500 dark:border-white/10 dark:text-track-muted">
-        TurboGixxer - calibration first, numbers second.
       </div>
     </footer>
   );

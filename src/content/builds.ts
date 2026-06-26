@@ -16,7 +16,7 @@ export const featuredBuild = {
   points: [
     "Dyno graph and result photos can drop into this layout later.",
     "Technical notes stay concise and calibration-focused.",
-    "CTA sends qualified leads into intake instead of a generic quote form."
+    "CTA routes qualified build reviews into the tuning request form."
   ]
 } as const;
 
