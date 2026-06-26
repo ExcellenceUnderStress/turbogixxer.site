@@ -325,7 +325,7 @@ function CartDrawer() {
               className="theme-transition inline-flex min-h-11 items-center justify-center rounded-md border border-cyan-500 bg-cyan-500 px-5 py-3 text-center text-xs font-black uppercase leading-none text-graphite-950 shadow-cyan hover:border-cyan-400 hover:bg-cyan-400"
               onClick={closeCart}
             >
-              Review cart
+              Review request
             </Link>
             <Link
               href="/shop"

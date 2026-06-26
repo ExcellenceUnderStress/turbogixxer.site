@@ -82,7 +82,7 @@ function cartLinesForEmail(items: ResolvedCartItem[]) {
 
 function buildEmailBody(form: CheckoutFormState, items: ResolvedCartItem[], subtotalCents: number) {
   return [
-    "TurboGixxer shop cart request",
+    "TurboGixxer shop request",
     "",
     "Customer",
     `Name: ${formatValue(form.name)}`,
@@ -210,7 +210,7 @@ export function CartPage() {
 
   const mailtoHref = useMemo(() => {
     const subjectDetail = form.vehicle.trim() || form.name.trim() || "shop cart";
-    const subject = `TurboGixxer shop cart - ${subjectDetail}`;
+    const subject = `TurboGixxer shop request - ${subjectDetail}`;
     const body = buildEmailBody(form, resolvedItems, subtotalCents);
 
     return `mailto:${site.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -251,7 +251,7 @@ export function CartPage() {
           <ShoppingCart className="mx-auto h-12 w-12 text-cyan-700 dark:text-cyan-300" />
           <h2 className="mt-5 text-3xl font-black uppercase text-zinc-950 dark:text-track-white">Cart is empty.</h2>
           <p className="mt-4 max-w-xl text-sm leading-6 text-zinc-600 dark:text-track-muted">
-            Add Haltech hardware, tuning deposits, fitment reviews, or consults from the Shop before submitting a cart request.
+            Add Haltech hardware, tuning deposits, fitment reviews, or consults from the Shop before submitting a request.
           </p>
           <Link
             href="/shop"
@@ -270,7 +270,7 @@ export function CartPage() {
         <div className="flex flex-col justify-between gap-4 border-b border-zinc-200 pb-5 dark:border-white/10 sm:flex-row sm:items-end">
           <div>
             <p className="technical-label text-cyan-700 dark:text-cyan-300">Selected items</p>
-            <h2 className="mt-3 text-3xl font-black uppercase text-zinc-950 dark:text-track-white">Review cart.</h2>
+            <h2 className="mt-3 text-3xl font-black uppercase text-zinc-950 dark:text-track-white">Review request.</h2>
           </div>
           <Button type="button" variant="ghost" onClick={clearCart}>
             Clear cart
@@ -284,7 +284,7 @@ export function CartPage() {
       </Card>
 
       <Card className="h-fit p-5 sm:p-6">
-        <p className="technical-label text-cyan-700 dark:text-cyan-300">Checkout request</p>
+        <p className="technical-label text-cyan-700 dark:text-cyan-300">Request details</p>
         <div className="mt-4 flex items-center justify-between gap-4">
           <h2 className="text-2xl font-black uppercase text-zinc-950 dark:text-track-white">Subtotal</h2>
           <p className="text-2xl font-black text-zinc-950 dark:text-track-white">{formatCartPrice(subtotalCents)}</p>
@@ -346,7 +346,7 @@ export function CartPage() {
 
           <Button type="submit" className="w-full gap-2">
             <Mail className="h-4 w-4" />
-            Prepare checkout request
+            Prepare request email
           </Button>
           {isPrepared ? (
             <a
