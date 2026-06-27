@@ -76,14 +76,14 @@ function productContext(product: ShopProduct) {
     case "paid_consultation":
       return "Paid consultation that requires intake and calendar scheduling.";
     case "paid_review":
-      return "Paid review that requires intake before async follow-up.";
+      return "Paid planning product that requires intake before async follow-up.";
     case "hardware_product":
-      return product.requiresIntake ? "Hardware request routed through intake." : "Hardware quote handled through Shop.";
+      return product.requiresIntake ? "Hardware order routed through intake." : "Hardware order handled through Shop.";
     case "wiring_add_on":
     case "in_house_product":
     case "merch":
     default:
-      return "Shop request prepared for future checkout behavior.";
+      return "Shop order prepared for checkout.";
   }
 }
 

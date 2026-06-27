@@ -170,7 +170,7 @@ export function CommerceCtaSection() {
           <SectionIntro
             eyebrow="Deposit / service-commerce"
             title="Tuning deposit."
-            copy="The $200 deposit applies toward the approved dyno or remote tune. Deposit checkout includes day selection before TurboGixxer reviews the request."
+            copy="The $200 deposit applies toward the approved dyno or remote tune. Deposit checkout includes day selection before TurboGixxer confirms the order."
           />
           <ButtonLink href="/contact?intent=tuning-deposit" variant="secondary" className="w-full sm:w-fit">
             Request Tuning

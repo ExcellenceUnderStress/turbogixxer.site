@@ -9,7 +9,7 @@ export default function FuelInjectorClinicPage() {
     <ShopCollectionPage
       collection="fuel-injector-clinic"
       title="Fuel Injector Clinic"
-      copy="Injector and fuel-system products will be staged here with build review before ordering where required."
+      copy="Injector and fuel-system products will be staged here with build details before ordering where required."
     />
   );
 }

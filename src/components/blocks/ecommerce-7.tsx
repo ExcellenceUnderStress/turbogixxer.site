@@ -94,7 +94,7 @@ const shopSections: Record<TabKey, ShopCard[]> = {
     {
       eyebrow: "Deposit",
       title: "Tuning Deposit",
-      summary: "One $200 deposit for approved dyno tuning or remote tuning intake, with day selection before review.",
+      summary: "One $200 deposit for approved dyno tuning or remote tuning intake, with day selection before confirmation.",
       href: "/shop/deposits",
       image: "/media/gallery/mainline-hub.png",
       cta: "Request Tuning",
@@ -112,7 +112,7 @@ const shopSections: Record<TabKey, ShopCard[]> = {
     {
       eyebrow: "Remote Path",
       title: "Remote Tuning Intake",
-      summary: "Remote tuning requests stay tied to readiness details, logs, and the same deposit policy.",
+      summary: "Remote tuning orders stay tied to readiness details, logs, and the same deposit policy.",
       href: "/contact?intent=tuning-deposit&service=remote-tuning",
       image: "/media/gallery/track-notes.png",
       cta: "Start Intake",
@@ -178,7 +178,7 @@ export default function Ecommerce7() {
               Shop by active path.
             </motion.h2>
             <p className="mt-4 max-w-2xl text-sm leading-6 text-zinc-600 dark:text-track-muted sm:text-base">
-              Haltech hardware, tuning deposits, and staged fuel-system products stay separated so requests match the actual path being handled.
+              Haltech hardware, tuning deposits, and staged fuel-system products stay separated so orders match the actual path being handled.
             </p>
           </div>
 

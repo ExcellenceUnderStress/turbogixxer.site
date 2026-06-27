@@ -17,7 +17,7 @@ export default function HaltechCollectionPage() {
       <PageHeader
         eyebrow="Shop / Haltech"
         title="Haltech with fitment support."
-        copy="Haltech hardware belongs in Shop. TurboGixxer supports product selection with wiring context, tuning context, and fitment review before checkout expands."
+        copy="Haltech hardware belongs in Shop. TurboGixxer supports product selection with wiring context, tuning context, and checkout-ready product details."
       />
       <Section tone="panel">
         <Card className="grid gap-6 p-6 lg:grid-cols-[1fr_0.8fr] lg:p-8">
@@ -27,12 +27,12 @@ export default function HaltechCollectionPage() {
               Hardware decisions should match the build plan.
             </h2>
             <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-track-muted">
-              Hardware quote requests are separate from service deposits. Future checkout can attach to active products after quote rules, inventory behavior, and fulfillment are confirmed.
+              Hardware orders are separate from service deposits. Checkout can carry product selection now, with final pricing, inventory behavior, and fulfillment rules attached as they are confirmed.
             </p>
           </div>
           <ul className="grid gap-3 text-sm font-bold uppercase text-zinc-700 dark:text-zinc-300">
             <li>ECU, VCU, display, CAN, and wideband planning</li>
-            <li>Wiring and sensor readiness review</li>
+            <li>Wiring and sensor readiness details</li>
             <li>Dyno or remote tuning context before parts are ordered</li>
           </ul>
         </Card>

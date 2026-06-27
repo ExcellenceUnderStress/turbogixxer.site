@@ -1,15 +1,15 @@
 import { ShopCollectionPage } from "@/components/sections/shop-collection-page";
 
 export const metadata = {
-  title: "Reviews"
+  title: "Planning Products"
 };
 
-export default function ReviewsPage() {
+export default function PlanningProductsPage() {
   return (
     <ShopCollectionPage
       collection="reviews"
-      title="Reviews"
-      copy="Paid reviews cover fitment, build details, and support needs before parts, scheduling, or calibration decisions are made."
+      title="Planning Products"
+      copy="Paid planning products cover fitment, build details, and support needs before parts, scheduling, or calibration decisions are made."
     />
   );
 }

@@ -1,11 +1,9 @@
 import { PlaceholderMedia } from "@/components/media/placeholder-media";
+import { AddToCartButton } from "@/components/shop/add-to-cart-button";
 import { ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import type { ShopProduct } from "@/content/shop-products";
-
-function formatToken(value: string) {
-  return value.replaceAll("_", " ");
-}
+import { getCartProductDescriptor } from "@/lib/shop/cart";
 
 export function ShopItemCard({
   item,
@@ -18,8 +16,7 @@ export function ShopItemCard({
   ctaLabel?: string;
   priority?: boolean;
 }) {
-  const statusLine =
-    item.productType === "service_deposit" ? item.notes : `${formatToken(item.productType)} / ${formatToken(item.paymentMode)}`;
+  const statusLine = item.productType === "service_deposit" ? item.notes : getCartProductDescriptor(item);
 
   return (
     <Card className="flex min-h-[420px] flex-col overflow-hidden">
@@ -38,7 +35,8 @@ export function ShopItemCard({
         <h3 className="mt-5 text-2xl font-black uppercase text-zinc-950 dark:text-track-white">{item.title}</h3>
         <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-track-muted">{item.shortDescription}</p>
         <p className="mt-4 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">{statusLine}</p>
-        <div className="mt-auto pt-8">
+        <div className="mt-auto grid gap-3 pt-8">
+          <AddToCartButton product={item} className="w-full" />
           <ButtonLink href={href ?? item.ctaHref} variant="secondary" className="w-full">
             {ctaLabel ?? item.ctaLabel}
           </ButtonLink>
