@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { ChevronRight, Gauge } from "lucide-react";
+import { getProductBySku } from "@/content/shop-products";
 
 type TabKey = "Haltech" | "Tuning Deposits" | "Fuel Injector Clinic";
 
@@ -14,6 +15,7 @@ type ShopCard = {
   summary: string;
   href: string;
   image: string;
+  imageFit?: "contain" | "cover";
   cta: string;
   status: "Active" | "Draft";
 };
@@ -21,7 +23,7 @@ type ShopCard = {
 const tabs: Array<{ key: TabKey; summary: string }> = [
   {
     key: "Haltech",
-    summary: "ECU, VCU, display, CAN, and wideband hardware paths with fitment context."
+    summary: "ECU, VCU, display, CAN, and harness hardware paths with fitment context."
   },
   {
     key: "Tuning Deposits",
@@ -33,63 +35,31 @@ const tabs: Array<{ key: TabKey; summary: string }> = [
   }
 ];
 
-const shopSections: Record<TabKey, ShopCard[]> = {
-  Haltech: [
-    {
-      eyebrow: "VCU / ECU",
-      title: "Haltech Nexus R3",
-      summary: "Compact Nexus hardware for builds that need ECU control, power distribution, and CAN expansion.",
-      href: "/shop/haltech/haltech-nexus-r3",
-      image: "/media/gallery/ecu-bench.png",
-      cta: "Shop Haltech",
-      status: "Active"
-    },
-    {
-      eyebrow: "VCU / ECU",
-      title: "Haltech Nexus R5",
-      summary: "Higher-capability Nexus hardware for advanced IO, power management, CAN, and motorsport wiring plans.",
-      href: "/shop/haltech/haltech-nexus-r5",
-      image: "/media/gallery/harness-inspection.png",
-      cta: "Shop Haltech",
-      status: "Active"
-    },
-    {
-      eyebrow: "Standalone ECU",
-      title: "Haltech Elite 2500",
-      summary: "Standalone ECU hardware for calibrated street, strip, and motorsport applications.",
-      href: "/shop/haltech/haltech-elite-2500",
-      image: "/media/gallery/logging-pass.png",
-      cta: "Shop Haltech",
-      status: "Active"
-    },
-    {
-      eyebrow: "Display",
-      title: "Haltech IC-7 Display",
-      summary: "CAN display planning for monitored data, warnings, and clean driver feedback.",
-      href: "/shop/haltech/haltech-ic-7-display",
-      image: "/media/gallery/drive-validation.png",
-      cta: "Shop Haltech",
-      status: "Active"
-    },
-    {
-      eyebrow: "CAN Control",
-      title: "Haltech CAN Keypad",
-      summary: "CAN keypad planning for boost, launch, fan, pump, lighting, and auxiliary control strategies.",
-      href: "/shop/haltech/haltech-can-keypad",
-      image: "/media/gallery/harness-inspection.png",
-      cta: "Shop Haltech",
-      status: "Active"
-    },
-    {
-      eyebrow: "Sensor / Wideband",
-      title: "Haltech WB1 Wideband",
-      summary: "Wideband controller planning for calibration feedback and monitored safety data.",
-      href: "/shop/haltech/haltech-wb1-wideband",
-      image: "/media/gallery/logging-pass.png",
-      cta: "Shop Haltech",
-      status: "Active"
+const featuredHaltechCards = ["HT-193000", "HT-195000", "HT-151300", "HT-060090", "HT-011500", "HT-140921"].flatMap(
+  (sku): ShopCard[] => {
+    const product = getProductBySku(sku);
+
+    if (!product) {
+      return [];
     }
-  ],
+
+    return [
+      {
+        eyebrow: product.category,
+        title: product.title,
+        summary: product.shortDescription,
+        href: `/shop/haltech/${product.slug}`,
+        image: product.image,
+        imageFit: "contain",
+        cta: "View details",
+        status: "Active"
+      }
+    ];
+  }
+);
+
+const shopSections: Record<TabKey, ShopCard[]> = {
+  Haltech: featuredHaltechCards,
   "Tuning Deposits": [
     {
       eyebrow: "Deposit",
@@ -237,10 +207,14 @@ export default function Ecommerce7() {
                   <div className="relative aspect-[4/3] overflow-hidden bg-zinc-100 dark:bg-graphite-950">
                     <Image
                       src={item.image}
-                      alt=""
+                      alt={item.title}
                       fill
                       sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
-                      className="object-cover transition duration-500 group-hover:scale-[1.05]"
+                      className={
+                        item.imageFit === "contain"
+                          ? "object-contain p-5 transition duration-500 group-hover:scale-[1.03]"
+                          : "object-cover transition duration-500 group-hover:scale-[1.05]"
+                      }
                       priority={index === 0}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />

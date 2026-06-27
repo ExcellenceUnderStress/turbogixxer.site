@@ -38,7 +38,7 @@ Input:
 
 ```json
 {
-  "items": [{ "slug": "haltech-nexus-r3", "quantity": 1 }],
+  "items": [{ "slug": "haltech-ht-193000-nexus-r3", "quantity": 1 }],
   "customerContext": {
     "vehicle": "1999 Civic",
     "notes": "Fitment notes or tuning context"

@@ -9,15 +9,30 @@ export const metadata = {
   title: "Haltech Products"
 };
 
+const categoryOrder = ["ECU / VCU", "Display", "CAN Control", "Harness"] as const;
+
+const categoryCopy: Record<(typeof categoryOrder)[number], string> = {
+  "ECU / VCU": "Main ECUs, VCUs, direct plug-in options, and ECU-specific adaptor paths.",
+  Display: "Driver-facing CAN display hardware for monitored data, warnings, and clean feedback.",
+  "CAN Control": "Keypads, hubs, adaptors, and CAN network pieces that support the control plan.",
+  Harness: "Plug-and-play, universal, breakout, and accessory harness hardware for the wiring plan."
+};
+
 export default function HaltechCollectionPage() {
   const products = getProductsByCollection("haltech");
+  const productGroups = categoryOrder
+    .map((category) => ({
+      category,
+      products: products.filter((product) => product.category === category)
+    }))
+    .filter((group) => group.products.length > 0);
 
   return (
     <>
       <PageHeader
         eyebrow="Shop / Haltech"
-        title="Haltech with fitment support."
-        copy="Haltech hardware belongs in Shop. TurboGixxer supports product selection with wiring context, tuning context, and checkout-ready product details."
+        title="Haltech catalog with fitment support."
+        copy="Haltech hardware belongs in Shop. TurboGixxer keeps ECU, display, CAN, and harness selection tied to wiring context, tuning context, and application details."
       />
       <Section tone="panel">
         <Card className="grid gap-6 p-6 lg:grid-cols-[1fr_0.8fr] lg:p-8">
@@ -31,25 +46,38 @@ export default function HaltechCollectionPage() {
             </p>
           </div>
           <ul className="grid gap-3 text-sm font-bold uppercase text-zinc-700 dark:text-zinc-300">
-            <li>ECU, VCU, display, CAN, and wideband planning</li>
-            <li>Wiring and sensor readiness details</li>
-            <li>Dyno or remote tuning context before parts are ordered</li>
+            <li>{products.length} Haltech product listings staged</li>
+            <li>ECU, VCU, display, CAN, and harness planning</li>
+            <li>Wiring, application, and calibration context before parts are ordered</li>
           </ul>
         </Card>
       </Section>
-      <Section>
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {products.map((item, index) => (
-            <ShopItemCard
-              key={item.slug}
-              item={item}
-              href={`/shop/haltech/${item.slug}`}
-              ctaLabel="Shop Haltech"
-              priority={index === 0}
-            />
-          ))}
-        </div>
-      </Section>
+      {productGroups.map((group) => (
+        <Section key={group.category}>
+          <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="technical-label text-cyan-700 dark:text-cyan-300">{group.products.length} listings</p>
+              <h2 className="mt-3 text-3xl font-black uppercase text-zinc-950 dark:text-track-white">
+                {group.category}
+              </h2>
+            </div>
+            <p className="max-w-2xl text-sm leading-6 text-zinc-600 dark:text-track-muted">
+              {categoryCopy[group.category]}
+            </p>
+          </div>
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {group.products.map((item, index) => (
+              <ShopItemCard
+                key={item.slug}
+                item={item}
+                href={`/shop/haltech/${item.slug}`}
+                ctaLabel="View details"
+                priority={group.category === "ECU / VCU" && index === 0}
+              />
+            ))}
+          </div>
+        </Section>
+      ))}
       <CTASection />
     </>
   );

@@ -1,3 +1,4 @@
+import { haltechProducts } from "@/content/haltech-products";
 import type { ProductCollection, ShopProduct } from "@/lib/shop/types";
 
 export type { ProductCollection, ShopProduct } from "@/lib/shop/types";
@@ -7,7 +8,7 @@ export const shopCollections = [
     slug: "haltech",
     title: "Haltech",
     href: "/shop/haltech",
-    summary: "Haltech ECUs, displays, CAN controls, widebands, and fitment-first support.",
+    summary: "Haltech ECUs, displays, CAN controls, harnesses, and fitment-first support.",
     status: "active"
   },
   {
@@ -34,12 +35,6 @@ export const shopCollections = [
 ] as const;
 
 const stagedProductImages: Record<string, string> = {
-  "haltech-nexus-r3": "/media/gallery/ecu-bench.png",
-  "haltech-nexus-r5": "/media/gallery/ecu-bench.png",
-  "haltech-elite-2500": "/media/gallery/ecu-bench.png",
-  "haltech-ic-7-display": "/media/gallery/logging-pass.png",
-  "haltech-can-keypad": "/media/gallery/harness-inspection.png",
-  "haltech-wb1-wideband": "/media/gallery/logging-pass.png",
   "haltech-fitment-review": "/media/gallery/ecu-bench.png",
   "tuning-deposit": "/media/gallery/mainline-hub.png",
   "build-consultation": "/media/gallery/track-notes.png"
@@ -49,150 +44,7 @@ const productImage = (slug: string) => stagedProductImages[slug] ?? "/media/gall
 const contactHref = (slug: string) => `/contact?intent=${slug}`;
 
 export const shopProducts: ShopProduct[] = [
-  {
-    slug: "haltech-nexus-r3",
-    title: "Haltech Nexus R3",
-    brand: "Haltech",
-    collection: "haltech",
-    category: "VCU / ECU",
-    productType: "hardware_product",
-    paymentMode: "direct_checkout",
-    fulfillmentType: "manual_followup",
-    tuningDelivery: "support",
-    ecuType: "standalone_ecu",
-    requiresCalendar: false,
-    requiresIntake: false,
-    status: "active",
-    priceLabel: "Price at checkout",
-    shortDescription: "Compact Nexus hardware for builds that need ECU control, power distribution, and CAN expansion.",
-    longDescription:
-      "Haltech hardware belongs in Shop, but selection still follows fitment, IO, sensors, wiring scope, and calibration readiness.",
-    image: productImage("haltech-nexus-r3"),
-    ctaLabel: "Shop Haltech",
-    ctaHref: contactHref("haltech-nexus-r3"),
-    notes: "Hardware product. Not a tuning service category.",
-    serviceSlug: "haltech-fitment"
-  },
-  {
-    slug: "haltech-nexus-r5",
-    title: "Haltech Nexus R5",
-    brand: "Haltech",
-    collection: "haltech",
-    category: "VCU / ECU",
-    productType: "hardware_product",
-    paymentMode: "direct_checkout",
-    fulfillmentType: "manual_followup",
-    tuningDelivery: "support",
-    ecuType: "standalone_ecu",
-    requiresCalendar: false,
-    requiresIntake: false,
-    status: "active",
-    priceLabel: "Price at checkout",
-    shortDescription: "Higher-capability Nexus hardware for advanced IO, power management, CAN, and motorsport wiring plans.",
-    longDescription:
-      "Built for larger builds where product selection should follow engine package, wiring architecture, expansion devices, and validation plan.",
-    image: productImage("haltech-nexus-r5"),
-    ctaLabel: "Shop Haltech",
-    ctaHref: contactHref("haltech-nexus-r5"),
-    notes: "Final product price, inventory behavior, and fulfillment rules can attach to checkout.",
-    serviceSlug: "haltech-fitment"
-  },
-  {
-    slug: "haltech-elite-2500",
-    title: "Haltech Elite 2500",
-    brand: "Haltech",
-    collection: "haltech",
-    category: "Standalone ECU",
-    productType: "hardware_product",
-    paymentMode: "direct_checkout",
-    fulfillmentType: "manual_followup",
-    tuningDelivery: "support",
-    ecuType: "standalone_ecu",
-    requiresCalendar: false,
-    requiresIntake: false,
-    status: "active",
-    priceLabel: "Price at checkout",
-    shortDescription: "Standalone ECU hardware for calibrated street, strip, and motorsport applications.",
-    longDescription:
-      "Standalone ECU is a platform type inside tuning. This Shop item represents hardware selection and support, not a separate top-level service.",
-    image: productImage("haltech-elite-2500"),
-    ctaLabel: "Shop Haltech",
-    ctaHref: contactHref("haltech-elite-2500"),
-    notes: "Direct checkout setup can attach final pricing, inventory behavior, and fulfillment rules.",
-    serviceSlug: "haltech-fitment"
-  },
-  {
-    slug: "haltech-ic-7-display",
-    title: "Haltech IC-7 Display",
-    brand: "Haltech",
-    collection: "haltech",
-    category: "Display",
-    productType: "hardware_product",
-    paymentMode: "direct_checkout",
-    fulfillmentType: "manual_followup",
-    tuningDelivery: "support",
-    ecuType: "standalone_ecu",
-    requiresCalendar: false,
-    requiresIntake: false,
-    status: "active",
-    priceLabel: "Price at checkout",
-    shortDescription: "CAN display hardware for monitored data, warnings, and clean driver feedback.",
-    longDescription:
-      "Display selection and setup should match ECU platform, CAN layout, sensor channels, warning strategy, and mounting constraints.",
-    image: productImage("haltech-ic-7-display"),
-    ctaLabel: "Shop Haltech",
-    ctaHref: contactHref("haltech-ic-7-display"),
-    notes: "Future detail page can include mounting and CAN setup options.",
-    serviceSlug: "haltech-fitment"
-  },
-  {
-    slug: "haltech-can-keypad",
-    title: "Haltech CAN Keypad",
-    brand: "Haltech",
-    collection: "haltech",
-    category: "CAN Control",
-    productType: "hardware_product",
-    paymentMode: "direct_checkout",
-    fulfillmentType: "manual_followup",
-    tuningDelivery: "support",
-    ecuType: "standalone_ecu",
-    requiresCalendar: false,
-    requiresIntake: false,
-    status: "active",
-    priceLabel: "Price at checkout",
-    shortDescription: "CAN keypad hardware for boost, launch, fan, pump, lighting, and auxiliary control strategies.",
-    longDescription:
-      "TurboGixxer can map keypad needs into the wiring and ECU strategy so controls support real vehicle use instead of adding clutter.",
-    image: productImage("haltech-can-keypad"),
-    ctaLabel: "Shop Haltech",
-    ctaHref: contactHref("haltech-can-keypad"),
-    notes: "Requires wiring and configuration details.",
-    serviceSlug: "haltech-fitment"
-  },
-  {
-    slug: "haltech-wb1-wideband",
-    title: "Haltech WB1 Wideband",
-    brand: "Haltech",
-    collection: "haltech",
-    category: "Sensor / Wideband",
-    productType: "hardware_product",
-    paymentMode: "direct_checkout",
-    fulfillmentType: "manual_followup",
-    tuningDelivery: "support",
-    ecuType: "standalone_ecu",
-    requiresCalendar: false,
-    requiresIntake: false,
-    status: "active",
-    priceLabel: "Price at checkout",
-    shortDescription: "Wideband controller hardware for calibration feedback and monitored safety data.",
-    longDescription:
-      "Wideband planning should account for exhaust layout, CAN integration, ECU support, sensor placement, and calibration data.",
-    image: productImage("haltech-wb1-wideband"),
-    ctaLabel: "Shop Haltech",
-    ctaHref: contactHref("haltech-wb1-wideband"),
-    notes: "Checkout can separate sensor kits from installation and setup labor.",
-    serviceSlug: "haltech-fitment"
-  },
+  ...haltechProducts,
   {
     slug: "haltech-fitment-review",
     title: "Haltech Fitment Planning",
@@ -278,4 +130,8 @@ export function getProductsByCollection(collection: ProductCollection) {
 
 export function getProductBySlug(slug: string) {
   return shopProducts.find((product) => product.slug === slug && product.status !== "hidden");
+}
+
+export function getProductBySku(sku: string) {
+  return shopProducts.find((product) => product.sku === sku && product.status !== "hidden");
 }

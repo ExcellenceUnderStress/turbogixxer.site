@@ -1,4 +1,4 @@
-import { PlaceholderMedia } from "@/components/media/placeholder-media";
+import Image from "next/image";
 import { AddToCartButton } from "@/components/shop/add-to-cart-button";
 import { ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -19,20 +19,32 @@ export function ShopItemCard({
   const statusLine = item.productType === "service_deposit" ? item.notes : getCartProductDescriptor(item);
 
   return (
-    <Card className="flex min-h-[420px] flex-col overflow-hidden">
-      <PlaceholderMedia
-        src={item.image}
-        title={item.title}
-        kicker={item.brand}
-        className="h-44 rounded-none border-0"
-        priority={priority}
-      />
+    <Card className="flex min-h-[460px] flex-col overflow-hidden">
+      <div className="relative h-48 border-b border-zinc-200 bg-zinc-50 dark:border-white/10 dark:bg-graphite-950">
+        <Image
+          src={item.image}
+          alt={item.imageAlt ?? item.title}
+          fill
+          priority={priority}
+          sizes="(min-width: 1280px) 320px, (min-width: 768px) 50vw, 100vw"
+          className="object-contain p-5"
+        />
+      </div>
       <div className="flex flex-1 flex-col p-5">
         <div className="flex items-start justify-between gap-4">
-          <p className="technical-label text-cyan-700 dark:text-cyan-300">{item.category}</p>
+          <div>
+            <p className="technical-label text-cyan-700 dark:text-cyan-300">{item.category}</p>
+            {item.sku ? (
+              <p className="mt-2 font-mono text-xs font-black uppercase text-zinc-500 dark:text-zinc-400">
+                {item.sku}
+              </p>
+            ) : null}
+          </div>
           <p className="text-right text-xl font-black text-zinc-950 dark:text-track-white">{item.priceLabel}</p>
         </div>
-        <h3 className="mt-5 text-2xl font-black uppercase text-zinc-950 dark:text-track-white">{item.title}</h3>
+        <h3 className="mt-5 break-words text-xl font-black uppercase leading-7 text-zinc-950 dark:text-track-white">
+          {item.title}
+        </h3>
         <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-track-muted">{item.shortDescription}</p>
         <p className="mt-4 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">{statusLine}</p>
         <div className="mt-auto grid gap-3 pt-8">

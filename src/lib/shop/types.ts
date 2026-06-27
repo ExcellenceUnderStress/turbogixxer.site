@@ -25,10 +25,12 @@ export type PaymentMode = "deposit" | "paid_upfront" | "request_quote" | "coming
 
 export type ShopProduct = BookingRequirements & {
   slug: string;
+  sku?: string;
   title: string;
   brand: string;
   collection: ProductCollection;
   category: string;
+  family?: string;
   productType: ProductType;
   paymentMode: PaymentMode;
   fulfillmentType: FulfillmentType;
@@ -38,8 +40,17 @@ export type ShopProduct = BookingRequirements & {
   shortDescription: string;
   longDescription: string;
   image: string;
+  imageAlt?: string;
+  previewImage?: string;
+  detailImage?: string;
+  galleryImages?: string[];
   ctaLabel: string;
   ctaHref: string;
   notes: string;
+  bestFit?: string[];
+  chooseThisInstead?: string[];
+  applicationNotes?: string[];
+  pdfSourcePages?: string;
+  sourceNotes?: string;
   serviceSlug?: string;
 };
