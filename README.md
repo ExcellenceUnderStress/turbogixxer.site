@@ -35,3 +35,7 @@ No required secrets are needed for the current frontend foundation. Public media
 Navigation, service paths, platform lists, build placeholders, shop products, media references, and site metadata live in `src/content/`.
 
 Media paths are routed through `src/lib/media.ts` so components consume centralized CDN paths instead of raw S3 or scattered hardcoded URLs.
+
+## Plans
+
+- `docs/product-integration-plan.md` captures the v1 shop product, Stripe Checkout, and order-record plan.
