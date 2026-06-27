@@ -11,6 +11,7 @@ import {
   CART_STORAGE_KEY,
   clampCartQuantity,
   formatCartPrice,
+  getCartProductDescriptor,
   getCartQuantity,
   getCartSubtotalCents,
   resolveCartItems
@@ -235,7 +236,7 @@ function DrawerItem({ item }: { item: ResolvedCartItem }) {
             {item.product.title}
           </h3>
           <p className="mt-2 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">
-            {item.product.paymentMode.replaceAll("_", " ")}
+            {getCartProductDescriptor(item.product)}
           </p>
         </div>
         <p className="shrink-0 text-sm font-black text-zinc-950 dark:text-track-white">
@@ -281,7 +282,7 @@ function CartDrawer() {
           <div>
             <p className="technical-label text-cyan-700 dark:text-cyan-300">Cart</p>
             <h2 className="mt-2 text-xl font-black uppercase text-zinc-950 dark:text-track-white">
-              {cartCount ? `${cartCount} selected` : "Empty cart"}
+              {cartCount ? `${cartCount} in cart` : "Empty cart"}
             </h2>
           </div>
           <button
@@ -306,7 +307,7 @@ function CartDrawer() {
               <div>
                 <ShoppingCart className="mx-auto h-10 w-10 text-cyan-700 dark:text-cyan-300" />
                 <p className="mt-4 text-sm font-bold uppercase leading-6 text-zinc-600 dark:text-track-muted">
-                  Add Haltech hardware, deposits, reviews, or consults from the Shop.
+                  Add Haltech hardware, deposits, planning products, or consults from the Shop.
                 </p>
               </div>
             </div>
@@ -315,17 +316,17 @@ function CartDrawer() {
 
         <div className="border-t border-zinc-200 p-5 dark:border-white/10">
           <div className="flex items-center justify-between gap-4">
-            <p className="text-xs font-black uppercase text-zinc-500 dark:text-track-muted">Payable subtotal</p>
+            <p className="text-xs font-black uppercase text-zinc-500 dark:text-track-muted">Subtotal</p>
             <p className="text-xl font-black text-zinc-950 dark:text-track-white">{formatCartPrice(subtotalCents)}</p>
           </div>
           <div className="mt-4 grid gap-3">
             <Link
               href="/cart"
-              data-testid="review-cart-link"
+              data-testid="checkout-link"
               className="theme-transition inline-flex min-h-11 items-center justify-center rounded-md border border-cyan-500 bg-cyan-500 px-5 py-3 text-center text-xs font-black uppercase leading-none text-graphite-950 shadow-cyan hover:border-cyan-400 hover:bg-cyan-400"
               onClick={closeCart}
             >
-              Review request
+              Checkout
             </Link>
             <Link
               href="/shop"

@@ -9,7 +9,7 @@ export default function WiringAddOnsPage() {
     <ShopCollectionPage
       collection="wiring-add-ons"
       title="Wiring Add-ons"
-      copy="Harness, sensor, relay, and CAN add-ons will live here as Shop products without replacing wiring service review."
+      copy="Harness, sensor, relay, and CAN add-ons will live here as Shop products without replacing wiring service scope."
     />
   );
 }

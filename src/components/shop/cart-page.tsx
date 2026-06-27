@@ -1,13 +1,13 @@
 "use client";
 
-import { Mail, Minus, Plus, ShoppingCart, Trash2 } from "lucide-react";
+import { Minus, Plus, ShoppingBag, ShoppingCart, Trash2 } from "lucide-react";
 import Link from "next/link";
 import type { ChangeEvent, FormEvent } from "react";
 import { useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { site } from "@/content/site";
-import { formatCartPrice } from "@/lib/shop/cart";
+import { formatCartPrice, getCartProductDescriptor } from "@/lib/shop/cart";
 import type { ResolvedCartItem } from "@/lib/shop/cart";
 import { useCart } from "./cart-provider";
 
@@ -72,7 +72,7 @@ function cartLinesForEmail(items: ResolvedCartItem[]) {
         `${item.quantity} x ${item.product.title}`,
         `Collection: ${item.product.collection}`,
         `Category: ${item.product.category}`,
-        `Payment mode: ${item.product.paymentMode}`,
+        `Product type: ${getCartProductDescriptor(item.product)}`,
         `Price: ${formatCartPrice(linePrice)}`,
         `Notes: ${item.product.notes}`
       ].join("\n");
@@ -82,7 +82,7 @@ function cartLinesForEmail(items: ResolvedCartItem[]) {
 
 function buildEmailBody(form: CheckoutFormState, items: ResolvedCartItem[], subtotalCents: number) {
   return [
-    "TurboGixxer shop request",
+    "TurboGixxer purchase order",
     "",
     "Customer",
     `Name: ${formatValue(form.name)}`,
@@ -93,7 +93,7 @@ function buildEmailBody(form: CheckoutFormState, items: ResolvedCartItem[], subt
     "Cart",
     cartLinesForEmail(items),
     "",
-    `Payable subtotal shown: ${formatCartPrice(subtotalCents)}`,
+    `Subtotal shown: ${formatCartPrice(subtotalCents)}`,
     "",
     "Additional notes",
     formatValue(form.notes)
@@ -155,7 +155,7 @@ function CartLineItem({ item }: { item: ResolvedCartItem }) {
             {item.product.shortDescription}
           </p>
           <p className="mt-3 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">
-            {item.product.paymentMode.replaceAll("_", " ")}
+            {getCartProductDescriptor(item.product)}
           </p>
         </div>
         <p className="text-xl font-black text-zinc-950 dark:text-track-white">{formatCartPrice(linePrice)}</p>
@@ -206,11 +206,10 @@ export function CartPage() {
   const { clearCart, resolvedItems, subtotalCents } = useCart();
   const [form, setForm] = useState(defaultForm);
   const [errors, setErrors] = useState<CheckoutErrors>({});
-  const [isPrepared, setIsPrepared] = useState(false);
 
   const mailtoHref = useMemo(() => {
     const subjectDetail = form.vehicle.trim() || form.name.trim() || "shop cart";
-    const subject = `TurboGixxer shop request - ${subjectDetail}`;
+    const subject = `TurboGixxer purchase order - ${subjectDetail}`;
     const body = buildEmailBody(form, resolvedItems, subtotalCents);
 
     return `mailto:${site.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -233,7 +232,6 @@ export function CartPage() {
       [field]: value
     }));
     clearError(field);
-    setIsPrepared(false);
   }
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -241,7 +239,10 @@ export function CartPage() {
 
     const nextErrors = validateForm(form);
     setErrors(nextErrors);
-    setIsPrepared(Object.keys(nextErrors).length === 0);
+
+    if (Object.keys(nextErrors).length === 0) {
+      window.location.href = mailtoHref;
+    }
   }
 
   if (!resolvedItems.length) {
@@ -251,7 +252,7 @@ export function CartPage() {
           <ShoppingCart className="mx-auto h-12 w-12 text-cyan-700 dark:text-cyan-300" />
           <h2 className="mt-5 text-3xl font-black uppercase text-zinc-950 dark:text-track-white">Cart is empty.</h2>
           <p className="mt-4 max-w-xl text-sm leading-6 text-zinc-600 dark:text-track-muted">
-            Add Haltech hardware, tuning deposits, fitment reviews, or consults from the Shop before submitting a request.
+            Add Haltech hardware, tuning deposits, planning products, or consults from the Shop before checkout.
           </p>
           <Link
             href="/shop"
@@ -270,7 +271,7 @@ export function CartPage() {
         <div className="flex flex-col justify-between gap-4 border-b border-zinc-200 pb-5 dark:border-white/10 sm:flex-row sm:items-end">
           <div>
             <p className="technical-label text-cyan-700 dark:text-cyan-300">Selected items</p>
-            <h2 className="mt-3 text-3xl font-black uppercase text-zinc-950 dark:text-track-white">Review request.</h2>
+            <h2 className="mt-3 text-3xl font-black uppercase text-zinc-950 dark:text-track-white">Order summary.</h2>
           </div>
           <Button type="button" variant="ghost" onClick={clearCart}>
             Clear cart
@@ -284,13 +285,13 @@ export function CartPage() {
       </Card>
 
       <Card className="h-fit p-5 sm:p-6">
-        <p className="technical-label text-cyan-700 dark:text-cyan-300">Request details</p>
+        <p className="technical-label text-cyan-700 dark:text-cyan-300">Customer details</p>
         <div className="mt-4 flex items-center justify-between gap-4">
           <h2 className="text-2xl font-black uppercase text-zinc-950 dark:text-track-white">Subtotal</h2>
           <p className="text-2xl font-black text-zinc-950 dark:text-track-white">{formatCartPrice(subtotalCents)}</p>
         </div>
         <p className="mt-3 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">
-          Quote-only items stay in the request and paid items show the payable subtotal before final approval.
+          Items without a configured price show price at checkout. Paid items count toward the subtotal.
         </p>
 
         <form className="mt-6 grid gap-4" onSubmit={handleSubmit} noValidate>
@@ -345,18 +346,9 @@ export function CartPage() {
           </label>
 
           <Button type="submit" className="w-full gap-2">
-            <Mail className="h-4 w-4" />
-            Prepare request email
+            <ShoppingBag className="h-4 w-4" />
+            Place order
           </Button>
-          {isPrepared ? (
-            <a
-              href={mailtoHref}
-              data-testid="open-email-request"
-              className="theme-transition inline-flex min-h-11 items-center justify-center rounded-md border border-zinc-300 bg-white px-5 py-3 text-center text-xs font-black uppercase leading-none text-zinc-950 hover:border-cyan-500 hover:text-cyan-700 dark:border-white/20 dark:bg-white/[0.04] dark:text-track-white dark:hover:border-cyan-300/60 dark:hover:text-cyan-200"
-            >
-              Open email request
-            </a>
-          ) : null}
         </form>
       </Card>
     </div>

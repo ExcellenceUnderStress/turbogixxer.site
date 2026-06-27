@@ -3,10 +3,7 @@ import { AddToCartButton } from "@/components/shop/add-to-cart-button";
 import { ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import type { ShopProduct } from "@/content/shop-products";
-
-function formatToken(value: string) {
-  return value.replaceAll("_", " ");
-}
+import { getCartProductDescriptor } from "@/lib/shop/cart";
 
 export function ShopItemCard({
   item,
@@ -19,8 +16,7 @@ export function ShopItemCard({
   ctaLabel?: string;
   priority?: boolean;
 }) {
-  const statusLine =
-    item.productType === "service_deposit" ? item.notes : `${formatToken(item.productType)} / ${formatToken(item.paymentMode)}`;
+  const statusLine = item.productType === "service_deposit" ? item.notes : getCartProductDescriptor(item);
 
   return (
     <Card className="flex min-h-[420px] flex-col overflow-hidden">

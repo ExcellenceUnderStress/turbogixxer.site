@@ -14,12 +14,6 @@ export type ResolvedCartItem = {
 
 export const CART_STORAGE_KEY = "turbogixxer-cart-v1";
 
-const paidPaymentModes = new Set(["deposit", "paid_upfront", "direct_checkout"]);
-
-export function isQuoteOnlyProduct(product: ShopProduct) {
-  return !product.amountCents || product.paymentMode === "request_quote" || product.paymentMode === "coming_soon";
-}
-
 export function isCartEligibleProduct(product: ShopProduct) {
   return product.status === "active" && product.paymentMode !== "coming_soon";
 }
@@ -29,7 +23,28 @@ export function getCartActionLabel(product: ShopProduct) {
     return "Staged";
   }
 
-  return paidPaymentModes.has(product.paymentMode) ? "Add to cart" : "Add to quote cart";
+  return "Add to cart";
+}
+
+export function getCartProductDescriptor(product: ShopProduct) {
+  switch (product.productType) {
+    case "service_deposit":
+      return "Deposit";
+    case "paid_consultation":
+      return "Consult";
+    case "paid_review":
+      return "Planning product";
+    case "hardware_product":
+      return "Hardware";
+    case "wiring_add_on":
+      return "Wiring add-on";
+    case "in_house_product":
+      return "In-house product";
+    case "merch":
+      return "Merch";
+    default:
+      return "Shop item";
+  }
 }
 
 export function getMaxCartQuantity(product: ShopProduct) {
@@ -75,7 +90,7 @@ export function getCartQuantity(items: Array<{ quantity: number }>) {
 
 export function formatCartPrice(amountCents?: number | null) {
   if (!amountCents) {
-    return "Quote";
+    return "Price at checkout";
   }
 
   return new Intl.NumberFormat("en-US", {

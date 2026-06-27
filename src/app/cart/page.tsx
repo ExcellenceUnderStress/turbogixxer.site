@@ -11,8 +11,8 @@ export default function CartRoutePage() {
     <>
       <PageHeader
         eyebrow="Cart"
-        title="Review shop request."
-        copy="Review Haltech hardware, deposits, fitment reviews, and consults before submitting the request."
+        title="Checkout."
+        copy="Complete checkout for Haltech hardware, deposits, planning products, and consults."
       />
       <Section>
         <CartPage />

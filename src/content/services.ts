@@ -73,11 +73,11 @@ export const servicePaths = [
   {
     slug: "haltech-fitment",
     title: "Haltech Sales & Support",
-    price: "Quote/review first",
+    price: "Checkout-ready",
     href: "/shop/haltech",
-    summary: "Dealer-backed Haltech product support, fitment review, wiring context, and calibration planning.",
+    summary: "Dealer-backed Haltech product support, fitment planning, wiring context, and calibration planning.",
     points: ["Product fitment", "NSP setup", "Support before checkout"],
-    note: "Hardware, paid reviews, and quote requests live in Shop."
+    note: "Hardware, planning products, and checkout items live in Shop."
   }
 ] as const;
 
@@ -157,7 +157,7 @@ export const servicePages = {
     eyebrow: "Haltech",
     title: "Dealer-backed fitment and setup support.",
     copy:
-      "Haltech support now lives with the Shop product system. Product choice, fitment review, NSP setup, wiring strategy, and calibration planning should match the build before checkout.",
+      "Haltech support now lives with the Shop product system. Product choice, fitment planning, NSP setup, wiring strategy, and calibration planning should match the build before checkout.",
     serviceSlugs: ["haltech-fitment", "wiring-harness"],
     bullets: [
       "ECU, IO, sensor, and CAN planning",
