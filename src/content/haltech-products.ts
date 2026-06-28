@@ -303,9 +303,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -351,9 +351,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -398,9 +398,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -445,9 +445,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -493,9 +493,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -541,9 +541,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -592,9 +592,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -641,9 +641,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -692,9 +692,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -743,9 +743,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -791,9 +791,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -839,9 +839,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -887,9 +887,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -935,9 +935,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -983,9 +983,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1030,9 +1030,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1077,9 +1077,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1384,9 +1384,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1435,9 +1435,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1484,9 +1484,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1532,9 +1532,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1580,9 +1580,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1628,9 +1628,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1676,9 +1676,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1724,9 +1724,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1773,9 +1773,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1821,9 +1821,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1869,9 +1869,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1918,9 +1918,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -1966,9 +1966,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2014,9 +2014,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2118,7 +2118,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Elite 750, Elite 1500, or Elite 2500 when the application needs the capabilities described in the main ECU comparison.",
       "Choose Nexus R3 or R5 when integrated power distribution, logging, and wideband control are part of the requirement.",
-      "Choose direct plug-in or adaptor hardware when a supported factory harness should be retained."
+      "Choose a generic universal wire-in harness when retaining the factory harness is not the right plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2169,7 +2169,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Elite 750, Elite 1500, or Elite 2500 when the application needs the capabilities described in the main ECU comparison.",
       "Choose Nexus R3 or R5 when integrated power distribution, logging, and wideband control are part of the requirement.",
-      "Choose direct plug-in or adaptor hardware when a supported factory harness should be retained."
+      "Choose a generic universal wire-in harness when retaining the factory harness is not the right plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2219,7 +2219,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Elite 750, Elite 1500, or Elite 2500 when the application needs the capabilities described in the main ECU comparison.",
       "Choose Nexus R3 or R5 when integrated power distribution, logging, and wideband control are part of the requirement.",
-      "Choose direct plug-in or adaptor hardware when a supported factory harness should be retained."
+      "Choose a generic universal wire-in harness when retaining the factory harness is not the right plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2269,7 +2269,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Elite 750, Elite 1500, or Elite 2500 when the application needs the capabilities described in the main ECU comparison.",
       "Choose Nexus R3 or R5 when integrated power distribution, logging, and wideband control are part of the requirement.",
-      "Choose direct plug-in or adaptor hardware when a supported factory harness should be retained."
+      "Choose a generic universal wire-in harness when retaining the factory harness is not the right plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2520,9 +2520,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2568,9 +2568,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2616,9 +2616,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2664,9 +2664,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2712,9 +2712,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2761,8 +2761,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -2809,8 +2809,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -2859,8 +2859,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -2907,8 +2907,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -2955,8 +2955,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3005,8 +3005,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3055,8 +3055,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3104,8 +3104,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3154,8 +3154,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3202,8 +3202,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3250,8 +3250,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3300,8 +3300,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3348,8 +3348,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3395,8 +3395,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3447,8 +3447,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3499,8 +3499,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3547,8 +3547,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3595,8 +3595,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3650,8 +3650,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3705,8 +3705,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3759,8 +3759,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3808,8 +3808,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3863,8 +3863,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3918,8 +3918,8 @@ export const haltechProducts: ShopProduct[] = [
       "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
     ],
     chooseThisInstead: [
-      "Choose a plug-and-play adaptor harness when the buyer wants a universal Elite ECU on supported factory connectors.",
-      "Choose a terminated engine harness for supported swap engines where clean replacement wiring matters.",
+      "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
+      "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
       "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
@@ -3967,7 +3967,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4014,7 +4014,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4062,7 +4062,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4109,7 +4109,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4157,7 +4157,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4205,7 +4205,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4253,7 +4253,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4304,7 +4304,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4354,7 +4354,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4402,7 +4402,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R5 instead when the build needs more I/O, dual wideband support, or three CAN networks.",
       "Choose Elite 1500 or Elite 2500 instead when the build does not need integrated power distribution.",
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory-harness replacement is the goal."
+      "Choose a generic universal wire-in harness when the build should not depend on factory-harness replacement."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4500,7 +4500,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R3 instead when the build needs Nexus integration in a smaller package with less I/O.",
       "Choose Elite 2500 instead when the build needs an advanced universal ECU but not the integrated PDM/wideband/logging architecture.",
-      "Choose a direct plug-in ECU when a supported factory-harness replacement is the priority."
+      "Choose a generic universal wire-in harness when factory-harness replacement is not the priority."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4548,7 +4548,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R3 instead when the build needs Nexus integration in a smaller package with less I/O.",
       "Choose Elite 2500 instead when the build needs an advanced universal ECU but not the integrated PDM/wideband/logging architecture.",
-      "Choose a direct plug-in ECU when a supported factory-harness replacement is the priority."
+      "Choose a generic universal wire-in harness when factory-harness replacement is not the priority."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4599,7 +4599,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R3 instead when the build needs Nexus integration in a smaller package with less I/O.",
       "Choose Elite 2500 instead when the build needs an advanced universal ECU but not the integrated PDM/wideband/logging architecture.",
-      "Choose a direct plug-in ECU when a supported factory-harness replacement is the priority."
+      "Choose a generic universal wire-in harness when factory-harness replacement is not the priority."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4650,7 +4650,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R3 instead when the build needs Nexus integration in a smaller package with less I/O.",
       "Choose Elite 2500 instead when the build needs an advanced universal ECU but not the integrated PDM/wideband/logging architecture.",
-      "Choose a direct plug-in ECU when a supported factory-harness replacement is the priority."
+      "Choose a generic universal wire-in harness when factory-harness replacement is not the priority."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4701,7 +4701,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R3 instead when the build needs Nexus integration in a smaller package with less I/O.",
       "Choose Elite 2500 instead when the build needs an advanced universal ECU but not the integrated PDM/wideband/logging architecture.",
-      "Choose a direct plug-in ECU when a supported factory-harness replacement is the priority."
+      "Choose a generic universal wire-in harness when factory-harness replacement is not the priority."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4750,7 +4750,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R3 instead when the build needs Nexus integration in a smaller package with less I/O.",
       "Choose Elite 2500 instead when the build needs an advanced universal ECU but not the integrated PDM/wideband/logging architecture.",
-      "Choose a direct plug-in ECU when a supported factory-harness replacement is the priority."
+      "Choose a generic universal wire-in harness when factory-harness replacement is not the priority."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4798,7 +4798,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose Nexus R3 instead when the build needs Nexus integration in a smaller package with less I/O.",
       "Choose Elite 2500 instead when the build needs an advanced universal ECU but not the integrated PDM/wideband/logging architecture.",
-      "Choose a direct plug-in ECU when a supported factory-harness replacement is the priority."
+      "Choose a generic universal wire-in harness when factory-harness replacement is not the priority."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4847,9 +4847,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4898,9 +4898,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4949,9 +4949,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5000,9 +5000,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5051,9 +5051,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5102,9 +5102,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5153,9 +5153,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5203,9 +5203,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5254,9 +5254,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5305,9 +5305,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5356,9 +5356,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5407,9 +5407,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5458,9 +5458,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5509,9 +5509,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5560,9 +5560,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5611,9 +5611,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5662,9 +5662,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5713,9 +5713,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5764,9 +5764,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5815,9 +5815,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5866,9 +5866,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5917,9 +5917,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -5968,9 +5968,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6019,9 +6019,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6070,9 +6070,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6121,9 +6121,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6172,9 +6172,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6223,9 +6223,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6274,9 +6274,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6325,9 +6325,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6376,9 +6376,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6427,9 +6427,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6478,9 +6478,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6529,9 +6529,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6580,9 +6580,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6631,9 +6631,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6682,9 +6682,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6733,9 +6733,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6784,9 +6784,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6839,9 +6839,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6892,9 +6892,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6944,9 +6944,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -6993,9 +6993,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -7045,9 +7045,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -7100,9 +7100,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -7153,9 +7153,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -7205,9 +7205,9 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -9332,14 +9332,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9379,14 +9379,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9426,14 +9426,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9473,14 +9473,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9520,14 +9520,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9567,14 +9567,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9614,14 +9614,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9661,14 +9661,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9708,14 +9708,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9755,14 +9755,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9802,14 +9802,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9849,14 +9849,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9896,14 +9896,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9943,14 +9943,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -9990,14 +9990,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10037,14 +10037,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10084,14 +10084,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10131,14 +10131,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10178,14 +10178,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10225,14 +10225,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10272,14 +10272,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10319,14 +10319,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10366,14 +10366,14 @@ export const haltechProducts: ShopProduct[] = [
       "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle has a direct replacement ECU and the simplest install path is desired.",
-      "Choose a universal wire-in harness when the car is not using factory wiring or the application is unsupported.",
-      "Choose a terminated engine harness for supported swap engines where a clean engine-side harness is the priority."
+      "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
+      "Choose a generic universal wire-in harness when the car is not staying on a verified factory wiring plan.",
+      "Choose a generic universal wire-in harness when the build needs a fully custom engine-side wiring plan."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10410,17 +10410,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10457,17 +10457,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10504,17 +10504,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10551,17 +10551,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10598,17 +10598,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10645,17 +10645,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10692,17 +10692,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10739,17 +10739,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10786,17 +10786,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10833,17 +10833,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10880,17 +10880,17 @@ export const haltechProducts: ShopProduct[] = [
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
       "Custom builds, race cars, unsupported vehicles, or wiring plans starting from scratch.",
-      "Applications where the ECU side should be cleanly terminated but engine-side routing must be custom."
+      "Applications where the ECU-side connector should be handled cleanly while engine-side routing stays custom."
     ],
     chooseThisInstead: [
-      "Choose a direct plug-in ECU when the exact vehicle is supported and factory harness replacement is the objective.",
-      "Choose a plug-and-play adaptor harness when supported factory connectors can still be used.",
-      "Choose a terminated engine harness when the supported engine swap package matches Haltech harness coverage."
+      "Choose generic universal wire-in planning when factory-harness assumptions need to be checked first.",
+      "Choose a generic universal wire-in harness when factory connector reuse is not the right wiring strategy.",
+      "Choose generic universal wire-in planning when the build needs wiring support outside stocked catalog parts."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
       "PDF-supported family with optimized media in the production shop prefix.",
-      "Harness choice must follow ECU selection and wiring approach: direct plug-in, adaptor, terminated, or universal wire-in."
+      "Harness choice should follow ECU selection and generic universal wire-in planning."
     ],
     pdfSourcePages: "4,12-13",
     sourceNotes: "PDF-supported family row from the optimized Haltech inventory.",
@@ -10933,7 +10933,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -10980,7 +10980,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11027,7 +11027,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11075,7 +11075,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11122,7 +11122,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11169,7 +11169,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11216,7 +11216,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11263,7 +11263,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11310,7 +11310,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11359,7 +11359,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11406,7 +11406,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11453,7 +11453,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11500,7 +11500,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11547,7 +11547,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11594,7 +11594,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11641,7 +11641,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11688,7 +11688,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11735,7 +11735,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11782,7 +11782,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11829,7 +11829,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11876,7 +11876,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11923,7 +11923,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -11970,7 +11970,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -12017,7 +12017,7 @@ export const haltechProducts: ShopProduct[] = [
     chooseThisInstead: [
       "Choose ECU hardware first when the controller platform has not been selected.",
       "Choose CAN accessories when the issue is network expansion rather than ECU or engine harness routing.",
-      "Choose a universal or terminated harness when the build requires a larger wiring architecture decision."
+      "Choose a generic universal wire-in harness when the build requires a larger wiring architecture decision."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
