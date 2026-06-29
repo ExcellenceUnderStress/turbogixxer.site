@@ -6,6 +6,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { ChevronRight, Gauge } from "lucide-react";
 import { getProductBySku } from "@/content/shop-products";
+import { getShopProductDisplayTitle, getShopProductImageAlt } from "@/lib/shop/display";
 
 type TabKey = "Haltech" | "Tuning Deposits" | "Fuel Injector Clinic";
 
@@ -15,6 +16,7 @@ type ShopCard = {
   summary: string;
   href: string;
   image: string;
+  imageAlt?: string;
   imageFit?: "contain" | "cover";
   cta: string;
   status: "Active" | "Draft";
@@ -46,10 +48,11 @@ const featuredHaltechCards = ["HT-193000", "HT-195000", "HT-151300", "HT-060090"
     return [
       {
         eyebrow: product.category,
-        title: product.title,
+        title: getShopProductDisplayTitle(product),
         summary: product.shortDescription,
         href: `/shop/haltech/${product.slug}`,
         image: product.image,
+        imageAlt: getShopProductImageAlt(product),
         imageFit: "contain",
         cta: "View details",
         status: "Active"
@@ -207,7 +210,7 @@ export default function Ecommerce7() {
                   <div className="relative aspect-[4/3] overflow-hidden bg-zinc-100 dark:bg-graphite-950">
                     <Image
                       src={item.image}
-                      alt={item.title}
+                      alt={item.imageAlt ?? item.title}
                       fill
                       sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
                       className={

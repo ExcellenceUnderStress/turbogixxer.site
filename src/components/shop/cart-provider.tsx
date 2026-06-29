@@ -17,6 +17,7 @@ import {
   resolveCartItems
 } from "@/lib/shop/cart";
 import type { CartItem, ResolvedCartItem } from "@/lib/shop/cart";
+import { getShopProductDisplayTitle } from "@/lib/shop/display";
 
 type CartContextValue = {
   items: CartItem[];
@@ -183,6 +184,7 @@ export function useCart() {
 function QuantityControls({ item }: { item: ResolvedCartItem }) {
   const { updateQuantity, removeItem } = useCart();
   const canAdjust = item.maxQuantity > 1;
+  const displayTitle = getShopProductDisplayTitle(item.product);
 
   if (!canAdjust) {
     return (
@@ -197,7 +199,7 @@ function QuantityControls({ item }: { item: ResolvedCartItem }) {
       <button
         type="button"
         className="theme-transition flex h-9 w-9 items-center justify-center text-zinc-600 hover:bg-zinc-100 hover:text-zinc-950 dark:text-track-muted dark:hover:bg-white/10 dark:hover:text-track-white"
-        aria-label={`Decrease ${item.product.title} quantity`}
+        aria-label={`Decrease ${displayTitle} quantity`}
         onClick={() => updateQuantity(item.product.slug, item.quantity - 1)}
       >
         <Minus className="h-4 w-4" />
@@ -206,7 +208,7 @@ function QuantityControls({ item }: { item: ResolvedCartItem }) {
       <button
         type="button"
         className="theme-transition flex h-9 w-9 items-center justify-center text-zinc-600 hover:bg-zinc-100 hover:text-zinc-950 dark:text-track-muted dark:hover:bg-white/10 dark:hover:text-track-white"
-        aria-label={`Increase ${item.product.title} quantity`}
+        aria-label={`Increase ${displayTitle} quantity`}
         onClick={() => updateQuantity(item.product.slug, item.quantity + 1)}
       >
         <Plus className="h-4 w-4" />
@@ -214,7 +216,7 @@ function QuantityControls({ item }: { item: ResolvedCartItem }) {
       <button
         type="button"
         className="theme-transition flex h-9 w-9 items-center justify-center border-l border-zinc-200 text-zinc-500 hover:bg-zinc-100 hover:text-red-600 dark:border-white/10 dark:text-track-muted dark:hover:bg-white/10 dark:hover:text-red-300"
-        aria-label={`Remove ${item.product.title}`}
+        aria-label={`Remove ${displayTitle}`}
         onClick={() => removeItem(item.product.slug)}
       >
         <Trash2 className="h-4 w-4" />
@@ -226,6 +228,7 @@ function QuantityControls({ item }: { item: ResolvedCartItem }) {
 function DrawerItem({ item }: { item: ResolvedCartItem }) {
   const { removeItem } = useCart();
   const linePrice = item.lineTotalCents ?? item.product.amountCents;
+  const displayTitle = getShopProductDisplayTitle(item.product);
 
   return (
     <li className="grid gap-4 border-b border-zinc-200 py-4 last:border-b-0 dark:border-white/10">
@@ -233,7 +236,7 @@ function DrawerItem({ item }: { item: ResolvedCartItem }) {
         <div>
           <p className="technical-label text-cyan-700 dark:text-cyan-300">{item.product.category}</p>
           <h3 className="mt-2 text-sm font-black uppercase leading-5 text-zinc-950 dark:text-track-white">
-            {item.product.title}
+            {displayTitle}
           </h3>
           <p className="mt-2 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">
             {getCartProductDescriptor(item.product)}

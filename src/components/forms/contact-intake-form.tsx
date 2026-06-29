@@ -9,6 +9,7 @@ import { requestServiceOptions } from "@/content/services";
 import { shopProducts } from "@/content/shop-products";
 import type { ShopProduct } from "@/content/shop-products";
 import { site } from "@/content/site";
+import { getShopProductDisplayTitle } from "@/lib/shop/display";
 
 type IntakeFormState = {
   name: string;
@@ -93,7 +94,7 @@ const intentOptions: IntentOption[] = [
     .filter((product) => product.slug === tuningDepositIntent && product.status !== "hidden")
     .map((product) => ({
       slug: product.slug,
-      title: product.title,
+      title: getShopProductDisplayTitle(product),
       category: product.category,
       price: product.priceLabel,
       for: productContext(product),

@@ -11,6 +11,7 @@ import {
   haltechSupportHardwareCards
 } from "@/content/haltech-guide";
 import { getProductsByCollection } from "@/content/shop-products";
+import { getShopProductDisplayTitle, getShopProductImageAlt } from "@/lib/shop/display";
 
 export const metadata = {
   title: "Haltech Products",
@@ -92,7 +93,7 @@ export default function HaltechCollectionPage() {
                 <div className="relative min-h-56 border-b border-zinc-200 bg-zinc-50 dark:border-white/10 dark:bg-graphite-950 md:border-b-0 md:border-r lg:border-b lg:border-r-0">
                   <Image
                     src={product.previewImage ?? product.image}
-                    alt={product.imageAlt ?? product.title}
+                    alt={getShopProductImageAlt(product)}
                     fill
                     priority={index === 0}
                     sizes="(min-width: 1280px) 360px, (min-width: 768px) 45vw, 100vw"
@@ -103,9 +104,6 @@ export default function HaltechCollectionPage() {
                   <div className="flex items-start justify-between gap-4">
                     <div>
                       <p className="technical-label text-cyan-700 dark:text-cyan-300">{guide.eyebrow}</p>
-                      <p className="mt-2 font-mono text-xs font-black uppercase text-zinc-500 dark:text-zinc-400">
-                        {product.sku}
-                      </p>
                     </div>
                     <p className="text-right text-lg font-black text-zinc-950 dark:text-track-white">
                       {product.priceLabel}
@@ -160,7 +158,7 @@ export default function HaltechCollectionPage() {
                   <div className="relative aspect-[4/3] border-b border-zinc-200 bg-zinc-50 dark:border-white/10 dark:bg-graphite-950">
                     <Image
                       src={product.image}
-                      alt={product.imageAlt ?? product.title}
+                      alt={getShopProductImageAlt(product)}
                       fill
                       sizes="(min-width: 1024px) 280px, (min-width: 640px) 45vw, 100vw"
                       className="object-contain p-4"
@@ -169,7 +167,7 @@ export default function HaltechCollectionPage() {
                   <div className="p-5">
                     <p className="technical-label text-cyan-700 dark:text-cyan-300">{support.eyebrow}</p>
                     <h3 className="mt-3 break-words text-lg font-black uppercase leading-6 text-zinc-950 dark:text-track-white">
-                      {product.title}
+                      {getShopProductDisplayTitle(product)}
                     </h3>
                     <p className="mt-3 text-sm leading-6 text-zinc-600 dark:text-track-muted">{support.summary}</p>
                     <ButtonLink href={`/shop/haltech/${product.slug}`} variant="ghost" className="mt-5 w-full">

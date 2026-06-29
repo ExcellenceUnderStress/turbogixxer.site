@@ -9,6 +9,7 @@ import { PageHeader } from "@/components/ui/page-header";
 import { Section } from "@/components/ui/section";
 import { getProductBySlug, getProductsByCollection } from "@/content/shop-products";
 import { getCartProductDescriptor } from "@/lib/shop/cart";
+import { getShopProductDisplayTitle, getShopProductImageAlt } from "@/lib/shop/display";
 
 export function generateStaticParams() {
   return getProductsByCollection("haltech").map((product) => ({ slug: product.slug }));
@@ -24,8 +25,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
   }
 
+  const displayTitle = getShopProductDisplayTitle(product);
+
   return {
-    title: product.title,
+    title: displayTitle,
     description: product.shortDescription
   };
 }
@@ -40,17 +43,19 @@ export default async function HaltechProductPage({ params }: { params: Promise<{
 
   const galleryImages = product.galleryImages?.slice(0, 6) ?? [];
   const detailImage = product.detailImage ?? product.previewImage ?? product.image;
+  const displayTitle = getShopProductDisplayTitle(product);
+  const imageAlt = getShopProductImageAlt(product);
 
   return (
     <>
-      <PageHeader eyebrow="Shop / Haltech" title={product.title} copy={product.shortDescription} />
+      <PageHeader eyebrow="Shop / Haltech" title={displayTitle} copy={product.shortDescription} />
       <Section>
         <div className="grid gap-6 lg:grid-cols-[0.9fr_1fr]">
           <div className="grid gap-4">
             <div className="relative min-h-[420px] overflow-hidden rounded-lg border border-zinc-200 bg-zinc-50 dark:border-white/10 dark:bg-graphite-950">
               <Image
                 src={detailImage}
-                alt={product.imageAlt ?? product.title}
+                alt={imageAlt}
                 fill
                 priority
                 sizes="(min-width: 1024px) 45vw, 100vw"
@@ -66,7 +71,7 @@ export default async function HaltechProductPage({ params }: { params: Promise<{
                   >
                     <Image
                       src={image}
-                      alt={`${product.title} preview ${index + 1}`}
+                      alt={`${displayTitle} preview ${index + 1}`}
                       fill
                       sizes="(min-width: 1024px) 180px, 33vw"
                       className="object-contain p-3"
@@ -79,7 +84,6 @@ export default async function HaltechProductPage({ params }: { params: Promise<{
           <Card className="p-6 lg:p-8">
             <div className="flex flex-wrap gap-2">
               <Badge>{product.category}</Badge>
-              {product.sku ? <Badge>{product.sku}</Badge> : null}
               {product.family ? <Badge>{product.family}</Badge> : null}
             </div>
             <h2 className="mt-5 text-4xl font-black uppercase text-zinc-950 dark:text-track-white">{product.priceLabel}</h2>

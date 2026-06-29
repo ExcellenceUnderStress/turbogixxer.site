@@ -9,6 +9,7 @@ import { Card } from "@/components/ui/card";
 import { site } from "@/content/site";
 import { formatCartPrice, getCartProductDescriptor } from "@/lib/shop/cart";
 import type { ResolvedCartItem } from "@/lib/shop/cart";
+import { getShopProductDisplayTitle } from "@/lib/shop/display";
 import { useCart } from "./cart-provider";
 
 type CheckoutFormState = {
@@ -68,8 +69,9 @@ function cartLinesForEmail(items: ResolvedCartItem[]) {
   return items
     .map((item) => {
       const linePrice = item.lineTotalCents ?? item.product.amountCents;
+      const displayTitle = getShopProductDisplayTitle(item.product);
       return [
-        `${item.quantity} x ${item.product.title}`,
+        `${item.quantity} x ${displayTitle}`,
         `Collection: ${item.product.collection}`,
         `Category: ${item.product.category}`,
         `Product type: ${getCartProductDescriptor(item.product)}`,
@@ -144,13 +146,14 @@ function CartLineItem({ item }: { item: ResolvedCartItem }) {
   const { removeItem, updateQuantity } = useCart();
   const linePrice = item.lineTotalCents ?? item.product.amountCents;
   const canAdjust = item.maxQuantity > 1;
+  const displayTitle = getShopProductDisplayTitle(item.product);
 
   return (
     <li className="grid gap-5 border-b border-zinc-200 py-5 last:border-b-0 dark:border-white/10">
       <div className="flex flex-col justify-between gap-4 sm:flex-row">
         <div>
           <p className="technical-label text-cyan-700 dark:text-cyan-300">{item.product.category}</p>
-          <h2 className="mt-2 text-xl font-black uppercase text-zinc-950 dark:text-track-white">{item.product.title}</h2>
+          <h2 className="mt-2 text-xl font-black uppercase text-zinc-950 dark:text-track-white">{displayTitle}</h2>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-zinc-600 dark:text-track-muted">
             {item.product.shortDescription}
           </p>
@@ -167,7 +170,7 @@ function CartLineItem({ item }: { item: ResolvedCartItem }) {
             <button
               type="button"
               className="theme-transition flex h-10 w-10 items-center justify-center text-zinc-600 hover:bg-zinc-100 hover:text-zinc-950 dark:text-track-muted dark:hover:bg-white/10 dark:hover:text-track-white"
-              aria-label={`Decrease ${item.product.title} quantity`}
+              aria-label={`Decrease ${displayTitle} quantity`}
               onClick={() => updateQuantity(item.product.slug, item.quantity - 1)}
             >
               <Minus className="h-4 w-4" />
@@ -178,7 +181,7 @@ function CartLineItem({ item }: { item: ResolvedCartItem }) {
             <button
               type="button"
               className="theme-transition flex h-10 w-10 items-center justify-center text-zinc-600 hover:bg-zinc-100 hover:text-zinc-950 dark:text-track-muted dark:hover:bg-white/10 dark:hover:text-track-white"
-              aria-label={`Increase ${item.product.title} quantity`}
+              aria-label={`Increase ${displayTitle} quantity`}
               onClick={() => updateQuantity(item.product.slug, item.quantity + 1)}
             >
               <Plus className="h-4 w-4" />

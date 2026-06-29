@@ -4,6 +4,11 @@ import { ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import type { ShopProduct } from "@/content/shop-products";
 import { getCartProductDescriptor } from "@/lib/shop/cart";
+import {
+  getShopProductDisplayTitle,
+  getShopProductImageAlt,
+  shouldShowShopProductSku
+} from "@/lib/shop/display";
 
 export function ShopItemCard({
   item,
@@ -17,13 +22,14 @@ export function ShopItemCard({
   priority?: boolean;
 }) {
   const statusLine = item.productType === "service_deposit" ? item.notes : getCartProductDescriptor(item);
+  const displayTitle = getShopProductDisplayTitle(item);
 
   return (
     <Card className="flex min-h-[460px] flex-col overflow-hidden">
       <div className="relative h-48 border-b border-zinc-200 bg-zinc-50 dark:border-white/10 dark:bg-graphite-950">
         <Image
           src={item.image}
-          alt={item.imageAlt ?? item.title}
+          alt={getShopProductImageAlt(item)}
           fill
           priority={priority}
           sizes="(min-width: 1280px) 320px, (min-width: 768px) 50vw, 100vw"
@@ -34,7 +40,7 @@ export function ShopItemCard({
         <div className="flex items-start justify-between gap-4">
           <div>
             <p className="technical-label text-cyan-700 dark:text-cyan-300">{item.category}</p>
-            {item.sku ? (
+            {item.sku && shouldShowShopProductSku(item) ? (
               <p className="mt-2 font-mono text-xs font-black uppercase text-zinc-500 dark:text-zinc-400">
                 {item.sku}
               </p>
@@ -43,7 +49,7 @@ export function ShopItemCard({
           <p className="text-right text-xl font-black text-zinc-950 dark:text-track-white">{item.priceLabel}</p>
         </div>
         <h3 className="mt-5 break-words text-xl font-black uppercase leading-7 text-zinc-950 dark:text-track-white">
-          {item.title}
+          {displayTitle}
         </h3>
         <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-track-muted">{item.shortDescription}</p>
         <p className="mt-4 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">{statusLine}</p>
