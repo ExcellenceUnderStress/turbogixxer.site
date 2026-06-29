@@ -271,11 +271,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150921-elite-1500-adaptor-harness-kits",
     sku: "HT-150921",
-    title: "Haltech HT-150921 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150921 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -286,10 +286,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150921/HT-150921_00/320w.webp"),
-    imageAlt: "Haltech HT-150921 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150921 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150921/HT-150921_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150921/HT-150921_00/1200w.avif"),
     galleryImages: [
@@ -299,8 +299,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150921-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -319,11 +319,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150922-elite-1500-adaptor-harness-kits",
     sku: "HT-150922",
-    title: "Haltech HT-150922 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150922 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -334,10 +334,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150922/HT-150922_00/320w.webp"),
-    imageAlt: "Haltech HT-150922 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150922 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150922/HT-150922_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150922/HT-150922_00/1200w.avif"),
     galleryImages: [
@@ -347,8 +347,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150922-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -367,11 +367,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150927-elite-1500-adaptor-harness-kits",
     sku: "HT-150927",
-    title: "Haltech HT-150927 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150927 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -381,10 +381,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150927/HT-150927_00/320w.webp"),
-    imageAlt: "Haltech HT-150927 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150927 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150927/HT-150927_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150927/HT-150927_00/1200w.avif"),
     galleryImages: [
@@ -394,8 +394,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150927-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -414,11 +414,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150928-elite-1500-adaptor-harness-kits",
     sku: "HT-150928",
-    title: "Haltech HT-150928 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150928 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -428,10 +428,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150928/HT-150928_00/320w.webp"),
-    imageAlt: "Haltech HT-150928 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150928 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150928/HT-150928_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150928/HT-150928_00/1200w.avif"),
     galleryImages: [
@@ -441,8 +441,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150928-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -461,11 +461,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150936-elite-1500-adaptor-harness-kits",
     sku: "HT-150936",
-    title: "Haltech HT-150936 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150936 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -476,10 +476,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150936/HT-150936_00/320w.webp"),
-    imageAlt: "Haltech HT-150936 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150936 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150936/HT-150936_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150936/HT-150936_00/1200w.avif"),
     galleryImages: [
@@ -489,8 +489,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150936-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -509,11 +509,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150939-elite-1500-adaptor-harness-kits",
     sku: "HT-150939",
-    title: "Haltech HT-150939 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150939 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -524,10 +524,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150939/HT-150939_00/320w.webp"),
-    imageAlt: "Haltech HT-150939 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150939 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150939/HT-150939_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150939/HT-150939_00/1200w.avif"),
     galleryImages: [
@@ -537,8 +537,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150939-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -557,11 +557,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150941-elite-1500-adaptor-harness-kits",
     sku: "HT-150941",
-    title: "Haltech HT-150941 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150941 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -572,10 +572,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150941/HT-150941_00/320w.webp"),
-    imageAlt: "Haltech HT-150941 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150941 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150941/HT-150941_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150941/HT-150941_00/1200w.avif"),
     galleryImages: [
@@ -588,8 +588,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150941-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -608,11 +608,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150942-elite-1500-adaptor-harness-kits",
     sku: "HT-150942",
-    title: "Haltech HT-150942 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150942 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -623,10 +623,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150942/HT-150942_00/320w.webp"),
-    imageAlt: "Haltech HT-150942 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150942 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150942/HT-150942_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150942/HT-150942_00/1200w.avif"),
     galleryImages: [
@@ -637,8 +637,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150942-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -657,11 +657,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150943-elite-1500-adaptor-harness-kits",
     sku: "HT-150943",
-    title: "Haltech HT-150943 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150943 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -672,10 +672,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150943/HT-150943_00/320w.webp"),
-    imageAlt: "Haltech HT-150943 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150943 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150943/HT-150943_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150943/HT-150943_00/1200w.avif"),
     galleryImages: [
@@ -688,8 +688,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150943-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -708,11 +708,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150944-elite-1500-adaptor-harness-kits",
     sku: "HT-150944",
-    title: "Haltech HT-150944 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150944 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -723,10 +723,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150944/HT-150944_00/320w.webp"),
-    imageAlt: "Haltech HT-150944 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150944 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150944/HT-150944_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150944/HT-150944_00/1200w.avif"),
     galleryImages: [
@@ -739,8 +739,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150944-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -759,11 +759,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150945-elite-1500-adaptor-harness-kits",
     sku: "HT-150945",
-    title: "Haltech HT-150945 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150945 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -774,10 +774,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150945/HT-150945_00/320w.webp"),
-    imageAlt: "Haltech HT-150945 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150945 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150945/HT-150945_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150945/HT-150945_00/1200w.avif"),
     galleryImages: [
@@ -787,8 +787,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150945-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -807,11 +807,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150950-elite-1500-adaptor-harness-kits",
     sku: "HT-150950",
-    title: "Haltech HT-150950 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150950 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -822,10 +822,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150950/HT-150950_00/320w.webp"),
-    imageAlt: "Haltech HT-150950 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150950 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150950/HT-150950_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150950/HT-150950_00/1200w.avif"),
     galleryImages: [
@@ -835,8 +835,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150950-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -855,11 +855,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150951-elite-1500-adaptor-harness-kits",
     sku: "HT-150951",
-    title: "Haltech HT-150951 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150951 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -870,10 +870,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150951/HT-150951_00/320w.webp"),
-    imageAlt: "Haltech HT-150951 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150951 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150951/HT-150951_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150951/HT-150951_00/1200w.avif"),
     galleryImages: [
@@ -883,8 +883,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150951-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -903,11 +903,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150952-elite-1500-adaptor-harness-kits",
     sku: "HT-150952",
-    title: "Haltech HT-150952 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150952 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -918,10 +918,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150952/HT-150952_00/320w.webp"),
-    imageAlt: "Haltech HT-150952 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150952 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150952/HT-150952_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150952/HT-150952_00/1200w.avif"),
     galleryImages: [
@@ -931,8 +931,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150952-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -951,11 +951,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150955-elite-1500-adaptor-harness-kits",
     sku: "HT-150955",
-    title: "Haltech HT-150955 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150955 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -966,10 +966,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,059",
     amountCents: 205900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150955/HT-150955_00/320w.webp"),
-    imageAlt: "Haltech HT-150955 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150955 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150955/HT-150955_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150955/HT-150955_00/1200w.avif"),
     galleryImages: [
@@ -979,8 +979,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150955-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -999,11 +999,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150960-elite-1500-adaptor-harness-kits",
     sku: "HT-150960",
-    title: "Haltech HT-150960 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150960 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1013,10 +1013,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150960/HT-150960_00/320w.webp"),
-    imageAlt: "Haltech HT-150960 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150960 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150960/HT-150960_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150960/HT-150960_00/1200w.avif"),
     galleryImages: [
@@ -1026,8 +1026,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150960-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1046,11 +1046,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150961-elite-1500-adaptor-harness-kits",
     sku: "HT-150961",
-    title: "Haltech HT-150961 Elite 1500 Adaptor Harness Kits",
+    title: "Haltech HT-150961 Elite 1500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 1500 Adaptor Harness Kits",
+    family: "Elite 1500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1060,10 +1060,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150961/HT-150961_00/320w.webp"),
-    imageAlt: "Haltech HT-150961 Elite 1500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150961 Elite 1500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150961/HT-150961_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-1500-adaptor-harness-kits/HT-150961/HT-150961_00/1200w.avif"),
     galleryImages: [
@@ -1073,8 +1073,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150961-elite-1500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1350,11 +1350,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151320-elite-2500-adaptor-harness-kits",
     sku: "HT-151320",
-    title: "Haltech HT-151320 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151320 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1365,10 +1365,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151320/HT-151320_00/320w.webp"),
-    imageAlt: "Haltech HT-151320 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151320 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151320/HT-151320_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151320/HT-151320_00/1200w.avif"),
     galleryImages: [
@@ -1380,8 +1380,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151320-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1400,11 +1400,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151321-elite-2500-adaptor-harness-kits",
     sku: "HT-151321",
-    title: "Haltech HT-151321 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151321 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1415,10 +1415,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151321/HT-151321_00/320w.webp"),
-    imageAlt: "Haltech HT-151321 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151321 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151321/HT-151321_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151321/HT-151321_00/1200w.avif"),
     galleryImages: [
@@ -1431,8 +1431,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151321-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1451,11 +1451,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151325-elite-2500-adaptor-harness-kits",
     sku: "HT-151325",
-    title: "Haltech HT-151325 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151325 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1466,10 +1466,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151325/HT-151325_00/320w.webp"),
-    imageAlt: "Haltech HT-151325 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151325 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151325/HT-151325_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151325/HT-151325_00/1200w.avif"),
     galleryImages: [
@@ -1480,8 +1480,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151325-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1500,11 +1500,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151328-elite-2500-adaptor-harness-kits",
     sku: "HT-151328",
-    title: "Haltech HT-151328 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151328 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1515,10 +1515,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151328/HT-151328_00/320w.webp"),
-    imageAlt: "Haltech HT-151328 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151328 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151328/HT-151328_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151328/HT-151328_00/1200w.avif"),
     galleryImages: [
@@ -1528,8 +1528,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151328-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1548,11 +1548,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151329-elite-2500-adaptor-harness-kits",
     sku: "HT-151329",
-    title: "Haltech HT-151329 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151329 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1563,10 +1563,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151329/HT-151329_00/320w.webp"),
-    imageAlt: "Haltech HT-151329 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151329 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151329/HT-151329_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151329/HT-151329_00/1200w.avif"),
     galleryImages: [
@@ -1576,8 +1576,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151329-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1596,11 +1596,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151331-elite-2500-adaptor-harness-kits",
     sku: "HT-151331",
-    title: "Haltech HT-151331 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151331 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1611,10 +1611,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151331/HT-151331_00/320w.webp"),
-    imageAlt: "Haltech HT-151331 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151331 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151331/HT-151331_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151331/HT-151331_00/1200w.avif"),
     galleryImages: [
@@ -1624,8 +1624,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151331-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1644,11 +1644,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151354-elite-2500-adaptor-harness-kits",
     sku: "HT-151354",
-    title: "Haltech HT-151354 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151354 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1659,10 +1659,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151354/HT-151354_00/320w.webp"),
-    imageAlt: "Haltech HT-151354 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151354 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151354/HT-151354_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151354/HT-151354_00/1200w.avif"),
     galleryImages: [
@@ -1672,8 +1672,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151354-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1692,11 +1692,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151356-elite-2500-adaptor-harness-kits",
     sku: "HT-151356",
-    title: "Haltech HT-151356 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151356 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1707,10 +1707,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151356/HT-151356_00/320w.webp"),
-    imageAlt: "Haltech HT-151356 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151356 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151356/HT-151356_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151356/HT-151356_00/1200w.avif"),
     galleryImages: [
@@ -1720,8 +1720,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151356-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1740,11 +1740,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151357-elite-2500-adaptor-harness-kits",
     sku: "HT-151357",
-    title: "Haltech HT-151357 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151357 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1755,10 +1755,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151357/HT-151357_00/320w.webp"),
-    imageAlt: "Haltech HT-151357 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151357 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151357/HT-151357_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151357/HT-151357_00/1200w.avif"),
     galleryImages: [
@@ -1769,8 +1769,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151357-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1789,11 +1789,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151358-elite-2500-adaptor-harness-kits",
     sku: "HT-151358",
-    title: "Haltech HT-151358 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151358 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1804,10 +1804,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151358/HT-151358_00/320w.webp"),
-    imageAlt: "Haltech HT-151358 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151358 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151358/HT-151358_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151358/HT-151358_00/1200w.avif"),
     galleryImages: [
@@ -1817,8 +1817,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151358-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1837,11 +1837,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151359-elite-2500-adaptor-harness-kits",
     sku: "HT-151359",
-    title: "Haltech HT-151359 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151359 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1852,10 +1852,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151359/HT-151359_00/320w.webp"),
-    imageAlt: "Haltech HT-151359 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151359 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151359/HT-151359_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151359/HT-151359_00/1200w.avif"),
     galleryImages: [
@@ -1865,8 +1865,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151359-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1885,11 +1885,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151389-elite-2500-adaptor-harness-kits",
     sku: "HT-151389",
-    title: "Haltech HT-151389 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151389 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1900,10 +1900,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151389/HT-151389_00/320w.webp"),
-    imageAlt: "Haltech HT-151389 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151389 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151389/HT-151389_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151389/HT-151389_00/1200w.avif"),
     galleryImages: [
@@ -1914,8 +1914,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151389-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1934,11 +1934,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151398-elite-2500-adaptor-harness-kits",
     sku: "HT-151398",
-    title: "Haltech HT-151398 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151398 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1949,10 +1949,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151398/HT-151398_00/320w.webp"),
-    imageAlt: "Haltech HT-151398 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151398 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151398/HT-151398_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151398/HT-151398_00/1200w.avif"),
     galleryImages: [
@@ -1962,8 +1962,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151398-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -1982,11 +1982,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-151399-elite-2500-adaptor-harness-kits",
     sku: "HT-151399",
-    title: "Haltech HT-151399 Elite 2500 Adaptor Harness Kits",
+    title: "Haltech HT-151399 Elite 2500 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 2500 Adaptor Harness Kits",
+    family: "Elite 2500 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -1997,10 +1997,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,419",
     amountCents: 241900,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151399/HT-151399_00/320w.webp"),
-    imageAlt: "Haltech HT-151399 Elite 2500 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-151399 Elite 2500 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151399/HT-151399_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-2500-adaptor-harness-kits/HT-151399/HT-151399_00/1200w.avif"),
     galleryImages: [
@@ -2010,8 +2010,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-151399-elite-2500-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -2488,11 +2488,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150621-elite-750-adaptor-harness-kits",
     sku: "HT-150621",
-    title: "Haltech HT-150621 Elite 750 Adaptor Harness Kits",
+    title: "Haltech HT-150621 Elite 750 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 750 Adaptor Harness Kits",
+    family: "Elite 750 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2503,10 +2503,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,655",
     amountCents: 165500,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150621/HT-150621_00/320w.webp"),
-    imageAlt: "Haltech HT-150621 Elite 750 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150621 Elite 750 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150621/HT-150621_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150621/HT-150621_00/1200w.avif"),
     galleryImages: [
@@ -2516,8 +2516,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150621-elite-750-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -2536,11 +2536,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150622-elite-750-adaptor-harness-kits",
     sku: "HT-150622",
-    title: "Haltech HT-150622 Elite 750 Adaptor Harness Kits",
+    title: "Haltech HT-150622 Elite 750 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 750 Adaptor Harness Kits",
+    family: "Elite 750 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2551,10 +2551,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,655",
     amountCents: 165500,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150622/HT-150622_00/320w.webp"),
-    imageAlt: "Haltech HT-150622 Elite 750 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150622 Elite 750 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150622/HT-150622_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150622/HT-150622_00/1200w.avif"),
     galleryImages: [
@@ -2564,8 +2564,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150622-elite-750-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -2584,11 +2584,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150647-elite-750-adaptor-harness-kits",
     sku: "HT-150647",
-    title: "Haltech HT-150647 Elite 750 Adaptor Harness Kits",
+    title: "Haltech HT-150647 Elite 750 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 750 Adaptor Harness Kits",
+    family: "Elite 750 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2599,10 +2599,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,655",
     amountCents: 165500,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150647/HT-150647_00/320w.webp"),
-    imageAlt: "Haltech HT-150647 Elite 750 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150647 Elite 750 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150647/HT-150647_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150647/HT-150647_00/1200w.avif"),
     galleryImages: [
@@ -2612,8 +2612,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150647-elite-750-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -2632,11 +2632,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150660-elite-750-adaptor-harness-kits",
     sku: "HT-150660",
-    title: "Haltech HT-150660 Elite 750 Adaptor Harness Kits",
+    title: "Haltech HT-150660 Elite 750 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 750 Adaptor Harness Kits",
+    family: "Elite 750 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2647,10 +2647,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,655",
     amountCents: 165500,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150660/HT-150660_00/320w.webp"),
-    imageAlt: "Haltech HT-150660 Elite 750 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150660 Elite 750 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150660/HT-150660_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150660/HT-150660_00/1200w.avif"),
     galleryImages: [
@@ -2660,8 +2660,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150660-elite-750-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -2680,11 +2680,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-150661-elite-750-adaptor-harness-kits",
     sku: "HT-150661",
-    title: "Haltech HT-150661 Elite 750 Adaptor Harness Kits",
+    title: "Haltech HT-150661 Elite 750 ECU Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite 750 Adaptor Harness Kits",
+    family: "Elite 750 ECU Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2695,10 +2695,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,655",
     amountCents: 165500,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150661/HT-150661_00/320w.webp"),
-    imageAlt: "Haltech HT-150661 Elite 750 Adaptor Harness Kits",
+    imageAlt: "Haltech HT-150661 Elite 750 ECU Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150661/HT-150661_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-750-adaptor-harness-kits/HT-150661/HT-150661_00/1200w.avif"),
     galleryImages: [
@@ -2708,8 +2708,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-150661-elite-750-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -2728,11 +2728,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-040003-elite-direct-plug-in-ecus",
     sku: "HT-040003",
-    title: "Haltech HT-040003 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-040003 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2742,10 +2742,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-040003/HT-040003_00/320w.webp"),
-    imageAlt: "Haltech HT-040003 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-040003 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-040003/HT-040003_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-040003/HT-040003_00/1200w.avif"),
     galleryImages: [
@@ -2757,13 +2757,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-040003-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2777,11 +2777,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055016-elite-direct-plug-in-ecus",
     sku: "HT-055016",
-    title: "Haltech HT-055016 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055016 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2792,10 +2792,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055016/HT-055016_00/320w.webp"),
-    imageAlt: "Haltech HT-055016 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055016 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055016/HT-055016_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055016/HT-055016_00/1200w.avif"),
     galleryImages: [
@@ -2805,13 +2805,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055016-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2825,11 +2825,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055045-elite-direct-plug-in-ecus",
     sku: "HT-055045",
-    title: "Haltech HT-055045 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055045 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2840,10 +2840,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055045/HT-055045_00/320w.webp"),
-    imageAlt: "Haltech HT-055045 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055045 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055045/HT-055045_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055045/HT-055045_00/1200w.avif"),
     galleryImages: [
@@ -2855,13 +2855,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055045-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2875,11 +2875,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055047-elite-direct-plug-in-ecus",
     sku: "HT-055047",
-    title: "Haltech HT-055047 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055047 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2890,10 +2890,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055047/HT-055047_00/320w.webp"),
-    imageAlt: "Haltech HT-055047 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055047 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055047/HT-055047_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055047/HT-055047_00/1200w.avif"),
     galleryImages: [
@@ -2903,13 +2903,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055047-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2923,11 +2923,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055048-elite-direct-plug-in-ecus",
     sku: "HT-055048",
-    title: "Haltech HT-055048 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055048 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2938,10 +2938,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055048/HT-055048_00/320w.webp"),
-    imageAlt: "Haltech HT-055048 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055048 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055048/HT-055048_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055048/HT-055048_00/1200w.avif"),
     galleryImages: [
@@ -2951,13 +2951,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055048-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -2971,11 +2971,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055050-elite-direct-plug-in-ecus",
     sku: "HT-055050",
-    title: "Haltech HT-055050 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055050 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -2986,10 +2986,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055050/HT-055050_00/320w.webp"),
-    imageAlt: "Haltech HT-055050 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055050 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055050/HT-055050_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055050/HT-055050_00/1200w.avif"),
     galleryImages: [
@@ -3001,13 +3001,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055050-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3021,11 +3021,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055064-elite-direct-plug-in-ecus",
     sku: "HT-055064",
-    title: "Haltech HT-055064 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055064 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3036,10 +3036,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055064/HT-055064_00/320w.webp"),
-    imageAlt: "Haltech HT-055064 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055064 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055064/HT-055064_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055064/HT-055064_00/1200w.avif"),
     galleryImages: [
@@ -3051,13 +3051,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055064-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3071,11 +3071,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055101-elite-direct-plug-in-ecus",
     sku: "HT-055101",
-    title: "Haltech HT-055101 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055101 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3085,10 +3085,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055101/HT-055101_00/320w.webp"),
-    imageAlt: "Haltech HT-055101 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055101 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055101/HT-055101_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055101/HT-055101_00/1200w.avif"),
     galleryImages: [
@@ -3100,13 +3100,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055101-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3120,11 +3120,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055105-elite-direct-plug-in-ecus",
     sku: "HT-055105",
-    title: "Haltech HT-055105 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055105 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3135,10 +3135,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055105/HT-055105_00/320w.webp"),
-    imageAlt: "Haltech HT-055105 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055105 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055105/HT-055105_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055105/HT-055105_00/1200w.avif"),
     galleryImages: [
@@ -3150,13 +3150,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055105-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3170,11 +3170,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055106-elite-direct-plug-in-ecus",
     sku: "HT-055106",
-    title: "Haltech HT-055106 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055106 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3185,10 +3185,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055106/HT-055106_00/320w.webp"),
-    imageAlt: "Haltech HT-055106 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055106 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055106/HT-055106_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055106/HT-055106_00/1200w.avif"),
     galleryImages: [
@@ -3198,13 +3198,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055106-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3218,11 +3218,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055107-elite-direct-plug-in-ecus",
     sku: "HT-055107",
-    title: "Haltech HT-055107 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055107 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3233,10 +3233,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055107/HT-055107_00/320w.webp"),
-    imageAlt: "Haltech HT-055107 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055107 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055107/HT-055107_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055107/HT-055107_00/1200w.avif"),
     galleryImages: [
@@ -3246,13 +3246,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055107-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3266,11 +3266,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055112-elite-direct-plug-in-ecus",
     sku: "HT-055112",
-    title: "Haltech HT-055112 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055112 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3281,10 +3281,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055112/HT-055112_00/320w.webp"),
-    imageAlt: "Haltech HT-055112 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055112 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055112/HT-055112_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055112/HT-055112_00/1200w.avif"),
     galleryImages: [
@@ -3296,13 +3296,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055112-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3316,11 +3316,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-055174-elite-direct-plug-in-ecus",
     sku: "HT-055174",
-    title: "Haltech HT-055174 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-055174 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3331,10 +3331,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,795",
     amountCents: 179500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055174/HT-055174_00/320w.webp"),
-    imageAlt: "Haltech HT-055174 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-055174 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055174/HT-055174_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-055174/HT-055174_00/1200w.avif"),
     galleryImages: [
@@ -3344,13 +3344,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-055174-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3364,11 +3364,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-131001-elite-direct-plug-in-ecus",
     sku: "HT-131001",
-    title: "Haltech HT-131001 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-131001 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3378,10 +3378,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-131001/HT-131001_00/320w.webp"),
-    imageAlt: "Haltech HT-131001 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-131001 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-131001/HT-131001_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-131001/HT-131001_00/1200w.avif"),
     galleryImages: [
@@ -3391,13 +3391,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-131001-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3411,11 +3411,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-154000-elite-direct-plug-in-ecus",
     sku: "HT-154000",
-    title: "Haltech HT-154000 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-154000 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3426,10 +3426,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,685",
     amountCents: 268500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-154000/HT-154000_00/320w.webp"),
-    imageAlt: "Haltech HT-154000 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-154000 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-154000/HT-154000_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-154000/HT-154000_00/1200w.avif"),
     galleryImages: [
@@ -3443,13 +3443,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-154000-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3463,11 +3463,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-154006-elite-direct-plug-in-ecus",
     sku: "HT-154006",
-    title: "Haltech HT-154006 Elite Direct Plug-in ECUs",
+    title: "Haltech HT-154006 Elite Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Elite Direct Plug-in ECUs",
+    family: "Elite Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3478,10 +3478,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,865",
     amountCents: 286500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-154006/HT-154006_00/320w.webp"),
-    imageAlt: "Haltech HT-154006 Elite Direct Plug-in ECUs",
+    imageAlt: "Haltech HT-154006 Elite Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-154006/HT-154006_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/elite-direct-plug-in-ecus/HT-154006/HT-154006_00/1200w.avif"),
     galleryImages: [
@@ -3495,13 +3495,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-154006-elite-direct-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3515,11 +3515,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-189002-nexus-plug-in-ecus",
     sku: "HT-189002",
-    title: "Haltech HT-189002 Nexus Plug-in ECUs",
+    title: "Haltech HT-189002 Nexus Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus Plug-in ECUs",
+    family: "Nexus Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3529,10 +3529,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-189002/HT-189002_00/320w.webp"),
-    imageAlt: "Haltech HT-189002 Nexus Plug-in ECUs",
+    imageAlt: "Haltech HT-189002 Nexus Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-189002/HT-189002_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-189002/HT-189002_00/1200w.avif"),
     galleryImages: [
@@ -3543,13 +3543,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-189002-nexus-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3563,11 +3563,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-189003-nexus-plug-in-ecus",
     sku: "HT-189003",
-    title: "Haltech HT-189003 Nexus Plug-in ECUs",
+    title: "Haltech HT-189003 Nexus Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus Plug-in ECUs",
+    family: "Nexus Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3577,10 +3577,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-189003/HT-189003_00/320w.webp"),
-    imageAlt: "Haltech HT-189003 Nexus Plug-in ECUs",
+    imageAlt: "Haltech HT-189003 Nexus Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-189003/HT-189003_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-189003/HT-189003_00/1200w.avif"),
     galleryImages: [
@@ -3591,13 +3591,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-189003-nexus-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3611,11 +3611,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-230801-nexus-plug-in-ecus",
     sku: "HT-230801",
-    title: "Haltech HT-230801 Nexus Plug-in ECUs",
+    title: "Haltech HT-230801 Nexus Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus Plug-in ECUs",
+    family: "Nexus Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3626,10 +3626,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,395",
     amountCents: 139500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-230801/HT-230801_00/320w.webp"),
-    imageAlt: "Haltech HT-230801 Nexus Plug-in ECUs",
+    imageAlt: "Haltech HT-230801 Nexus Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-230801/HT-230801_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-230801/HT-230801_00/1200w.avif"),
     galleryImages: [
@@ -3646,13 +3646,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-230801-nexus-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3666,11 +3666,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-230802-nexus-plug-in-ecus",
     sku: "HT-230802",
-    title: "Haltech HT-230802 Nexus Plug-in ECUs",
+    title: "Haltech HT-230802 Nexus Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus Plug-in ECUs",
+    family: "Nexus Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3681,10 +3681,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,570",
     amountCents: 157000,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-230802/HT-230802_00/320w.webp"),
-    imageAlt: "Haltech HT-230802 Nexus Plug-in ECUs",
+    imageAlt: "Haltech HT-230802 Nexus Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-230802/HT-230802_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-230802/HT-230802_00/1200w.avif"),
     galleryImages: [
@@ -3701,13 +3701,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-230802-nexus-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3721,11 +3721,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-231401-nexus-plug-in-ecus",
     sku: "HT-231401",
-    title: "Haltech HT-231401 Nexus Plug-in ECUs",
+    title: "Haltech HT-231401 Nexus Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus Plug-in ECUs",
+    family: "Nexus Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3736,10 +3736,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,695",
     amountCents: 169500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231401/HT-231401_00/320w.webp"),
-    imageAlt: "Haltech HT-231401 Nexus Plug-in ECUs",
+    imageAlt: "Haltech HT-231401 Nexus Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231401/HT-231401_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231401/HT-231401_00/1200w.avif"),
     galleryImages: [
@@ -3755,13 +3755,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-231401-nexus-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3775,11 +3775,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-231402-nexus-plug-in-ecus",
     sku: "HT-231402",
-    title: "Haltech HT-231402 Nexus Plug-in ECUs",
+    title: "Haltech HT-231402 Nexus Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus Plug-in ECUs",
+    family: "Nexus Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3790,10 +3790,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,875",
     amountCents: 187500,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231402/HT-231402_00/320w.webp"),
-    imageAlt: "Haltech HT-231402 Nexus Plug-in ECUs",
+    imageAlt: "Haltech HT-231402 Nexus Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231402/HT-231402_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231402/HT-231402_00/1200w.avif"),
     galleryImages: [
@@ -3804,13 +3804,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-231402-nexus-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3824,11 +3824,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-231801-nexus-plug-in-ecus",
     sku: "HT-231801",
-    title: "Haltech HT-231801 Nexus Plug-in ECUs",
+    title: "Haltech HT-231801 Nexus Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus Plug-in ECUs",
+    family: "Nexus Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3839,10 +3839,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,040",
     amountCents: 204000,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231801/HT-231801_00/320w.webp"),
-    imageAlt: "Haltech HT-231801 Nexus Plug-in ECUs",
+    imageAlt: "Haltech HT-231801 Nexus Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231801/HT-231801_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231801/HT-231801_00/1200w.avif"),
     galleryImages: [
@@ -3859,13 +3859,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-231801-nexus-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -3879,11 +3879,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-231802-nexus-plug-in-ecus",
     sku: "HT-231802",
-    title: "Haltech HT-231802 Nexus Plug-in ECUs",
+    title: "Haltech HT-231802 Nexus Factory-Connector ECUs",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus Plug-in ECUs",
+    family: "Nexus Factory-Connector ECUs",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -3894,10 +3894,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,220",
     amountCents: 222000,
-    shortDescription: "Direct plug-in ECU hardware for supported vehicles that keep the factory engine and factory harness architecture.",
-    longDescription: "Direct plug-in ECU hardware is the fastest supported factory-harness upgrade path. It is appropriate when the exact vehicle application is supported and the plan is to replace the factory ECU without rewiring the car from scratch.",
+    shortDescription: "Factory-connector ECU hardware for supported vehicles where the existing engine wiring plan has been verified.",
+    longDescription: "Factory-connector ECU hardware is fitment-specific and should be checked against the exact vehicle before order. TurboGixxer currently starts recommendations from a generic universal wire-in plan instead of presenting this as the default route.",
     image: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231802/HT-231802_00/320w.webp"),
-    imageAlt: "Haltech HT-231802 Nexus Plug-in ECUs",
+    imageAlt: "Haltech HT-231802 Nexus Factory-Connector ECUs",
     previewImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231802/HT-231802_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-plug-in-ecus/HT-231802/HT-231802_00/1200w.avif"),
     galleryImages: [
@@ -3914,13 +3914,13 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-231802-nexus-plug-in-ecus",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness vehicles that need the quickest ECU replacement path.",
-      "Builds where keeping OEM connector location and factory wiring architecture is part of the plan."
+      "Supported existing-harness vehicles that require verified ECU connector compatibility.",
+      "Builds where OEM connector location and existing wiring architecture must be confirmed before checkout."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when the buyer needs custom wiring instead of factory-connector reuse.",
       "Choose a generic universal wire-in harness when clean replacement wiring should be custom-built.",
-      "Choose a universal wire-in harness for race cars, custom wiring, or unsupported applications."
+      "Choose a generic universal wire-in harness for race cars, custom wiring, or unsupported applications."
     ],
     applicationNotes: [
       "Confirm the exact vehicle, engine package, wiring approach, sensor set, and CAN layout before final order.",
@@ -4812,11 +4812,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212300-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212300",
-    title: "Haltech HT-212300 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212300 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -4827,10 +4827,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212300/HT-212300_00/320w.webp"),
-    imageAlt: "Haltech HT-212300 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212300 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212300/HT-212300_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212300/HT-212300_00/1200w.avif"),
     galleryImages: [
@@ -4843,8 +4843,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212300-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -4863,11 +4863,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212302-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212302",
-    title: "Haltech HT-212302 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212302 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -4878,10 +4878,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212302/HT-212302_00/320w.webp"),
-    imageAlt: "Haltech HT-212302 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212302 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212302/HT-212302_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212302/HT-212302_00/1200w.avif"),
     galleryImages: [
@@ -4894,8 +4894,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212302-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -4914,11 +4914,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212303-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212303",
-    title: "Haltech HT-212303 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212303 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -4929,10 +4929,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212303/HT-212303_00/320w.webp"),
-    imageAlt: "Haltech HT-212303 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212303 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212303/HT-212303_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212303/HT-212303_00/1200w.avif"),
     galleryImages: [
@@ -4945,8 +4945,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212303-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -4965,11 +4965,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212304-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212304",
-    title: "Haltech HT-212304 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212304 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -4980,10 +4980,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212304/HT-212304_00/320w.webp"),
-    imageAlt: "Haltech HT-212304 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212304 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212304/HT-212304_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212304/HT-212304_00/1200w.avif"),
     galleryImages: [
@@ -4996,8 +4996,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212304-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5016,11 +5016,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212305-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212305",
-    title: "Haltech HT-212305 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212305 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5031,10 +5031,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212305/HT-212305_00/320w.webp"),
-    imageAlt: "Haltech HT-212305 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212305 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212305/HT-212305_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212305/HT-212305_00/1200w.avif"),
     galleryImages: [
@@ -5047,8 +5047,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212305-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5067,11 +5067,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212306-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212306",
-    title: "Haltech HT-212306 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212306 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5082,10 +5082,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212306/HT-212306_00/320w.webp"),
-    imageAlt: "Haltech HT-212306 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212306 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212306/HT-212306_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212306/HT-212306_00/1200w.avif"),
     galleryImages: [
@@ -5098,8 +5098,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212306-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5118,11 +5118,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212307-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212307",
-    title: "Haltech HT-212307 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212307 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5133,10 +5133,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212307/HT-212307_00/320w.webp"),
-    imageAlt: "Haltech HT-212307 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212307 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212307/HT-212307_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212307/HT-212307_00/1200w.avif"),
     galleryImages: [
@@ -5149,8 +5149,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212307-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5169,11 +5169,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212308-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212308",
-    title: "Haltech HT-212308 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212308 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5183,10 +5183,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212308/HT-212308_00/320w.webp"),
-    imageAlt: "Haltech HT-212308 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212308 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212308/HT-212308_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212308/HT-212308_00/1200w.avif"),
     galleryImages: [
@@ -5199,8 +5199,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212308-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5219,11 +5219,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212314-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212314",
-    title: "Haltech HT-212314 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212314 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5234,10 +5234,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212314/HT-212314_00/320w.webp"),
-    imageAlt: "Haltech HT-212314 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212314 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212314/HT-212314_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212314/HT-212314_00/1200w.avif"),
     galleryImages: [
@@ -5250,8 +5250,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212314-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5270,11 +5270,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212315-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212315",
-    title: "Haltech HT-212315 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212315 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5285,10 +5285,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212315/HT-212315_00/320w.webp"),
-    imageAlt: "Haltech HT-212315 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212315 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212315/HT-212315_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212315/HT-212315_00/1200w.avif"),
     galleryImages: [
@@ -5301,8 +5301,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212315-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5321,11 +5321,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212316-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212316",
-    title: "Haltech HT-212316 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212316 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5336,10 +5336,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212316/HT-212316_00/320w.webp"),
-    imageAlt: "Haltech HT-212316 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212316 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212316/HT-212316_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212316/HT-212316_00/1200w.avif"),
     galleryImages: [
@@ -5352,8 +5352,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212316-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5372,11 +5372,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212317-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212317",
-    title: "Haltech HT-212317 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212317 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5387,10 +5387,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212317/HT-212317_00/320w.webp"),
-    imageAlt: "Haltech HT-212317 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212317 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212317/HT-212317_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212317/HT-212317_00/1200w.avif"),
     galleryImages: [
@@ -5403,8 +5403,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212317-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5423,11 +5423,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212325-nexus-s-series-adaptor-harness-kits",
     sku: "HT-212325",
-    title: "Haltech HT-212325 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-212325 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5438,10 +5438,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212325/HT-212325_00/320w.webp"),
-    imageAlt: "Haltech HT-212325 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-212325 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212325/HT-212325_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212325/HT-212325_00/1200w.avif"),
     galleryImages: [
@@ -5454,8 +5454,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212325-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5474,11 +5474,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213300-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213300",
-    title: "Haltech HT-213300 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213300 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5489,10 +5489,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213300/HT-213300_00/320w.webp"),
-    imageAlt: "Haltech HT-213300 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213300 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213300/HT-213300_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213300/HT-213300_00/1200w.avif"),
     galleryImages: [
@@ -5505,8 +5505,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213300-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5525,11 +5525,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213301-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213301",
-    title: "Haltech HT-213301 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213301 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5540,10 +5540,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213301/HT-213301_00/320w.webp"),
-    imageAlt: "Haltech HT-213301 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213301 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213301/HT-213301_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213301/HT-213301_00/1200w.avif"),
     galleryImages: [
@@ -5556,8 +5556,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213301-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5576,11 +5576,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213302-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213302",
-    title: "Haltech HT-213302 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213302 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5591,10 +5591,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213302/HT-213302_00/320w.webp"),
-    imageAlt: "Haltech HT-213302 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213302 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213302/HT-213302_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213302/HT-213302_00/1200w.avif"),
     galleryImages: [
@@ -5607,8 +5607,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213302-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5627,11 +5627,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213303-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213303",
-    title: "Haltech HT-213303 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213303 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5642,10 +5642,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213303/HT-213303_00/320w.webp"),
-    imageAlt: "Haltech HT-213303 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213303 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213303/HT-213303_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213303/HT-213303_00/1200w.avif"),
     galleryImages: [
@@ -5658,8 +5658,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213303-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5678,11 +5678,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213304-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213304",
-    title: "Haltech HT-213304 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213304 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5693,10 +5693,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213304/HT-213304_00/320w.webp"),
-    imageAlt: "Haltech HT-213304 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213304 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213304/HT-213304_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213304/HT-213304_00/1200w.avif"),
     galleryImages: [
@@ -5709,8 +5709,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213304-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5729,11 +5729,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213305-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213305",
-    title: "Haltech HT-213305 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213305 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5744,10 +5744,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213305/HT-213305_00/320w.webp"),
-    imageAlt: "Haltech HT-213305 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213305 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213305/HT-213305_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213305/HT-213305_00/1200w.avif"),
     galleryImages: [
@@ -5760,8 +5760,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213305-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5780,11 +5780,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213306-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213306",
-    title: "Haltech HT-213306 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213306 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5795,10 +5795,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213306/HT-213306_00/320w.webp"),
-    imageAlt: "Haltech HT-213306 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213306 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213306/HT-213306_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213306/HT-213306_00/1200w.avif"),
     galleryImages: [
@@ -5811,8 +5811,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213306-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5831,11 +5831,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213307-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213307",
-    title: "Haltech HT-213307 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213307 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5846,10 +5846,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213307/HT-213307_00/320w.webp"),
-    imageAlt: "Haltech HT-213307 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213307 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213307/HT-213307_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213307/HT-213307_00/1200w.avif"),
     galleryImages: [
@@ -5862,8 +5862,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213307-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5882,11 +5882,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213308-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213308",
-    title: "Haltech HT-213308 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213308 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5897,10 +5897,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213308/HT-213308_00/320w.webp"),
-    imageAlt: "Haltech HT-213308 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213308 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213308/HT-213308_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213308/HT-213308_00/1200w.avif"),
     galleryImages: [
@@ -5913,8 +5913,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213308-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5933,11 +5933,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213309-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213309",
-    title: "Haltech HT-213309 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213309 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5948,10 +5948,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213309/HT-213309_00/320w.webp"),
-    imageAlt: "Haltech HT-213309 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213309 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213309/HT-213309_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213309/HT-213309_00/1200w.avif"),
     galleryImages: [
@@ -5964,8 +5964,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213309-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -5984,11 +5984,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213310-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213310",
-    title: "Haltech HT-213310 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213310 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -5999,10 +5999,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213310/HT-213310_00/320w.webp"),
-    imageAlt: "Haltech HT-213310 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213310 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213310/HT-213310_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213310/HT-213310_00/1200w.avif"),
     galleryImages: [
@@ -6015,8 +6015,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213310-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6035,11 +6035,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213311-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213311",
-    title: "Haltech HT-213311 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213311 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6050,10 +6050,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213311/HT-213311_00/320w.webp"),
-    imageAlt: "Haltech HT-213311 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213311 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213311/HT-213311_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213311/HT-213311_00/1200w.avif"),
     galleryImages: [
@@ -6066,8 +6066,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213311-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6086,11 +6086,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213312-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213312",
-    title: "Haltech HT-213312 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213312 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6101,10 +6101,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213312/HT-213312_00/320w.webp"),
-    imageAlt: "Haltech HT-213312 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213312 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213312/HT-213312_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213312/HT-213312_00/1200w.avif"),
     galleryImages: [
@@ -6117,8 +6117,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213312-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6137,11 +6137,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213313-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213313",
-    title: "Haltech HT-213313 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213313 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6152,10 +6152,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213313/HT-213313_00/320w.webp"),
-    imageAlt: "Haltech HT-213313 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213313 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213313/HT-213313_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213313/HT-213313_00/1200w.avif"),
     galleryImages: [
@@ -6168,8 +6168,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213313-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6188,11 +6188,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213314-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213314",
-    title: "Haltech HT-213314 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213314 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6203,10 +6203,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213314/HT-213314_00/320w.webp"),
-    imageAlt: "Haltech HT-213314 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213314 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213314/HT-213314_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213314/HT-213314_00/1200w.avif"),
     galleryImages: [
@@ -6219,8 +6219,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213314-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6239,11 +6239,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213315-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213315",
-    title: "Haltech HT-213315 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213315 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6254,10 +6254,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213315/HT-213315_00/320w.webp"),
-    imageAlt: "Haltech HT-213315 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213315 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213315/HT-213315_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213315/HT-213315_00/1200w.avif"),
     galleryImages: [
@@ -6270,8 +6270,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213315-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6290,11 +6290,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213316-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213316",
-    title: "Haltech HT-213316 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213316 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6305,10 +6305,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213316/HT-213316_00/320w.webp"),
-    imageAlt: "Haltech HT-213316 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213316 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213316/HT-213316_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213316/HT-213316_00/1200w.avif"),
     galleryImages: [
@@ -6321,8 +6321,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213316-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6341,11 +6341,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213317-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213317",
-    title: "Haltech HT-213317 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213317 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6356,10 +6356,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213317/HT-213317_00/320w.webp"),
-    imageAlt: "Haltech HT-213317 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213317 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213317/HT-213317_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213317/HT-213317_00/1200w.avif"),
     galleryImages: [
@@ -6372,8 +6372,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213317-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6392,11 +6392,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213318-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213318",
-    title: "Haltech HT-213318 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213318 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6407,10 +6407,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213318/HT-213318_00/320w.webp"),
-    imageAlt: "Haltech HT-213318 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213318 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213318/HT-213318_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213318/HT-213318_00/1200w.avif"),
     galleryImages: [
@@ -6423,8 +6423,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213318-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6443,11 +6443,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213319-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213319",
-    title: "Haltech HT-213319 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213319 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6458,10 +6458,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213319/HT-213319_00/320w.webp"),
-    imageAlt: "Haltech HT-213319 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213319 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213319/HT-213319_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213319/HT-213319_00/1200w.avif"),
     galleryImages: [
@@ -6474,8 +6474,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213319-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6494,11 +6494,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213320-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213320",
-    title: "Haltech HT-213320 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213320 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6509,10 +6509,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213320/HT-213320_00/320w.webp"),
-    imageAlt: "Haltech HT-213320 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213320 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213320/HT-213320_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213320/HT-213320_00/1200w.avif"),
     galleryImages: [
@@ -6525,8 +6525,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213320-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6545,11 +6545,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213321-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213321",
-    title: "Haltech HT-213321 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213321 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6560,10 +6560,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213321/HT-213321_00/320w.webp"),
-    imageAlt: "Haltech HT-213321 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213321 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213321/HT-213321_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213321/HT-213321_00/1200w.avif"),
     galleryImages: [
@@ -6576,8 +6576,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213321-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6596,11 +6596,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213322-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213322",
-    title: "Haltech HT-213322 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213322 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6611,10 +6611,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213322/HT-213322_00/320w.webp"),
-    imageAlt: "Haltech HT-213322 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213322 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213322/HT-213322_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213322/HT-213322_00/1200w.avif"),
     galleryImages: [
@@ -6627,8 +6627,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213322-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6647,11 +6647,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213323-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213323",
-    title: "Haltech HT-213323 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213323 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6662,10 +6662,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213323/HT-213323_00/320w.webp"),
-    imageAlt: "Haltech HT-213323 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213323 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213323/HT-213323_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213323/HT-213323_00/1200w.avif"),
     galleryImages: [
@@ -6678,8 +6678,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213323-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6698,11 +6698,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213324-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213324",
-    title: "Haltech HT-213324 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213324 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6713,10 +6713,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213324/HT-213324_00/320w.webp"),
-    imageAlt: "Haltech HT-213324 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213324 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213324/HT-213324_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213324/HT-213324_00/1200w.avif"),
     galleryImages: [
@@ -6729,8 +6729,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213324-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6749,11 +6749,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213325-nexus-s-series-adaptor-harness-kits",
     sku: "HT-213325",
-    title: "Haltech HT-213325 Nexus S Series Adaptor Harness Kits",
+    title: "Haltech HT-213325 Nexus S Series Interface Harness Kits",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits",
+    family: "Nexus S Series Interface Harness Kits",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6764,10 +6764,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,590",
     amountCents: 259000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213325/HT-213325_00/320w.webp"),
-    imageAlt: "Haltech HT-213325 Nexus S Series Adaptor Harness Kits",
+    imageAlt: "Haltech HT-213325 Nexus S Series Interface Harness Kits",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213325/HT-213325_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213325/HT-213325_00/1200w.avif"),
     galleryImages: [
@@ -6780,8 +6780,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213325-nexus-s-series-adaptor-harness-kits",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6800,11 +6800,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212000-nexus-s-series-adaptor-harness-kits-nexus-s2",
     sku: "HT-212000",
-    title: "Haltech HT-212000 Nexus S Series Adaptor Harness Kits / Nexus S2",
+    title: "Haltech HT-212000 Nexus S Series Interface Harness Kits / Nexus S2",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits / Nexus S2",
+    family: "Nexus S Series Interface Harness Kits / Nexus S2",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6815,10 +6815,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,695",
     amountCents: 169500,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212000/HT-212000_00/320w.webp"),
-    imageAlt: "Haltech HT-212000 Nexus S Series Adaptor Harness Kits / Nexus S2",
+    imageAlt: "Haltech HT-212000 Nexus S Series Interface Harness Kits / Nexus S2",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212000/HT-212000_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212000/HT-212000_00/1200w.avif"),
     galleryImages: [
@@ -6835,8 +6835,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212000-nexus-s-series-adaptor-harness-kits-nexus-s2",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6855,11 +6855,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212100-nexus-s-series-adaptor-harness-kits-nexus-s2",
     sku: "HT-212100",
-    title: "Haltech HT-212100 Nexus S Series Adaptor Harness Kits / Nexus S2",
+    title: "Haltech HT-212100 Nexus S Series Interface Harness Kits / Nexus S2",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits / Nexus S2",
+    family: "Nexus S Series Interface Harness Kits / Nexus S2",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6870,10 +6870,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$1,815",
     amountCents: 181500,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212100/HT-212100_00/320w.webp"),
-    imageAlt: "Haltech HT-212100 Nexus S Series Adaptor Harness Kits / Nexus S2",
+    imageAlt: "Haltech HT-212100 Nexus S Series Interface Harness Kits / Nexus S2",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212100/HT-212100_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212100/HT-212100_00/1200w.avif"),
     galleryImages: [
@@ -6888,8 +6888,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212100-nexus-s-series-adaptor-harness-kits-nexus-s2",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6908,11 +6908,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212200-nexus-s-series-adaptor-harness-kits-nexus-s2",
     sku: "HT-212200",
-    title: "Haltech HT-212200 Nexus S Series Adaptor Harness Kits / Nexus S2",
+    title: "Haltech HT-212200 Nexus S Series Interface Harness Kits / Nexus S2",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits / Nexus S2",
+    family: "Nexus S Series Interface Harness Kits / Nexus S2",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6923,10 +6923,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,070",
     amountCents: 207000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212200/HT-212200_00/320w.webp"),
-    imageAlt: "Haltech HT-212200 Nexus S Series Adaptor Harness Kits / Nexus S2",
+    imageAlt: "Haltech HT-212200 Nexus S Series Interface Harness Kits / Nexus S2",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212200/HT-212200_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212200/HT-212200_00/1200w.avif"),
     galleryImages: [
@@ -6940,8 +6940,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212200-nexus-s-series-adaptor-harness-kits-nexus-s2",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -6960,11 +6960,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-182200-nexus-s-series-adaptor-harness-kits-nexus-s2-nexus-s3",
     sku: "HT-182200",
-    title: "Haltech HT-182200 Nexus S Series Adaptor Harness Kits / Nexus S2 / Nexus S3",
+    title: "Haltech HT-182200 Nexus S Series Interface Harness Kits / Nexus S2 / Nexus S3",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits / Nexus S2 / Nexus S3",
+    family: "Nexus S Series Interface Harness Kits / Nexus S2 / Nexus S3",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -6974,10 +6974,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-182200/HT-182200/320w.webp"),
-    imageAlt: "Haltech HT-182200 Nexus S Series Adaptor Harness Kits / Nexus S2 / Nexus S3",
+    imageAlt: "Haltech HT-182200 Nexus S Series Interface Harness Kits / Nexus S2 / Nexus S3",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-182200/HT-182200/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-182200/HT-182200/1200w.avif"),
     galleryImages: [
@@ -6989,8 +6989,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-182200-nexus-s-series-adaptor-harness-kits-nexus-s2-nexus-s3",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -7009,11 +7009,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-212301-nexus-s-series-adaptor-harness-kits-nexus-s3",
     sku: "HT-212301",
-    title: "Haltech HT-212301 Nexus S Series Adaptor Harness Kits / Nexus S3",
+    title: "Haltech HT-212301 Nexus S Series Interface Harness Kits / Nexus S3",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits / Nexus S3",
+    family: "Nexus S Series Interface Harness Kits / Nexus S3",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -7024,10 +7024,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,190",
     amountCents: 219000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212301/HT-212301_00/320w.webp"),
-    imageAlt: "Haltech HT-212301 Nexus S Series Adaptor Harness Kits / Nexus S3",
+    imageAlt: "Haltech HT-212301 Nexus S Series Interface Harness Kits / Nexus S3",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212301/HT-212301_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-212301/HT-212301_00/1200w.avif"),
     galleryImages: [
@@ -7041,8 +7041,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-212301-nexus-s-series-adaptor-harness-kits-nexus-s3",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -7061,11 +7061,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213000-nexus-s-series-adaptor-harness-kits-nexus-s3",
     sku: "HT-213000",
-    title: "Haltech HT-213000 Nexus S Series Adaptor Harness Kits / Nexus S3",
+    title: "Haltech HT-213000 Nexus S Series Interface Harness Kits / Nexus S3",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits / Nexus S3",
+    family: "Nexus S Series Interface Harness Kits / Nexus S3",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -7076,10 +7076,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,095",
     amountCents: 209500,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213000/HT-213000_00/320w.webp"),
-    imageAlt: "Haltech HT-213000 Nexus S Series Adaptor Harness Kits / Nexus S3",
+    imageAlt: "Haltech HT-213000 Nexus S Series Interface Harness Kits / Nexus S3",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213000/HT-213000_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213000/HT-213000_00/1200w.avif"),
     galleryImages: [
@@ -7096,8 +7096,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213000-nexus-s-series-adaptor-harness-kits-nexus-s3",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -7116,11 +7116,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213100-nexus-s-series-adaptor-harness-kits-nexus-s3",
     sku: "HT-213100",
-    title: "Haltech HT-213100 Nexus S Series Adaptor Harness Kits / Nexus S3",
+    title: "Haltech HT-213100 Nexus S Series Interface Harness Kits / Nexus S3",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits / Nexus S3",
+    family: "Nexus S Series Interface Harness Kits / Nexus S3",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -7131,10 +7131,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,215",
     amountCents: 221500,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213100/HT-213100_00/320w.webp"),
-    imageAlt: "Haltech HT-213100 Nexus S Series Adaptor Harness Kits / Nexus S3",
+    imageAlt: "Haltech HT-213100 Nexus S Series Interface Harness Kits / Nexus S3",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213100/HT-213100_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213100/HT-213100_00/1200w.avif"),
     galleryImages: [
@@ -7149,8 +7149,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213100-nexus-s-series-adaptor-harness-kits-nexus-s3",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -7169,11 +7169,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-213200-nexus-s-series-adaptor-harness-kits-nexus-s3",
     sku: "HT-213200",
-    title: "Haltech HT-213200 Nexus S Series Adaptor Harness Kits / Nexus S3",
+    title: "Haltech HT-213200 Nexus S Series Interface Harness Kits / Nexus S3",
     brand: "Haltech",
     collection: "haltech",
     category: "ECU / VCU",
-    family: "Nexus S Series Adaptor Harness Kits / Nexus S3",
+    family: "Nexus S Series Interface Harness Kits / Nexus S3",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -7184,10 +7184,10 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$2,470",
     amountCents: 247000,
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213200/HT-213200_00/320w.webp"),
-    imageAlt: "Haltech HT-213200 Nexus S Series Adaptor Harness Kits / Nexus S3",
+    imageAlt: "Haltech HT-213200 Nexus S Series Interface Harness Kits / Nexus S3",
     previewImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213200/HT-213200_00/640w.webp"),
     detailImage: mediaUrl("/shop/ecus/nexus-s-series-adaptor-harness-kits/HT-213200/HT-213200_00/1200w.avif"),
     galleryImages: [
@@ -7201,8 +7201,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-213200-nexus-s-series-adaptor-harness-kits-nexus-s3",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -7221,11 +7221,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-061010-gauges-displays-and-display-adapters",
     sku: "HT-061010",
-    title: "Haltech HT-061010 Gauges, Displays and Display Adapters",
+    title: "Haltech HT-061010 Gauges, Displays and Display Interfaces",
     brand: "Haltech",
     collection: "haltech",
     category: "Display",
-    family: "Gauges, Displays and Display Adapters",
+    family: "Gauges, Displays and Display Interfaces",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -7239,7 +7239,7 @@ export const haltechProducts: ShopProduct[] = [
     shortDescription: "Haltech display hardware for monitored data, warnings, driver feedback, and clean CAN-based vehicle information.",
     longDescription: "Display selection should match the ECU platform, CAN layout, sensor channels, warning strategy, and mounting constraints. The display is not just a screen; it is part of the data and safety-feedback plan.",
     image: mediaUrl("/shop/digital-displays/gauges-displays-and-display-adapters/HT-061010/HT-061010_00/320w.webp"),
-    imageAlt: "Haltech HT-061010 Gauges, Displays and Display Adapters",
+    imageAlt: "Haltech HT-061010 Gauges, Displays and Display Interfaces",
     previewImage: mediaUrl("/shop/digital-displays/gauges-displays-and-display-adapters/HT-061010/HT-061010_00/640w.webp"),
     detailImage: mediaUrl("/shop/digital-displays/gauges-displays-and-display-adapters/HT-061010/HT-061010_00/1200w.avif"),
     galleryImages: [
@@ -7271,11 +7271,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-061011-gauges-displays-and-display-adapters",
     sku: "HT-061011",
-    title: "Haltech HT-061011 Gauges, Displays and Display Adapters",
+    title: "Haltech HT-061011 Gauges, Displays and Display Interfaces",
     brand: "Haltech",
     collection: "haltech",
     category: "Display",
-    family: "Gauges, Displays and Display Adapters",
+    family: "Gauges, Displays and Display Interfaces",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -7288,7 +7288,7 @@ export const haltechProducts: ShopProduct[] = [
     shortDescription: "Haltech display hardware for monitored data, warnings, driver feedback, and clean CAN-based vehicle information.",
     longDescription: "Display selection should match the ECU platform, CAN layout, sensor channels, warning strategy, and mounting constraints. The display is not just a screen; it is part of the data and safety-feedback plan.",
     image: mediaUrl("/shop/digital-displays/gauges-displays-and-display-adapters/HT-061011/HT-061011_00/320w.webp"),
-    imageAlt: "Haltech HT-061011 Gauges, Displays and Display Adapters",
+    imageAlt: "Haltech HT-061011 Gauges, Displays and Display Interfaces",
     previewImage: mediaUrl("/shop/digital-displays/gauges-displays-and-display-adapters/HT-061011/HT-061011_00/640w.webp"),
     detailImage: mediaUrl("/shop/digital-displays/gauges-displays-and-display-adapters/HT-061011/HT-061011_00/1200w.avif"),
     galleryImages: [
@@ -7317,11 +7317,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-061012-gauges-displays-and-display-adapters",
     sku: "HT-061012",
-    title: "Haltech HT-061012 Gauges, Displays and Display Adapters",
+    title: "Haltech HT-061012 Gauges, Displays and Display Interfaces",
     brand: "Haltech",
     collection: "haltech",
     category: "Display",
-    family: "Gauges, Displays and Display Adapters",
+    family: "Gauges, Displays and Display Interfaces",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -7334,7 +7334,7 @@ export const haltechProducts: ShopProduct[] = [
     shortDescription: "Haltech display hardware for monitored data, warnings, driver feedback, and clean CAN-based vehicle information.",
     longDescription: "Display selection should match the ECU platform, CAN layout, sensor channels, warning strategy, and mounting constraints. The display is not just a screen; it is part of the data and safety-feedback plan.",
     image: mediaUrl("/shop/digital-displays/gauges-displays-and-display-adapters/HT-061012/HT-061012_00/320w.webp"),
-    imageAlt: "Haltech HT-061012 Gauges, Displays and Display Adapters",
+    imageAlt: "Haltech HT-061012 Gauges, Displays and Display Interfaces",
     previewImage: mediaUrl("/shop/digital-displays/gauges-displays-and-display-adapters/HT-061012/HT-061012_00/640w.webp"),
     detailImage: mediaUrl("/shop/digital-displays/gauges-displays-and-display-adapters/HT-061012/HT-061012_00/1200w.avif"),
     galleryImages: [
@@ -8185,11 +8185,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130020-can-adaptors-hubs-and-cables",
     sku: "HT-130020",
-    title: "Haltech HT-130020 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130020 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8199,10 +8199,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130020/HT-130020_00/320w.webp"),
-    imageAlt: "Haltech HT-130020 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130020 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130020/HT-130020_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130020/HT-130020_00/1200w.avif"),
     galleryImages: [
@@ -8212,7 +8212,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130020-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8231,11 +8231,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130021-can-adaptors-hubs-and-cables",
     sku: "HT-130021",
-    title: "Haltech HT-130021 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130021 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8245,10 +8245,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130021/HT-130021_00/320w.webp"),
-    imageAlt: "Haltech HT-130021 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130021 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130021/HT-130021_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130021/HT-130021_00/1200w.avif"),
     galleryImages: [
@@ -8258,7 +8258,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130021-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8277,11 +8277,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130022-can-adaptors-hubs-and-cables",
     sku: "HT-130022",
-    title: "Haltech HT-130022 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130022 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8291,10 +8291,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130022/HT-130022_00/320w.webp"),
-    imageAlt: "Haltech HT-130022 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130022 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130022/HT-130022_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130022/HT-130022_00/1200w.avif"),
     galleryImages: [
@@ -8304,7 +8304,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130022-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8323,11 +8323,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130023-can-adaptors-hubs-and-cables",
     sku: "HT-130023",
-    title: "Haltech HT-130023 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130023 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8337,10 +8337,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130023/HT-130023_00/320w.webp"),
-    imageAlt: "Haltech HT-130023 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130023 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130023/HT-130023_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130023/HT-130023_00/1200w.avif"),
     galleryImages: [
@@ -8350,7 +8350,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130023-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8369,11 +8369,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130024-can-adaptors-hubs-and-cables",
     sku: "HT-130024",
-    title: "Haltech HT-130024 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130024 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8383,10 +8383,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130024/HT-130024_00/320w.webp"),
-    imageAlt: "Haltech HT-130024 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130024 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130024/HT-130024_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130024/HT-130024_00/1200w.avif"),
     galleryImages: [
@@ -8396,7 +8396,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130024-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8415,11 +8415,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130025-can-adaptors-hubs-and-cables",
     sku: "HT-130025",
-    title: "Haltech HT-130025 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130025 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8429,10 +8429,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130025/HT-130025_00/320w.webp"),
-    imageAlt: "Haltech HT-130025 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130025 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130025/HT-130025_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130025/HT-130025_00/1200w.avif"),
     galleryImages: [
@@ -8442,7 +8442,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130025-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8461,11 +8461,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130026-can-adaptors-hubs-and-cables",
     sku: "HT-130026",
-    title: "Haltech HT-130026 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130026 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8475,10 +8475,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130026/HT-130026_00/320w.webp"),
-    imageAlt: "Haltech HT-130026 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130026 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130026/HT-130026_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130026/HT-130026_00/1200w.avif"),
     galleryImages: [
@@ -8488,7 +8488,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130026-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8507,11 +8507,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130027-can-adaptors-hubs-and-cables",
     sku: "HT-130027",
-    title: "Haltech HT-130027 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130027 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8521,10 +8521,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130027/HT-130027_00/320w.webp"),
-    imageAlt: "Haltech HT-130027 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130027 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130027/HT-130027_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130027/HT-130027_00/1200w.avif"),
     galleryImages: [
@@ -8534,7 +8534,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130027-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8553,11 +8553,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130028-can-adaptors-hubs-and-cables",
     sku: "HT-130028",
-    title: "Haltech HT-130028 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130028 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8567,10 +8567,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130028/HT-130028_00/320w.webp"),
-    imageAlt: "Haltech HT-130028 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130028 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130028/HT-130028_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130028/HT-130028_00/1200w.avif"),
     galleryImages: [
@@ -8580,7 +8580,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130028-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8599,11 +8599,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130029-can-adaptors-hubs-and-cables",
     sku: "HT-130029",
-    title: "Haltech HT-130029 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130029 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8613,10 +8613,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130029/HT-130029_00/320w.webp"),
-    imageAlt: "Haltech HT-130029 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130029 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130029/HT-130029_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130029/HT-130029_00/1200w.avif"),
     galleryImages: [
@@ -8626,7 +8626,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130029-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8645,11 +8645,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130031-can-adaptors-hubs-and-cables",
     sku: "HT-130031",
-    title: "Haltech HT-130031 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130031 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8659,10 +8659,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130031/HT-130031_00/320w.webp"),
-    imageAlt: "Haltech HT-130031 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130031 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130031/HT-130031_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130031/HT-130031_00/1200w.avif"),
     galleryImages: [
@@ -8672,7 +8672,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130031-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8691,11 +8691,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130032-can-adaptors-hubs-and-cables",
     sku: "HT-130032",
-    title: "Haltech HT-130032 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130032 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8705,10 +8705,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130032/HT-130032_00/320w.webp"),
-    imageAlt: "Haltech HT-130032 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130032 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130032/HT-130032_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130032/HT-130032_00/1200w.avif"),
     galleryImages: [
@@ -8718,7 +8718,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130032-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8737,11 +8737,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130033-can-adaptors-hubs-and-cables",
     sku: "HT-130033",
-    title: "Haltech HT-130033 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130033 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8751,10 +8751,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130033/HT-130033_00/320w.webp"),
-    imageAlt: "Haltech HT-130033 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130033 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130033/HT-130033_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130033/HT-130033_00/1200w.avif"),
     galleryImages: [
@@ -8764,7 +8764,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130033-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8783,11 +8783,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130034-can-adaptors-hubs-and-cables",
     sku: "HT-130034",
-    title: "Haltech HT-130034 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130034 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8797,10 +8797,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130034/HT-130034_00/320w.webp"),
-    imageAlt: "Haltech HT-130034 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130034 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130034/HT-130034_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130034/HT-130034_00/1200w.avif"),
     galleryImages: [
@@ -8810,7 +8810,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130034-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8829,11 +8829,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130035-can-adaptors-hubs-and-cables",
     sku: "HT-130035",
-    title: "Haltech HT-130035 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130035 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8843,10 +8843,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130035/HT-130035_00/320w.webp"),
-    imageAlt: "Haltech HT-130035 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130035 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130035/HT-130035_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130035/HT-130035_00/1200w.avif"),
     galleryImages: [
@@ -8856,7 +8856,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130035-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8875,11 +8875,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130036-can-adaptors-hubs-and-cables",
     sku: "HT-130036",
-    title: "Haltech HT-130036 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130036 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8889,10 +8889,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130036/HT-130036_00/320w.webp"),
-    imageAlt: "Haltech HT-130036 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130036 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130036/HT-130036_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130036/HT-130036_00/1200w.avif"),
     galleryImages: [
@@ -8902,7 +8902,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130036-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8921,11 +8921,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130040-can-adaptors-hubs-and-cables",
     sku: "HT-130040",
-    title: "Haltech HT-130040 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130040 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8935,10 +8935,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130040/HT-130040_00/320w.webp"),
-    imageAlt: "Haltech HT-130040 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130040 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130040/HT-130040_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130040/HT-130040_00/1200w.avif"),
     galleryImages: [
@@ -8948,7 +8948,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130040-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -8967,11 +8967,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-130051-can-adaptors-hubs-and-cables",
     sku: "HT-130051",
-    title: "Haltech HT-130051 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-130051 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -8981,10 +8981,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130051/HT-130051_00/320w.webp"),
-    imageAlt: "Haltech HT-130051 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-130051 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130051/HT-130051_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-130051/HT-130051_00/1200w.avif"),
     galleryImages: [
@@ -8994,7 +8994,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130051-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -9013,11 +9013,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-135000-can-adaptors-hubs-and-cables",
     sku: "HT-135000",
-    title: "Haltech HT-135000 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-135000 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9027,10 +9027,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-135000/HT-135000_00/320w.webp"),
-    imageAlt: "Haltech HT-135000 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-135000 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-135000/HT-135000_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-135000/HT-135000_00/1200w.avif"),
     galleryImages: [
@@ -9040,7 +9040,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-135000-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -9059,11 +9059,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-159000-can-adaptors-hubs-and-cables",
     sku: "HT-159000",
-    title: "Haltech HT-159000 CAN Adaptors Hubs and Cables",
+    title: "Haltech HT-159000 CAN Hubs and Cables",
     brand: "Haltech",
     collection: "haltech",
     category: "CAN Control",
-    family: "CAN Adaptors Hubs and Cables",
+    family: "CAN Hubs and Cables",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9073,10 +9073,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-159000/HT-159000_00/320w.webp"),
-    imageAlt: "Haltech HT-159000 CAN Adaptors Hubs and Cables",
+    imageAlt: "Haltech HT-159000 CAN Hubs and Cables",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-159000/HT-159000_00/640w.webp"),
     detailImage: mediaUrl("/shop/can-harnesses-and-controls/can-adaptors-hubs-and-cables/HT-159000/HT-159000_00/1200w.avif"),
     galleryImages: [
@@ -9086,7 +9086,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-159000-can-adaptors-hubs-and-cables",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -9119,8 +9119,8 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-keypads/HT-011500/HT-011500_00/320w.webp"),
     imageAlt: "Haltech HT-011500 CAN Keypads",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-keypads/HT-011500/HT-011500_00/640w.webp"),
@@ -9136,7 +9136,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-011500-can-keypads",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -9170,8 +9170,8 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$360",
     amountCents: 36000,
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-keypads/HT-011501/HT-011501_00/320w.webp"),
     imageAlt: "Haltech HT-011501 CAN Keypads",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-keypads/HT-011501/HT-011501_00/640w.webp"),
@@ -9186,7 +9186,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-011501-can-keypads",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -9220,8 +9220,8 @@ export const haltechProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$435",
     amountCents: 43500,
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-keypads/HT-011502/HT-011502_00/320w.webp"),
     imageAlt: "Haltech HT-011502 CAN Keypads",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-keypads/HT-011502/HT-011502_00/640w.webp"),
@@ -9236,7 +9236,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-011502-can-keypads",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -9269,8 +9269,8 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "CAN control and network hardware for keypad inputs, hubs, adaptors, cables, and clean Haltech expansion planning.",
-    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, adaptors, and cables should simplify the build instead of adding noise.",
+    shortDescription: "CAN control and network hardware for keypad inputs, hubs, cables, and clean Haltech expansion planning.",
+    longDescription: "CAN controls and network accessories should be selected around the ECU, display, wiring layout, and the actual control strategy. Keypads, hubs, and cables should simplify the build instead of adding noise.",
     image: mediaUrl("/shop/can-harnesses-and-controls/can-keypads/HT-130045/HT-130045_00/320w.webp"),
     imageAlt: "Haltech HT-130045 CAN Keypads",
     previewImage: mediaUrl("/shop/can-harnesses-and-controls/can-keypads/HT-130045/HT-130045_00/640w.webp"),
@@ -9282,7 +9282,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-130045-can-keypads",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean CAN keypad controls, network expansion, adaptor routing, or CAN accessory support.",
+      "Builds needing clean CAN keypad controls, network expansion, CAN routing, or accessory support.",
       "Applications where boost, launch, fan, pump, lighting, or auxiliary controls need a structured control path."
     ],
     chooseThisInstead: [
@@ -9301,11 +9301,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140621-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140621",
-    title: "Haltech HT-140621 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140621 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9315,10 +9315,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140621/HT-140621_00/320w.webp"),
-    imageAlt: "Haltech HT-140621 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140621 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140621/HT-140621_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140621/HT-140621_00/1200w.avif"),
     galleryImages: [
@@ -9328,8 +9328,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140621-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9348,11 +9348,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140647-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140647",
-    title: "Haltech HT-140647 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140647 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9362,10 +9362,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140647/HT-140647_00/320w.webp"),
-    imageAlt: "Haltech HT-140647 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140647 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140647/HT-140647_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140647/HT-140647_00/1200w.avif"),
     galleryImages: [
@@ -9375,8 +9375,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140647-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9395,11 +9395,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140661-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140661",
-    title: "Haltech HT-140661 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140661 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9409,10 +9409,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140661/HT-140661_00/320w.webp"),
-    imageAlt: "Haltech HT-140661 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140661 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140661/HT-140661_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140661/HT-140661_00/1200w.avif"),
     galleryImages: [
@@ -9422,8 +9422,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140661-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9442,11 +9442,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140820-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140820",
-    title: "Haltech HT-140820 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140820 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9456,10 +9456,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140820/HT-140820_00/320w.webp"),
-    imageAlt: "Haltech HT-140820 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140820 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140820/HT-140820_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140820/HT-140820_00/1200w.avif"),
     galleryImages: [
@@ -9469,8 +9469,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140820-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9489,11 +9489,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140821-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140821",
-    title: "Haltech HT-140821 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140821 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9503,10 +9503,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140821/HT-140821_00/320w.webp"),
-    imageAlt: "Haltech HT-140821 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140821 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140821/HT-140821_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140821/HT-140821_00/1200w.avif"),
     galleryImages: [
@@ -9516,8 +9516,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140821-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9536,11 +9536,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140822-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140822",
-    title: "Haltech HT-140822 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140822 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9550,10 +9550,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140822/HT-140822_00/320w.webp"),
-    imageAlt: "Haltech HT-140822 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140822 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140822/HT-140822_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140822/HT-140822_00/1200w.avif"),
     galleryImages: [
@@ -9563,8 +9563,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140822-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9583,11 +9583,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140830-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140830",
-    title: "Haltech HT-140830 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140830 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9597,10 +9597,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140830/HT-140830_00/320w.webp"),
-    imageAlt: "Haltech HT-140830 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140830 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140830/HT-140830_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140830/HT-140830_00/1200w.avif"),
     galleryImages: [
@@ -9610,8 +9610,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140830-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9630,11 +9630,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140840-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140840",
-    title: "Haltech HT-140840 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140840 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9644,10 +9644,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140840/HT-140840_00/320w.webp"),
-    imageAlt: "Haltech HT-140840 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140840 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140840/HT-140840_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140840/HT-140840_00/1200w.avif"),
     galleryImages: [
@@ -9657,8 +9657,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140840-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9677,11 +9677,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140843-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140843",
-    title: "Haltech HT-140843 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140843 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9691,10 +9691,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140843/HT-140843_00/320w.webp"),
-    imageAlt: "Haltech HT-140843 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140843 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140843/HT-140843_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140843/HT-140843_00/1200w.avif"),
     galleryImages: [
@@ -9704,8 +9704,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140843-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9724,11 +9724,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140850-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140850",
-    title: "Haltech HT-140850 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140850 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9738,10 +9738,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140850/HT-140850_00/320w.webp"),
-    imageAlt: "Haltech HT-140850 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140850 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140850/HT-140850_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140850/HT-140850_00/1200w.avif"),
     galleryImages: [
@@ -9751,8 +9751,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140850-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9771,11 +9771,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140851-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140851",
-    title: "Haltech HT-140851 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140851 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9785,10 +9785,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140851/HT-140851_00/320w.webp"),
-    imageAlt: "Haltech HT-140851 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140851 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140851/HT-140851_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140851/HT-140851_00/1200w.avif"),
     galleryImages: [
@@ -9798,8 +9798,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140851-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9818,11 +9818,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140852-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140852",
-    title: "Haltech HT-140852 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140852 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9832,10 +9832,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140852/HT-140852_00/320w.webp"),
-    imageAlt: "Haltech HT-140852 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140852 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140852/HT-140852_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140852/HT-140852_00/1200w.avif"),
     galleryImages: [
@@ -9845,8 +9845,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140852-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9865,11 +9865,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140854-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140854",
-    title: "Haltech HT-140854 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140854 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9879,10 +9879,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140854/HT-140854_00/320w.webp"),
-    imageAlt: "Haltech HT-140854 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140854 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140854/HT-140854_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140854/HT-140854_00/1200w.avif"),
     galleryImages: [
@@ -9892,8 +9892,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140854-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9912,11 +9912,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140921-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140921",
-    title: "Haltech HT-140921 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140921 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9926,10 +9926,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140921/HT-140921_00/320w.webp"),
-    imageAlt: "Haltech HT-140921 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140921 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140921/HT-140921_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140921/HT-140921_00/1200w.avif"),
     galleryImages: [
@@ -9939,8 +9939,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140921-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -9959,11 +9959,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140961-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140961",
-    title: "Haltech HT-140961 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140961 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -9973,10 +9973,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140961/HT-140961_00/320w.webp"),
-    imageAlt: "Haltech HT-140961 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140961 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140961/HT-140961_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140961/HT-140961_00/1200w.avif"),
     galleryImages: [
@@ -9986,8 +9986,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140961-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -10006,11 +10006,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-140980-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-140980",
-    title: "Haltech HT-140980 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-140980 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -10020,10 +10020,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140980/HT-140980_00/320w.webp"),
-    imageAlt: "Haltech HT-140980 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-140980 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140980/HT-140980_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-140980/HT-140980_00/1200w.avif"),
     galleryImages: [
@@ -10033,8 +10033,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-140980-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -10053,11 +10053,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-141246-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-141246",
-    title: "Haltech HT-141246 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-141246 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -10067,10 +10067,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141246/HT-141246_00/320w.webp"),
-    imageAlt: "Haltech HT-141246 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-141246 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141246/HT-141246_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141246/HT-141246_00/1200w.avif"),
     galleryImages: [
@@ -10080,8 +10080,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-141246-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -10100,11 +10100,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-141249-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-141249",
-    title: "Haltech HT-141249 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-141249 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -10114,10 +10114,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141249/HT-141249_00/320w.webp"),
-    imageAlt: "Haltech HT-141249 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-141249 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141249/HT-141249_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141249/HT-141249_00/1200w.avif"),
     galleryImages: [
@@ -10127,8 +10127,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-141249-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -10147,11 +10147,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-141258-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-141258",
-    title: "Haltech HT-141258 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-141258 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -10161,10 +10161,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141258/HT-141258_00/320w.webp"),
-    imageAlt: "Haltech HT-141258 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-141258 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141258/HT-141258_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141258/HT-141258_00/1200w.avif"),
     galleryImages: [
@@ -10174,8 +10174,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-141258-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -10194,11 +10194,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-141321-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-141321",
-    title: "Haltech HT-141321 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-141321 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -10208,10 +10208,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141321/HT-141321_00/320w.webp"),
-    imageAlt: "Haltech HT-141321 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-141321 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141321/HT-141321_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141321/HT-141321_00/1200w.avif"),
     galleryImages: [
@@ -10221,8 +10221,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-141321-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -10241,11 +10241,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-141328-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-141328",
-    title: "Haltech HT-141328 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-141328 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -10255,10 +10255,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141328/HT-141328_00/320w.webp"),
-    imageAlt: "Haltech HT-141328 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-141328 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141328/HT-141328_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141328/HT-141328_00/1200w.avif"),
     galleryImages: [
@@ -10268,8 +10268,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-141328-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -10288,11 +10288,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-141329-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-141329",
-    title: "Haltech HT-141329 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-141329 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -10302,10 +10302,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141329/HT-141329_00/320w.webp"),
-    imageAlt: "Haltech HT-141329 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-141329 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141329/HT-141329_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141329/HT-141329_00/1200w.avif"),
     galleryImages: [
@@ -10315,8 +10315,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-141329-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -10335,11 +10335,11 @@ export const haltechProducts: ShopProduct[] = [
   {
     slug: "haltech-ht-141357-elite-ecu-plugnplay-adaptor-harnesses",
     sku: "HT-141357",
-    title: "Haltech HT-141357 Elite ECU Plug'n'Play Adaptor Harnesses",
+    title: "Haltech HT-141357 Elite ECU Interface Harnesses",
     brand: "Haltech",
     collection: "haltech",
     category: "Harness",
-    family: "Elite ECU Plug'n'Play Adaptor Harnesses",
+    family: "Elite ECU Interface Harnesses",
     productType: "hardware_product",
     paymentMode: "direct_checkout",
     fulfillmentType: "manual_followup",
@@ -10349,10 +10349,10 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Adaptor-harness hardware for using Haltech ECU capability with supported factory ECU connectors and less rewiring.",
-    longDescription: "Plug-and-play adaptor harness products bridge Haltech ECU hardware to supported factory ECU connectors. They are useful when the customer wants universal ECU flexibility while preserving a supported factory harness path.",
+    shortDescription: "ECU interface harness hardware for verified existing-harness builds where connector fitment has been confirmed.",
+    longDescription: "ECU interface harness products connect Haltech ECU hardware into supported factory-connector wiring plans when fitment has been verified. TurboGixxer confirms a generic universal wire-in plan before recommending this hardware route.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141357/HT-141357_00/320w.webp"),
-    imageAlt: "Haltech HT-141357 Elite ECU Plug'n'Play Adaptor Harnesses",
+    imageAlt: "Haltech HT-141357 Elite ECU Interface Harnesses",
     previewImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141357/HT-141357_00/640w.webp"),
     detailImage: mediaUrl("/shop/wiring-and-accessory-harnesses/elite-ecu-plug-n-play-adaptor-harnesses/HT-141357/HT-141357_00/1200w.avif"),
     galleryImages: [
@@ -10362,8 +10362,8 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-141357-elite-ecu-plugnplay-adaptor-harnesses",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Supported factory-harness applications where the customer wants universal Elite or Nexus ECU flexibility.",
-      "Builds that should avoid a full rewire but still need the correct ECU and calibration plan."
+      "Supported existing-harness applications where Elite or Nexus ECU fitment has already been verified.",
+      "Builds where wiring scope, ECU selection, and calibration plan need to be reviewed together."
     ],
     chooseThisInstead: [
       "Choose a generic universal wire-in harness when wiring support should be custom-built around the car.",
@@ -10913,7 +10913,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186004/HT-186004_00/320w.webp"),
     imageAlt: "Haltech HT-186004 Rebel breakout harnesses and accessories",
@@ -10927,7 +10927,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186004-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -10960,7 +10960,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186007/HT-186007_00/320w.webp"),
     imageAlt: "Haltech HT-186007 Rebel breakout harnesses and accessories",
@@ -10974,7 +10974,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186007-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11007,7 +11007,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186010/HT-186010_00/320w.webp"),
     imageAlt: "Haltech HT-186010 Rebel breakout harnesses and accessories",
@@ -11021,7 +11021,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186010-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11054,7 +11054,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186063/HT-186063_00/320w.webp"),
     imageAlt: "Haltech HT-186063 Rebel breakout harnesses and accessories",
@@ -11069,7 +11069,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186063-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11102,7 +11102,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186120/HT-186120_00/320w.webp"),
     imageAlt: "Haltech HT-186120 Rebel breakout harnesses and accessories",
@@ -11116,7 +11116,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186120-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11149,7 +11149,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186121/HT-186121_00/320w.webp"),
     imageAlt: "Haltech HT-186121 Rebel breakout harnesses and accessories",
@@ -11163,7 +11163,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186121-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11196,7 +11196,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186122/HT-186122_00/320w.webp"),
     imageAlt: "Haltech HT-186122 Rebel breakout harnesses and accessories",
@@ -11210,7 +11210,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186122-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11243,7 +11243,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186160/HT-186160_00/320w.webp"),
     imageAlt: "Haltech HT-186160 Rebel breakout harnesses and accessories",
@@ -11257,7 +11257,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186160-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11290,7 +11290,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186162/HT-186162_00/320w.webp"),
     imageAlt: "Haltech HT-186162 Rebel breakout harnesses and accessories",
@@ -11304,7 +11304,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186162-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11337,7 +11337,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186400/HT-186400_00/320w.webp"),
     imageAlt: "Haltech HT-186400 Rebel breakout harnesses and accessories",
@@ -11353,7 +11353,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186400-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11386,7 +11386,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186500/HT-186500_00/320w.webp"),
     imageAlt: "Haltech HT-186500 Rebel breakout harnesses and accessories",
@@ -11400,7 +11400,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186500-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11433,7 +11433,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186501/HT-186501_00/320w.webp"),
     imageAlt: "Haltech HT-186501 Rebel breakout harnesses and accessories",
@@ -11447,7 +11447,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186501-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11480,7 +11480,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186502/HT-186502_00/320w.webp"),
     imageAlt: "Haltech HT-186502 Rebel breakout harnesses and accessories",
@@ -11494,7 +11494,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186502-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11527,7 +11527,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186503/HT-186503_00/320w.webp"),
     imageAlt: "Haltech HT-186503 Rebel breakout harnesses and accessories",
@@ -11541,7 +11541,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186503-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11574,7 +11574,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186504/HT-186504_00/320w.webp"),
     imageAlt: "Haltech HT-186504 Rebel breakout harnesses and accessories",
@@ -11588,7 +11588,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186504-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11621,7 +11621,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186505/HT-186505_00/320w.webp"),
     imageAlt: "Haltech HT-186505 Rebel breakout harnesses and accessories",
@@ -11635,7 +11635,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186505-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11668,7 +11668,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186506/HT-186506_00/320w.webp"),
     imageAlt: "Haltech HT-186506 Rebel breakout harnesses and accessories",
@@ -11682,7 +11682,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186506-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11715,7 +11715,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186507/HT-186507_00/320w.webp"),
     imageAlt: "Haltech HT-186507 Rebel breakout harnesses and accessories",
@@ -11729,7 +11729,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186507-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11762,7 +11762,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186508/HT-186508_00/320w.webp"),
     imageAlt: "Haltech HT-186508 Rebel breakout harnesses and accessories",
@@ -11776,7 +11776,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186508-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11809,7 +11809,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186510/HT-186510_00/320w.webp"),
     imageAlt: "Haltech HT-186510 Rebel breakout harnesses and accessories",
@@ -11823,7 +11823,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186510-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11856,7 +11856,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186511/HT-186511_00/320w.webp"),
     imageAlt: "Haltech HT-186511 Rebel breakout harnesses and accessories",
@@ -11870,7 +11870,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186511-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11903,7 +11903,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-186512/HT-186512_00/320w.webp"),
     imageAlt: "Haltech HT-186512 Rebel breakout harnesses and accessories",
@@ -11917,7 +11917,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-186512-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11950,7 +11950,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-187003/HT-187003_00/320w.webp"),
     imageAlt: "Haltech HT-187003 Rebel breakout harnesses and accessories",
@@ -11964,7 +11964,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-187003-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
@@ -11997,7 +11997,7 @@ export const haltechProducts: ShopProduct[] = [
     requiresIntake: false,
     status: "active",
     priceLabel: "Price at checkout",
-    shortDescription: "Haltech harness and accessory hardware for adapting, extending, or cleaning up ECU and vehicle wiring plans.",
+    shortDescription: "Haltech harness and accessory hardware for connecting, extending, or cleaning up ECU and vehicle wiring plans.",
     longDescription: "Harness and accessory products should follow the ECU choice, vehicle application, connector strategy, and serviceability requirement. They are part of the wiring architecture, not generic add-ons.",
     image: mediaUrl("/shop/wiring-and-accessory-harnesses/rebel-breakout-harnesses-and-accessories/HT-187005/HT-187005_00/320w.webp"),
     imageAlt: "Haltech HT-187005 Rebel breakout harnesses and accessories",
@@ -12011,7 +12011,7 @@ export const haltechProducts: ShopProduct[] = [
     ctaHref: "/contact?intent=haltech-ht-187005-rebel-breakout-harnesses-and-accessories",
     notes: "Manual fulfillment. Confirm price, inventory, application, and compliance before final order.",
     bestFit: [
-      "Builds needing clean adapter, breakout, extension, or accessory wiring around the selected ECU platform.",
+      "Builds needing clean interface, breakout, extension, or accessory wiring around the selected ECU platform.",
       "Applications where serviceability and correct connector strategy matter before product checkout."
     ],
     chooseThisInstead: [
