@@ -1,6 +1,49 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (:is(.dark) &);
+
+@theme {
+  --color-graphite-950: #030506;
+  --color-graphite-925: #05090b;
+  --color-graphite-900: #070d10;
+  --color-graphite-850: #0b1317;
+  --color-graphite-800: #101a20;
+  --color-graphite-700: #18262d;
+  --color-graphite-600: #273941;
+
+  --color-cyan-300: #62dcff;
+  --color-cyan-400: #19c4f7;
+  --color-cyan-500: #00a9dc;
+  --color-cyan-600: #008ab5;
+
+  --color-gold-300: #f6d94b;
+  --color-gold-400: #e5c316;
+  --color-gold-500: #c7a300;
+
+  --color-track-red: #d84734;
+  --color-track-white: #f7fafc;
+  --color-track-muted: #92a4ad;
+
+  --font-sans: Inter, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Arial Narrow", "DIN Condensed", "Roboto Condensed", Impact, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --ease-shop: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-panel: 0 22px 70px rgba(0, 0, 0, 0.42);
+  --shadow-cyan: 0 0 0 1px rgba(25, 196, 247, 0.2), 0 18px 60px rgba(0, 169, 220, 0.12);
+}
+
+@utility bg-technical-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+}
+
+@utility bg-carbon {
+  background-image:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.035) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(255, 255, 255, 0.03) 25%, transparent 25%);
+}
 
 @layer base {
   :root {
