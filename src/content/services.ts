@@ -46,38 +46,38 @@ export const servicePaths = [
     title: "Dyno Tuning",
     price: "From $750",
     href: "/tuning",
-    summary: "Mainline hub dyno calibration for sorted builds that need repeatable power and clean drivability.",
-    points: ["Controlled load", "Power and response", "Street validation"],
+    summary: "Mainline hub dyno calibration for ready vehicles that need controlled load, clean drivability, and power verified on the car.",
+    points: ["Mainline hub dyno", "Power and response", "Street validation"],
     supportedEcuPaths: ["Factory ECU", "Standalone ECU"],
-    note: "$200 tuning deposits are applied toward approved dyno tuning and are not the full tuning price."
+    note: "$200 deposit applies toward the approved dyno tune. Final pricing depends on the vehicle, ECU, fuel, and setup."
   },
   {
     slug: "remote-tuning",
     title: "Remote Tuning",
     price: "From $500",
     href: "/tuning",
-    summary: "Structured log review and calibration revisions for mechanically ready cars outside the shop.",
-    points: ["Readiness checklist", "Log review", "Calibration revisions"],
+    summary: "Log-based calibration revisions for mechanically ready cars outside the shop, using vehicle data and driver feedback.",
+    points: ["Readiness check", "Log review", "Calibration revisions"],
     supportedEcuPaths: ["Factory ECU", "Standalone ECU where supported"],
-    note: "$200 tuning deposits are applied toward approved remote tuning and are not the full tuning price."
+    note: "$200 deposit applies toward approved remote tuning. Final pricing depends on the car, ECU support, and log quality."
   },
   {
     slug: "wiring-harness",
     title: "Wiring / Harness Work",
     price: "From $2,550",
     href: "/wiring",
-    summary: "Harness support, sensor integration, CAN planning, and signal cleanup before calibration.",
-    points: ["Harness planning", "Standalone ECU wiring", "Sensor/device integration"],
-    note: "Wiring scope is reviewed before scheduling or deposit handling."
+    summary: "Harness support for ECU swaps, sensor integration, CAN devices, and electrical issues that need clean signal data before tuning.",
+    points: ["Vehicle wiring review", "Standalone ECU wiring", "Sensor and CAN integration"],
+    note: "Wiring is quoted after the vehicle, ECU, and harness condition are reviewed."
   },
   {
     slug: "haltech-fitment",
     title: "Haltech Sales & Support",
-    price: "Checkout-ready",
+    price: "Shop pricing",
     href: "/shop/haltech",
-    summary: "Dealer-backed Haltech product support, fitment planning, wiring context, and calibration planning.",
-    points: ["Product fitment", "NSP setup", "Support before checkout"],
-    note: "Hardware, planning products, and checkout items live in Shop."
+    summary: "Dealer-backed Haltech hardware, fitment planning, and setup support matched to the vehicle, ECU goals, and build requirements.",
+    points: ["Vehicle fitment", "NSP setup", "Checkout support"],
+    note: "Hardware and planning products are handled through Shop."
   }
 ] as const;
 
@@ -102,31 +102,31 @@ export const tuningEcuPaths = [
     title: "Factory ECU calibration",
     label: "Factory ECU",
     summary:
-      "Factory ECU work stays inside tuning, with calibration decisions based on the controller, fuel system, power adder, and available logging support.",
+      "Factory ECU tuning stays inside dyno or remote service. Pricing depends on controller support, fuel system, power adder, and the data the vehicle can provide.",
     delivery: ["Dyno tuning", "Remote tuning where supported"]
   },
   {
     title: "Standalone ECU calibration",
     label: "Standalone ECU",
     summary:
-      "Standalone ECU work is a controller type inside tuning. Setup, IO, sensors, and protections are scoped through dyno or remote tuning when the build supports it.",
+      "Standalone ECU tuning is scoped through dyno or remote service when the build is ready. IO, sensors, CAN, boost control, and protections define the final work.",
     delivery: ["Dyno tuning", "Remote tuning where supported"]
   }
 ] as const;
 
 export const depositNote =
-  "$200 tuning deposits are applied toward approved dyno or remote tuning and are not the full tuning price.";
+  "$200 tuning deposits apply toward approved dyno or remote tuning. They are not the full tuning price.";
 
 export const servicePages = {
   tuning: {
     eyebrow: "Tuning",
-    title: "Calibration work built around usable data.",
+    title: "Tuning for the car.",
     copy:
-      "TurboGixxer tuning starts with the combination, the logs, and the way the car will actually be driven. Dyno tuning and remote tuning are the core services; factory and standalone ECU work sit inside tuning.",
+      "TurboGixxer tuning starts with the vehicle, the logs, and how the car will be driven. Dyno and remote tuning are the core services; factory and standalone ECU work sit inside those services.",
     serviceSlugs: ["dyno-tuning", "remote-tuning"],
     ecuPaths: tuningEcuPaths,
     bullets: [
-      "Mechanical and sensor readiness review",
+      "Mechanical readiness and sensor data review",
       "Fuel, ignition, boost, idle, and transient calibration",
       "Validation for street, strip, track, or mixed-use behavior"
     ],
@@ -138,9 +138,9 @@ export const servicePages = {
   },
   wiring: {
     eyebrow: "Wiring",
-    title: "Clean signals before aggressive calibration.",
+    title: "Wiring that supports tuning.",
     copy:
-      "Harness work focuses on the electrical foundation behind the tune: grounds, sensors, power, CAN devices, ECU integration, and serviceability.",
+      "Harness work focuses on the electrical foundation behind the tune: grounds, sensors, power, CAN devices, ECU integration, and serviceability on the vehicle.",
     serviceSlugs: ["wiring-harness"],
     bullets: [
       "Sensor, power, ground, and CAN review",
@@ -148,16 +148,16 @@ export const servicePages = {
       "Signal validation before tuning decisions"
     ],
     stats: [
-      { label: "Harness Support", value: "From $2,550" },
+      { label: "Harness Work", value: "From $2,550" },
       { label: "Focus", value: "Signal Quality" },
       { label: "Deposit", value: "$200 applied" }
     ]
   },
   haltech: {
     eyebrow: "Haltech",
-    title: "Dealer-backed fitment and setup support.",
+    title: "Haltech fitment support.",
     copy:
-      "Haltech support now lives with the Shop product system. Product choice, fitment planning, NSP setup, wiring strategy, and calibration planning should match the build before checkout.",
+      "Haltech hardware, NSP setup, wiring strategy, and calibration planning should match the vehicle and build before checkout.",
     serviceSlugs: ["haltech-fitment", "wiring-harness"],
     bullets: [
       "ECU, IO, sensor, and CAN planning",

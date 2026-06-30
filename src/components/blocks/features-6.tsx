@@ -57,8 +57,8 @@ const pathVisuals = {
 
 export default function Features6({
   eyebrow = "Services",
-  title = "Choose the service before chasing power.",
-  copy = "TurboGixxer scopes each build around the work being approved: dyno tuning, remote tuning, wiring foundation, or Haltech fitment.",
+  title = "Services and pricing.",
+  copy = "TurboGixxer scopes tuning around the vehicle, ECU, data quality, and what the build needs: dyno tuning, remote tuning, wiring, or Haltech support.",
   services = servicePaths
 }: Features6Props) {
   return (

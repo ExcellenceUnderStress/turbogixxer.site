@@ -41,11 +41,11 @@ export function ServiceFocusPage({ page }: { page: ServicePage }) {
           <div className="max-w-3xl">
             <p className="technical-label text-cyan-700 dark:text-cyan-300">Supported ECU platforms</p>
             <h2 className="display-heading mt-4 text-4xl text-zinc-950 dark:text-track-white sm:text-5xl">
-              Factory and standalone live inside tuning.
+              Factory or standalone ECU.
             </h2>
             <p className="mt-5 text-base leading-7 text-zinc-600 dark:text-track-muted">
-              Dyno and remote are delivery methods. Factory ECU and standalone ECU determine setup, logging,
-              validation, and support scope.
+              Dyno and remote tuning are how the work is delivered. Factory ECU or standalone ECU determines setup,
+              logging, validation, and support.
             </p>
           </div>
           <div className="mt-10 grid gap-4 md:grid-cols-2">
@@ -71,8 +71,8 @@ export function ServiceFocusPage({ page }: { page: ServicePage }) {
       ) : null}
       <ServicePathFeatures
         eyebrow={`${page.eyebrow} services`}
-        title="Approved services for this build."
-        copy="Use the service that matches the actual work being approved. Each option carries its own readiness checks, review points, and deposit language."
+        title="Service pricing."
+        copy="Prices shown are starting points. Final scope depends on the vehicle, ECU, wiring, sensor data, and what the build needs."
         services={services}
       />
       <CTASection />

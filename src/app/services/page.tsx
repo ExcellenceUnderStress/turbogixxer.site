@@ -12,10 +12,14 @@ export default function ServicesPage() {
     <>
       <PageHeader
         eyebrow="Services"
-        title="Choose the right service."
-        copy="Dyno tuning and remote tuning are the core tuning services. Factory and standalone ECU work sit inside tuning, and the deposit applies toward the approved tune."
+        title="Tuning services."
+        copy="Choose dyno tuning when the vehicle needs controlled load and in-person validation. Choose remote tuning when the car is mechanically ready and can provide clean logs."
       />
-      <ServicePathFeatures services={bookableServicePaths} />
+      <ServicePathFeatures
+        title="Service pricing."
+        copy="Prices shown are starting points for a ready vehicle. The $200 deposit starts intake and applies toward the approved dyno or remote tune; final scope depends on the ECU, fuel, and build condition."
+        services={bookableServicePaths}
+      />
       <CTASection />
     </>
   );

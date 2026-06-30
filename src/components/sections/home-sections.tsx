@@ -83,7 +83,7 @@ export function ServicePathsSection() {
       <SectionIntro
         eyebrow="Services"
         title="Dyno or remote tuning."
-        copy="Dyno tuning and remote tuning are the primary services. The same deposit starts the request and applies toward the approved tune."
+        copy="Use dyno tuning for in-person load control and validation. Use remote tuning when the car is mechanically ready and can provide clean logs; the $200 deposit applies toward the approved tune."
       />
       <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {bookableServicePaths.map((service) => (
@@ -170,7 +170,7 @@ export function CommerceCtaSection() {
           <SectionIntro
             eyebrow="Deposit / service-commerce"
             title="Tuning deposit."
-            copy="The $200 deposit applies toward the approved dyno or remote tune. Deposit checkout includes day selection before TurboGixxer confirms the order."
+            copy="The $200 deposit applies toward the approved dyno or remote tune. Include the vehicle, ECU, fuel, and mods so TurboGixxer can confirm timing."
           />
           <ButtonLink href="/contact?intent=tuning-deposit" variant="secondary" className="w-full sm:w-fit">
             Request Tuning
