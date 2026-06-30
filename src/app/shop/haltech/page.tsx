@@ -64,7 +64,8 @@ export default function HaltechCollectionPage() {
               Hardware decisions should match the build plan.
             </h2>
             <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-track-muted">
-              Hardware orders are separate from service deposits. Checkout can carry product selection now, with final pricing, inventory behavior, and fulfillment rules attached as they are confirmed.
+              Hardware orders are separate from service deposits. Priced listings can move into order review now;
+              unpriced listings route through price, inventory, and fitment confirmation first.
             </p>
           </div>
           <ul className="grid gap-3 text-sm font-bold uppercase text-zinc-700 dark:text-zinc-300">

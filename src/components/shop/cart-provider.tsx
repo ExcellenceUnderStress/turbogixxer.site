@@ -310,7 +310,7 @@ function CartDrawer() {
               <div>
                 <ShoppingCart className="mx-auto h-10 w-10 text-cyan-700 dark:text-cyan-300" />
                 <p className="mt-4 text-sm font-bold uppercase leading-6 text-zinc-600 dark:text-track-muted">
-                  Add Haltech hardware, deposits, planning products, or consults from the Shop.
+                  Add priced Haltech hardware, deposits, planning products, or consults from the Shop.
                 </p>
               </div>
             </div>
@@ -329,7 +329,7 @@ function CartDrawer() {
               className="theme-transition inline-flex min-h-11 items-center justify-center rounded-md border border-cyan-500 bg-cyan-500 px-5 py-3 text-center text-xs font-black uppercase leading-none text-graphite-950 shadow-cyan hover:border-cyan-400 hover:bg-cyan-400"
               onClick={closeCart}
             >
-              Checkout
+              Review order
             </Link>
             <Link
               href="/shop"

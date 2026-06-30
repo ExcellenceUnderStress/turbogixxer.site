@@ -14,11 +14,23 @@ export type ResolvedCartItem = {
 
 export const CART_STORAGE_KEY = "turbogixxer-cart-v1";
 
+export function hasFixedCartPrice(product: ShopProduct) {
+  return typeof product.amountCents === "number" && product.amountCents > 0;
+}
+
+export function needsPriceConfirmation(product: ShopProduct) {
+  return product.status === "active" && product.paymentMode !== "coming_soon" && !hasFixedCartPrice(product);
+}
+
 export function isCartEligibleProduct(product: ShopProduct) {
-  return product.status === "active" && product.paymentMode !== "coming_soon";
+  return product.status === "active" && product.paymentMode !== "coming_soon" && hasFixedCartPrice(product);
 }
 
 export function getCartActionLabel(product: ShopProduct) {
+  if (needsPriceConfirmation(product)) {
+    return "Confirm price";
+  }
+
   if (!isCartEligibleProduct(product)) {
     return "Staged";
   }

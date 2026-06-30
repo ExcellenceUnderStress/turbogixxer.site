@@ -84,7 +84,7 @@ function cartLinesForEmail(items: ResolvedCartItem[]) {
 
 function buildEmailBody(form: CheckoutFormState, items: ResolvedCartItem[], subtotalCents: number) {
   return [
-    "TurboGixxer purchase order",
+    "TurboGixxer order request",
     "",
     "Customer",
     `Name: ${formatValue(form.name)}`,
@@ -212,7 +212,7 @@ export function CartPage() {
 
   const mailtoHref = useMemo(() => {
     const subjectDetail = form.vehicle.trim() || form.name.trim() || "shop cart";
-    const subject = `TurboGixxer purchase order - ${subjectDetail}`;
+    const subject = `TurboGixxer order request - ${subjectDetail}`;
     const body = buildEmailBody(form, resolvedItems, subtotalCents);
 
     return `mailto:${site.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -255,7 +255,7 @@ export function CartPage() {
           <ShoppingCart className="mx-auto h-12 w-12 text-cyan-700 dark:text-cyan-300" />
           <h2 className="mt-5 text-3xl font-black uppercase text-zinc-950 dark:text-track-white">Cart is empty.</h2>
           <p className="mt-4 max-w-xl text-sm leading-6 text-zinc-600 dark:text-track-muted">
-            Add Haltech hardware, tuning deposits, planning products, or consults from the Shop before checkout.
+            Add priced Haltech hardware, tuning deposits, planning products, or consults from the Shop before review.
           </p>
           <Link
             href="/shop"
@@ -294,7 +294,8 @@ export function CartPage() {
           <p className="text-2xl font-black text-zinc-950 dark:text-track-white">{formatCartPrice(subtotalCents)}</p>
         </div>
         <p className="mt-3 text-xs font-bold uppercase leading-5 text-zinc-500 dark:text-zinc-400">
-          Items without a configured price show price at checkout. Paid items count toward the subtotal.
+          Only priced active products can be added to this order request. Unpriced Haltech listings route to price and
+          fitment confirmation first.
         </p>
 
         <form className="mt-6 grid gap-4" onSubmit={handleSubmit} noValidate>
@@ -350,7 +351,7 @@ export function CartPage() {
 
           <Button type="submit" className="w-full gap-2">
             <ShoppingBag className="h-4 w-4" />
-            Place order
+            Send order request
           </Button>
         </form>
       </Card>

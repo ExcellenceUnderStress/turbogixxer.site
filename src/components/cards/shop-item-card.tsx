@@ -3,7 +3,7 @@ import { AddToCartButton } from "@/components/shop/add-to-cart-button";
 import { ButtonLink } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import type { ShopProduct } from "@/content/shop-products";
-import { getCartProductDescriptor } from "@/lib/shop/cart";
+import { getCartProductDescriptor, needsPriceConfirmation } from "@/lib/shop/cart";
 import {
   getShopProductDisplayTitle,
   getShopProductImageAlt,
@@ -21,7 +21,11 @@ export function ShopItemCard({
   ctaLabel?: string;
   priority?: boolean;
 }) {
-  const statusLine = item.productType === "service_deposit" ? item.notes : getCartProductDescriptor(item);
+  const statusLine = needsPriceConfirmation(item)
+    ? "Price confirmation required"
+    : item.productType === "service_deposit"
+      ? item.notes
+      : getCartProductDescriptor(item);
   const displayTitle = getShopProductDisplayTitle(item);
 
   return (

@@ -1,9 +1,14 @@
 "use client";
 
-import { Check, ShoppingCart } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Check, MessageSquare, ShoppingCart } from "lucide-react";
+import { Button, ButtonLink } from "@/components/ui/button";
 import type { ShopProduct } from "@/content/shop-products";
-import { getCartActionLabel, getMaxCartQuantity, isCartEligibleProduct } from "@/lib/shop/cart";
+import {
+  getCartActionLabel,
+  getMaxCartQuantity,
+  isCartEligibleProduct,
+  needsPriceConfirmation
+} from "@/lib/shop/cart";
 import { cn } from "@/lib/utils";
 import { useCart } from "./cart-provider";
 
@@ -21,6 +26,15 @@ export function AddToCartButton({
   const isSelected = isInCart(product.slug);
   const maxQuantity = getMaxCartQuantity(product);
   const label = isSelected && maxQuantity === 1 ? "In cart" : isSelected ? "Add another" : getCartActionLabel(product);
+
+  if (!isEligible && needsPriceConfirmation(product)) {
+    return (
+      <ButtonLink href={product.ctaHref} variant={variant} className={cn("gap-2", className)}>
+        <MessageSquare className="h-4 w-4" />
+        {label}
+      </ButtonLink>
+    );
+  }
 
   return (
     <Button

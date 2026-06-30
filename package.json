@@ -13,6 +13,7 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "verify:shop": "node scripts/verify-shop-catalog.mjs",
     "setup:cloud": "sh scripts/setup-cloud.sh",
     "maintain:cloud": "sh scripts/setup-cloud.sh",
     "validate": "sh scripts/validate-cloud.sh",
