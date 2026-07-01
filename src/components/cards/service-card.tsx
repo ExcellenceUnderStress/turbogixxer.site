@@ -7,14 +7,14 @@ type Service = (typeof servicePaths)[number];
 
 function serviceCtaLabel(service: Service) {
   if (service.slug === "dyno-tuning") {
-    return "View Dyno Tuning";
+    return "Review Dyno Tuning";
   }
 
   if (service.slug === "remote-tuning") {
-    return "View Remote Tuning";
+    return "Review Remote Tuning";
   }
 
-  return "View Services";
+  return "Review Services";
 }
 
 export function ServiceCard({ service }: { service: Service }) {
@@ -37,7 +37,7 @@ export function ServiceCard({ service }: { service: Service }) {
       </div>
       {"supportedEcuPaths" in service ? (
         <div className="mt-6 rounded-md border border-zinc-200 bg-zinc-50 p-4 dark:border-white/10 dark:bg-graphite-925">
-          <p className="technical-label text-cyan-700 dark:text-cyan-300">Supported ECU platforms</p>
+          <p className="technical-label text-cyan-700 dark:text-cyan-300">Supported ECU paths</p>
           <div className="mt-3 grid gap-2 text-sm font-bold uppercase text-zinc-700 dark:text-zinc-300">
             {service.supportedEcuPaths.map((path) => (
               <span key={path}>{path}</span>

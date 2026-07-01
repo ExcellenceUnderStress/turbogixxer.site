@@ -1,42 +1,42 @@
 export const trustItems = [
   {
-    label: "EFI calibration experience",
+    label: "Calibration discipline",
     value: "17+ years",
-    summary: "Street, strip, track, and mixed-use builds."
+    summary: "EFI, dyno, wiring, and data work across street, strip, track, and mixed-use cars."
   },
   {
     label: "Mainline hub dyno",
     value: "Controlled load",
-    summary: "Repeatable tuning conditions for sorted cars."
+    summary: "Repeatable load, steady-state checks, and verified pulls for cars that are ready."
   },
   {
-    label: "Standalone ECU support",
-    value: "Haltech + more",
-    summary: "Setup, sensors, CAN, boost, and protections."
+    label: "ECU coverage",
+    value: "Factory + standalone",
+    summary: "Factory ECU support plus Haltech and other standalone systems when the build calls for it."
   },
   {
     label: "Street / strip / track",
     value: "Use-case first",
-    summary: "Power delivery matched to how the car works."
+    summary: "Torque, response, boost, and protections are set around how the vehicle is driven."
   }
 ] as const;
 
 export const processSteps = [
   {
-    title: "Define the combination",
-    summary: "Map the vehicle, ECU, fuel, turbo, sensors, drivetrain, and customer goal before scheduling deeper work."
+    title: "Scope the combination",
+    summary: "Map the vehicle, ECU, fuel, air system, sensors, drivetrain, and goal before scheduling calibration."
   },
   {
-    title: "Validate the data",
-    summary: "Review readiness, logs, sensor behavior, wiring quality, and mechanical risk before changing calibration."
+    title: "Prove readiness",
+    summary: "Check logs, wiring, sensor behavior, fuel supply, mechanical condition, and risk before changing the file."
   },
   {
-    title: "Calibrate deliberately",
-    summary: "Shape fuel, ignition, boost, idle, startup, transient response, and protections around the actual build."
+    title: "Calibrate with intent",
+    summary: "Build fuel, ignition, boost, idle, startup, transient response, and safeties around real data."
   },
   {
-    title: "Finish with confidence",
-    summary: "Confirm drivability, file delivery, notes, and next steps so the car leaves with a clear plan."
+    title: "Document the handoff",
+    summary: "Confirm drivability, file delivery, notes, and next steps so the owner knows what changed."
   }
 ] as const;
 
@@ -46,20 +46,20 @@ export const servicePaths = [
     title: "Dyno Tuning",
     price: "From $750",
     href: "/tuning",
-    summary: "Mainline hub dyno calibration for ready vehicles that need controlled load, clean drivability, and power verified on the car.",
-    points: ["Mainline hub dyno", "Power and response", "Street validation"],
+    summary: "In-shop Mainline hub dyno calibration for ready vehicles that need controlled load, verified power delivery, and clean street behavior.",
+    points: ["Readiness review", "Loaded dyno calibration", "Street and drivability checks"],
     supportedEcuPaths: ["Factory ECU", "Standalone ECU"],
-    note: "$200 deposit applies toward the approved dyno tune. Final pricing depends on the vehicle, ECU, fuel, and setup."
+    note: "$200 deposit is credited to approved dyno tuning. Final price depends on ECU, fuel, hardware, and vehicle condition."
   },
   {
     slug: "remote-tuning",
     title: "Remote Tuning",
     price: "From $500",
     href: "/tuning",
-    summary: "Log-based calibration revisions for mechanically ready cars outside the shop, using vehicle data and driver feedback.",
-    points: ["Readiness check", "Log review", "Calibration revisions"],
+    summary: "Remote calibration for mechanically ready cars that can provide clean logs, accurate feedback, and supported ECU access.",
+    points: ["Pre-tune readiness check", "Log-based revisions", "Driver feedback loop"],
     supportedEcuPaths: ["Factory ECU", "Standalone ECU where supported"],
-    note: "$200 deposit applies toward approved remote tuning. Final pricing depends on the car, ECU support, and log quality."
+    note: "$200 deposit is credited to approved remote tuning. Final price depends on ECU support, vehicle condition, and log quality."
   },
   {
     slug: "wiring-harness",
@@ -92,9 +92,9 @@ export const homepageServicePaths = bookableServicePaths;
 export const requestServiceOptions = [
   { slug: "dyno-tuning", title: "Dyno Tuning", href: "/tuning?service=dyno-tuning" },
   { slug: "remote-tuning", title: "Remote Tuning", href: "/tuning?service=remote-tuning" },
-  { slug: "wiring-harness", title: "Wire Harnesses", href: "/wiring" },
+  { slug: "wiring-harness", title: "Wiring / Harness", href: "/wiring" },
   { slug: "track-support", title: "Track Support", href: "/contact?service=track-support" },
-  { slug: "not-sure", title: "Not Sure?", href: "/contact" }
+  { slug: "not-sure", title: "Help Me Scope It", href: "/contact" }
 ] as const;
 
 export const tuningEcuPaths = [

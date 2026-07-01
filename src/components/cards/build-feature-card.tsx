@@ -29,14 +29,14 @@ export function BuildFeatureCard({ build }: { build: Build }) {
           ))}
         </div>
         <ButtonLink href="/contact?intent=build-consultation" variant="secondary" className="mt-8 w-full sm:w-fit">
-          Request a Build Review
+          Start Build Review
         </ButtonLink>
       </div>
 
       <PlaceholderMedia
         src={build.image}
         title={build.platform}
-        kicker="Featured build"
+        kicker="Build proof"
         className="aspect-[4/3]"
       />
     </Card>

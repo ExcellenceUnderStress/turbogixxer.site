@@ -21,39 +21,74 @@ export const serviceMedia = {
 } as const;
 
 export const heroMedia = {
-  title: "TurboGixxer calibration media",
+  title: "Featured TurboGixxer calibration work",
   image: serviceMedia.featuredBuildPrimary
 } as const;
 
+export const serviceVisualItems = [
+  {
+    slug: "dyno-tuning",
+    eyebrow: "Dyno tuning",
+    title: "Controlled load, verified response",
+    summary: "In-shop calibration uses repeatable load and live feedback before the car goes back on the road.",
+    image: "/media/gallery/mainline-hub.png",
+    imageAlt: "Dark performance car staged for dyno and calibration service visuals"
+  },
+  {
+    slug: "remote-tuning",
+    eyebrow: "Remote tuning",
+    title: "Logs first, revisions second",
+    summary: "Remote work depends on clean data, supported ECU access, and specific driver feedback between revisions.",
+    image: "/media/gallery/logging-pass.png",
+    imageAlt: "TurboGixxer calibration media layout representing remote log review"
+  },
+  {
+    slug: "wiring-readiness",
+    eyebrow: "Wiring readiness",
+    title: "Clean signals before calibration",
+    summary: "Power, grounds, sensors, and harness condition affect the tune before the first power pull happens.",
+    image: "/media/gallery/harness-inspection.png",
+    imageAlt: "TurboGixxer service media layout representing wiring and harness readiness"
+  },
+  {
+    slug: "haltech-planning",
+    eyebrow: "Haltech planning",
+    title: "Hardware matched to the build",
+    summary: "ECU, IO, CAN, sensor, and harness choices are reviewed before parts or tuning time are committed.",
+    image: "/media/gallery/ecu-bench.png",
+    imageAlt: "TurboGixxer calibration media layout representing ECU and Haltech planning"
+  }
+] as const;
+
 export const galleryItems = [
   {
-    title: "Blue C10 street truck",
+    title: "Lowered C10 street truck",
     image: mediaUrl("/gallery/blue-c10-lowered.png"),
-    summary: "A lowered street truck asset for homepage and build-gallery rhythm."
+    summary: "Street-platform media for drivability, idle quality, and usable response work."
   },
   {
-    title: "Charger SEMA front",
+    title: "SEMA Charger front profile",
     image: mediaUrl("/gallery/charger-sema-front-01.jpg"),
-    summary: "Finished build media with a clean exterior presentation."
+    summary: "Finished vehicle presentation for build context and final delivery."
   },
   {
-    title: "Charger engine bay",
+    title: "SEMA Charger engine bay",
     image: mediaUrl("/gallery/charger-sema-enginebay-02.jpg"),
-    summary: "Engine bay detail for wiring, hardware, and calibration context."
+    summary: "Engine bay detail for wiring, sensor placement, and serviceability review."
   },
   {
-    title: "Mustang dyno session",
+    title: "Mustang on the dyno",
     image: mediaUrl("/gallery/mustang-dyno-01.webp"),
-    summary: "Dyno texture for tuning, validation, and controlled-load work."
+    summary: "Controlled-load tuning context for repeatable power and response checks."
   },
   {
     title: "Dodge Dart build detail",
     image: mediaUrl("/gallery/dodge-dart-01.jpg"),
-    summary: "Build-gallery media for service and case-study pages."
+    summary: "Hardware and packaging reference for case-study media."
   },
   {
-    title: "Trailblazer SS validation",
+    title: "Trailblazer SS street validation",
     image: mediaUrl("/gallery/trailblazer-ss-01.png"),
-    summary: "Street-platform media for validation and drivability context."
+    summary: "Street-platform context for response, heat, and drivability validation."
   }
 ] as const;

@@ -3,7 +3,7 @@ export const site = {
   title: "TurboGixxer | EFI Tuning, Dyno, Wiring, and Haltech Support",
   url: "https://turbogixxer.site",
   description:
-    "Frontend foundation for a high-end EFI tuning, dyno, wiring, Haltech, and service-commerce brand.",
+    "EFI tuning, dyno calibration, remote revisions, wiring support, and Haltech planning for mechanically ready performance vehicles.",
   email: "intake@turbogixxer.site",
-  serviceArea: "Remote support and in-shop service by appointment"
+  serviceArea: "Remote tuning support and in-shop service by appointment"
 } as const;

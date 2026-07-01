@@ -1,22 +1,22 @@
 import { serviceMedia } from "@/content/media";
 
 export const featuredBuild = {
-  title: "Featured Calibration Case Study",
-  chassis: "Street / performance platform",
-  platform: "EFI tuning / validation",
+  title: "Calibration Results, With Context",
+  chassis: "Proof-oriented build notes",
+  platform: "Dyno / road / log validation",
   image: serviceMedia.featuredBuildSecondary,
   summary:
-    "A case study area for before/after numbers, dyno notes, calibration strategy, and production media.",
+    "Case studies will show the combination, the baseline, the final result, and the decisions that made the car safer, cleaner, and more useful.",
   stats: [
-    { label: "Before", value: "TBD" },
-    { label: "After", value: "TBD" },
-    { label: "Fuel", value: "TBD" },
-    { label: "Use", value: "Street / track" }
+    { label: "Baseline", value: "Logged" },
+    { label: "Result", value: "Verified" },
+    { label: "Fuel", value: "Documented" },
+    { label: "Use", value: "Defined" }
   ],
   points: [
-    "Dyno graph and result photos can drop into this layout later.",
-    "Technical notes stay concise and calibration-focused.",
-    "CTA routes qualified build reviews into the tuning request form."
+    "Show the dyno result beside the conditions and setup.",
+    "Keep calibration notes short, technical, and tied to the data.",
+    "Route serious builds into a review before scheduling tuning."
   ]
 } as const;
 

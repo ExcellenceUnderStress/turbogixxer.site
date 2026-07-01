@@ -85,13 +85,13 @@ export const shopProducts: ShopProduct[] = [
     status: "active",
     priceLabel: "$200",
     amountCents: 20000,
-    shortDescription: "One deposit for approved dyno tuning or remote tuning intake.",
+    shortDescription: "One $200 credit toward approved dyno or remote tuning after intake is reviewed.",
     longDescription:
-      "The $200 deposit and selected day are submitted so TurboGixxer can confirm build scope and service timing.",
+      "The $200 deposit starts the scheduling and scope review so TurboGixxer can confirm build readiness and service timing.",
     image: productImage("tuning-deposit"),
-    ctaLabel: "Start Tuning Order",
+    ctaLabel: "Start Tuning Intake",
     ctaHref: contactHref("tuning-deposit"),
-    notes: "The $200 deposit applies toward the approved tune; it is not the full dyno or remote tuning price."
+    notes: "Credited to an approved tune; not the full dyno or remote tuning price."
   },
   {
     slug: "build-consultation",

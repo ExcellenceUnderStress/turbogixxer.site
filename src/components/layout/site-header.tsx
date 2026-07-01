@@ -85,7 +85,7 @@ export function SiteHeader() {
           <ThemeToggle />
           <CartNavButton showLabel />
           <ButtonLink href="/contact" className="min-h-10 px-4">
-            Request Tuning
+            Start Intake
           </ButtonLink>
         </div>
 

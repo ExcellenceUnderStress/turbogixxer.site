@@ -35,6 +35,18 @@ export function getCartActionLabel(product: ShopProduct) {
     return "Staged";
   }
 
+  if (product.productType === "service_deposit") {
+    return "Add deposit";
+  }
+
+  if (product.productType === "paid_consultation") {
+    return "Add consult";
+  }
+
+  if (product.productType === "paid_review") {
+    return "Add planning";
+  }
+
   return "Add to cart";
 }
 
